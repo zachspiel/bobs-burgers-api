@@ -1,0 +1,4964 @@
+[
+  {
+    "id": 1,
+    "name": "\"Dottie Minerva\"",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ec/Dottie_Minerva.jpg/revision/latest/scale-to-width-down/150?cb=20150809101118",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/1"
+  },
+  {
+    "id": 2,
+    "name": "Mabel \"Abby\" Haddington",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/55/Abby.jpg/revision/latest/scale-to-width-down/150?cb=20150602170244",
+    "age": "9-10",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/2"
+  },
+  {
+    "id": 3,
+    "name": "Adam",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/94/Adam.png/revision/latest/scale-to-width-down/180?cb=20210315181551",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "relatives": ["Unnamed wife"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/3"
+  },
+  {
+    "id": 4,
+    "name": "Adrian",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/31/Adrian.jpg/revision/latest/scale-to-width-down/170?cb=20190721170927",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Employee at Toe-Tanic Shoes",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/4"
+  },
+  {
+    "id": 5,
+    "name": "Al",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fc/Al2.png/revision/latest/scale-to-width-down/150?cb=20130306042746",
+    "age": "70s",
+    "gender": "Male",
+    "occupation": "Retired",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/180",
+      "https://bobsburgers-api.herokuapp.com/characters/275",
+      "https://bobsburgers-api.herokuapp.com/characters/501",
+      "https://bobsburgers-api.herokuapp.com/characters/169",
+      "https://bobsburgers-api.herokuapp.com/characters/47",
+      "https://bobsburgers-api.herokuapp.com/characters/483",
+      "https://bobsburgers-api.herokuapp.com/characters/170",
+      "https://bobsburgers-api.herokuapp.com/characters/280",
+      "Burt"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/5"
+  },
+  {
+    "id": 6,
+    "name": "Al",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d8/Al_Spratts.jpg/revision/latest/scale-to-width-down/200?cb=20180611161350",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Board member at Spratt's Sweets",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/6"
+  },
+  {
+    "id": 7,
+    "name": "Alex Papasian",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/04/Alex.png/revision/latest/scale-to-width-down/180?cb=20180409003559",
+    "age": "11-12",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Wagstaff School student",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/338",
+      "https://bobsburgers-api.herokuapp.com/characters/345"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/7"
+  },
+  {
+    "id": 8,
+    "name": "Alfred",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b5/Alfred.png/revision/latest/scale-to-width-down/180?cb=20180521222918",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Market Stall Holder",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/8"
+  },
+  {
+    "id": 9,
+    "name": "Alice",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/33/Alice1.png/revision/latest/scale-to-width-down/180?cb=20180514003912",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Owner & Operator of When Hairy Met Smoothies: Smoothies & Hair Removal",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/9"
+  },
+  {
+    "id": 10,
+    "name": "Allen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4a/Allen.jpg/revision/latest/scale-to-width-down/120?cb=20150807134530",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Member of Boyz4Now",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/10"
+  },
+  {
+    "id": 11,
+    "name": "Allison",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4d/Allison.png/revision/latest/scale-to-width-down/180?cb=20181112025840",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/46",
+      "https://bobsburgers-api.herokuapp.com/characters/92"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/11"
+  },
+  {
+    "id": 12,
+    "name": "Amanda",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8b/Amanda.jpg/revision/latest/scale-to-width-down/150?cb=20150803091128",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student in high school",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/12"
+  },
+  {
+    "id": 13,
+    "name": "Amy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/60/Amy.jpg/revision/latest/scale-to-width-down/150?cb=20180611170534",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/119"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/13"
+  },
+  {
+    "id": 14,
+    "name": "Andrew",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e3/Andrew.png/revision/latest/scale-to-width-down/200?cb=20150504005654",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Bus Driver",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/14"
+  },
+  {
+    "id": 15,
+    "name": "Andrew",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/13/Andrew2.png/revision/latest/scale-to-width-down/200?cb=20170425200236",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Waiter at Cafe Dollisiousso",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/15"
+  },
+  {
+    "id": 16,
+    "name": "Andy and Ollie Poplopovich",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bb/Andy_and_Ollie_Pesto.png/revision/latest?cb=20130306050002",
+    "age": "9-10",
+    "gender": "Male",
+    "hairColor": "Golden Blonde",
+    "occupation": "Students at Wagstaff School",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/230",
+      "Jimmy Pesto Jr.",
+      "Unnamed mother"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/16"
+  },
+  {
+    "id": 17,
+    "name": "Angel",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bf/Angel.jpg/revision/latest/scale-to-width-down/150?cb=20150610093901",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Baseball Player",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/17"
+  },
+  {
+    "id": 18,
+    "name": "Angela",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fd/Angela.png/revision/latest/scale-to-width-down/150?cb=20160418081010",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/18"
+  },
+  {
+    "id": 19,
+    "name": "Angie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/18/Angie.png/revision/latest/scale-to-width-down/180?cb=20190107025637",
+    "age": "30s",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Essential Oils Saleswoman",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/19"
+  },
+  {
+    "id": 20,
+    "name": "Angie Moscatone",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0e/Angie.jpg/revision/latest/scale-to-width-down/150?cb=20150802095128",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Drummer in The Ta Tas",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/20"
+  },
+  {
+    "id": 21,
+    "name": "Annie Cragston",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/97/AnnieC.jpg/revision/latest/scale-to-width-down/180?cb=20200407142629",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Art Critic",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/21"
+  },
+  {
+    "id": 22,
+    "name": "April Buzzby",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/56/April.png/revision/latest/scale-to-width-down/180?cb=20200224031105",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Owner & Operator of You Do the Bath",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/22"
+  },
+  {
+    "id": 23,
+    "name": "Arnold Adams",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f5/Arnold.png/revision/latest/scale-to-width-down/180?cb=20190513015125",
+    "age": "8",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/23"
+  },
+  {
+    "id": 24,
+    "name": "Art",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/49/Art.jpg/revision/latest/scale-to-width-down/180?cb=20180721102243",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Life Model/Artist",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/24"
+  },
+  {
+    "id": 25,
+    "name": "Arthur",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/85/Arthur.jpg/revision/latest/scale-to-width-down/200?cb=20190807172512",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/25"
+  },
+  {
+    "id": 26,
+    "name": "Asch",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/ba/Asch.jpg/revision/latest/scale-to-width-down/120?cb=20150807133459",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "First mate on the Windbreaker",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/26"
+  },
+  {
+    "id": 27,
+    "name": "Ashley",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d5/Ashley.jpg/revision/latest/scale-to-width-down/150?cb=20170217171346",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/27"
+  },
+  {
+    "id": 28,
+    "name": "August Scharffenheimer",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7c/Auggie.jpg/revision/latest/scale-to-width-down/200?cb=20180611095119",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/28"
+  },
+  {
+    "id": 29,
+    "name": "Austin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/76/Austin.jpg/revision/latest/scale-to-width-down/150?cb=20190704155814",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Former employee at Outdoor Adventure World",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/29"
+  },
+  {
+    "id": 30,
+    "name": "Female",
+    "image": "",
+    "gender": "Female",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/30"
+  },
+  {
+    "id": 31,
+    "name": "Barbara Bunkley",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/71/Barbara_Bunkley.jpg/revision/latest/scale-to-width-down/200?cb=20150729162513",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/31"
+  },
+  {
+    "id": 32,
+    "name": "Barry B. Foldin'",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/03/BarryB.png/revision/latest/scale-to-width-down/180?cb=20181105033803",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Paper Aviation Expert",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/32"
+  },
+  {
+    "id": 33,
+    "name": "Beatrice",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0b/Beatrice.png/revision/latest/scale-to-width-down/320?cb=20170313011320",
+    "gender": "Female",
+    "hairColor": "Red",
+    "occupation": "Receptionist at Spratt's Sweets factory",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/33"
+  },
+  {
+    "id": 34,
+    "name": "Becca",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/66/Becca.jpg/revision/latest/scale-to-width-down/150?cb=20180614161938",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/34"
+  },
+  {
+    "id": 35,
+    "name": "Becca",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c3/BeccaShoutingMine.png/revision/latest/scale-to-width-down/323?cb=20211027214123",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/35"
+  },
+  {
+    "id": 36,
+    "name": "Becket",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/07/Becket.png/revision/latest/scale-to-width-down/180?cb=20191118030608",
+    "age": "49",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/36"
+  },
+  {
+    "id": 37,
+    "name": "Becky",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7b/Becky.jpg/revision/latest/scale-to-width-down/200?cb=20150803095722",
+    "age": "43",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student at Buchannan Middle School (30 years ago)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/37"
+  },
+  {
+    "id": 38,
+    "name": "Becky Krespe",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cc/BeckyK.png/revision/latest/scale-to-width-down/180?cb=20180115154845",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/38"
+  },
+  {
+    "id": 39,
+    "name": "BeeferSutherland",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d1/Beefer.jpg/revision/latest/scale-to-width-down/200?cb=20170223111629",
+    "gender": "Male",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/39"
+  },
+  {
+    "id": 40,
+    "name": "BeefGeek",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/65/Beef_Geek.jpg/revision/latest/scale-to-width-down/200?cb=20170222163838",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/40"
+  },
+  {
+    "id": 41,
+    "name": "Bernadette Baker",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d5/Bernadette.jpg/revision/latest/scale-to-width-down/150?cb=20200418105622",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Astronaut (former)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/41"
+  },
+  {
+    "id": 42,
+    "name": "Joanne",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a2/Beth.png/revision/latest/scale-to-width-down/180?cb=20190506222018",
+    "gender": "Female",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/42"
+  },
+  {
+    "id": 43,
+    "name": "Bethany",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/55/Bethany.png/revision/latest/scale-to-width-down/200?cb=20160411090753",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/214"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/43"
+  },
+  {
+    "id": 44,
+    "name": "Bethany",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ea/Bethany257.png/revision/latest/scale-to-width-down/180?cb=20191014020541",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Thundergirl Troop 257 leader",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/44"
+  },
+  {
+    "id": 45,
+    "name": "Beverly",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/51/Beverly.jpg/revision/latest/scale-to-width-down/150?cb=20150730141917",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "occupation": "Blueberry Farmer/Drug Dealer",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/94",
+      "5 unnamed children"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/45"
+  },
+  {
+    "id": 46,
+    "name": "Robert \"Big Bob\" Belcher, Sr.",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/65/Big-Bob-Belcher.jpg/revision/latest?cb=20190708105844",
+    "age": "80s",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Owner of Big Bob's Diner",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/47",
+      "https://bobsburgers-api.herokuapp.com/characters/275",
+      "https://bobsburgers-api.herokuapp.com/characters/483",
+      "https://bobsburgers-api.herokuapp.com/characters/170",
+      "https://bobsburgers-api.herokuapp.com/characters/280",
+      "Mrs. Belcher",
+      "Ernest Lombard",
+      "https://bobsburgers-api.herokuapp.com/characters/500"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/46"
+  },
+  {
+    "id": 47,
+    "name": "Blake",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/36/Blake.png/revision/latest/scale-to-width-down/180?cb=20181112024229",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/10",
+      "https://bobsburgers-api.herokuapp.com/characters/92"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/47"
+  },
+  {
+    "id": 48,
+    "name": "Robert \"Bob\" Belcher, Jr.",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/94/BobsBurgers_2019_KeyPoses_Bob_1.jpg/revision/latest/scale-to-width-down/240?cb=20210413150644",
+    "age": "46",
+    "gender": "Male",
+    "occupation": "Chef/owner and operator of Bob's Burgers",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/275",
+      "https://bobsburgers-api.herokuapp.com/characters/170",
+      "https://bobsburgers-api.herokuapp.com/characters/483",
+      "https://bobsburgers-api.herokuapp.com/characters/280",
+      "https://bobsburgers-api.herokuapp.com/characters/180",
+      "https://bobsburgers-api.herokuapp.com/characters/5",
+      "https://bobsburgers-api.herokuapp.com/characters/169",
+      "https://bobsburgers-api.herokuapp.com/characters/45",
+      "Mrs. Belcher",
+      "Ernest Lombard",
+      "https://bobsburgers-api.herokuapp.com/characters/500",
+      "Burt",
+      "Marie"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/48"
+  },
+  {
+    "id": 49,
+    "name": "Boo Boo",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6f/Boo_Boo_-_01.jpg/revision/latest?cb=20150810111921",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Member of Boyz4Now",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/49"
+  },
+  {
+    "id": 50,
+    "name": "Brenda",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cf/BrendaRoller.png/revision/latest/scale-to-width-down/180?cb=20181126031518",
+    "gender": "Female",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/50"
+  },
+  {
+    "id": 51,
+    "name": "Brenda",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/11/Brenda.png/revision/latest/scale-to-width-down/160?cb=20181027183912",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/51"
+  },
+  {
+    "id": 52,
+    "name": "Brett",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4e/Brett.png/revision/latest/scale-to-width-down/180?cb=20180327214346",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Private School Student",
+    "relatives": ["Unnamed grandfather"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/52"
+  },
+  {
+    "id": 53,
+    "name": "Brian",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e0/Brian.png/revision/latest/scale-to-width-down/180?cb=20191105154519",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "High School Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/53"
+  },
+  {
+    "id": 54,
+    "name": "Bronconius",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8e/Bronco.png/revision/latest/scale-to-width-down/150?cb=20150211200623",
+    "age": "49",
+    "gender": "Male",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/54"
+  },
+  {
+    "id": 55,
+    "name": "Bryce",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/ce/Bryce.jpg/revision/latest/scale-to-width-down/200?cb=20150807135525",
+    "gender": "Male",
+    "hairColor": "Ginger",
+    "occupation": "High School Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/55"
+  },
+  {
+    "id": 56,
+    "name": "Burt Dellalucci",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/72/Burt.png/revision/latest/scale-to-width-down/150?cb=20160731173601",
+    "gender": "Male",
+    "hairColor": "Red",
+    "occupation": "Co-announcer at Wonder Wharf Baseball Park",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/56"
+  },
+  {
+    "id": 57,
+    "name": "Butcher",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/41/Deli-Guy.transparent.png/revision/latest/scale-to-width-down/300?cb=20170904051303",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Cashier/Deli Worker",
+    "relatives": ["Tony"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/57"
+  },
+  {
+    "id": 58,
+    "name": "Caitlin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/53/Caitlin.png/revision/latest/scale-to-width-down/150?cb=20160404094348",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/100",
+      "Sasha Whiteman"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/58"
+  },
+  {
+    "id": 59,
+    "name": "Calvin Fischoeder",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7e/Mr._Fischoeder.png/revision/latest/scale-to-width-down/200?cb=20130305161036",
+    "age": "60s",
+    "gender": "Male",
+    "occupation": "Entrepeneur/Landlord",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/157",
+      "https://bobsburgers-api.herokuapp.com/characters/188"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/59"
+  },
+  {
+    "id": 60,
+    "name": "Cameron",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/14/Cameron.png/revision/latest/scale-to-width-down/180?cb=20181210024605",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Huxley High School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/60"
+  },
+  {
+    "id": 61,
+    "name": "Candace",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ec/Candace.png/revision/latest/scale-to-width-down/150?cb=20160411090328",
+    "gender": "Female",
+    "hairColor": "Red",
+    "occupation": "Babysitter/College Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/61"
+  },
+  {
+    "id": 62,
+    "name": "Candy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1c/Candy.png/revision/latest/scale-to-width-down/150?cb=20160418110107",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/62"
+  },
+  {
+    "id": 63,
+    "name": "Captain Davis",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/54/Captain_Davis.png/revision/latest/scale-to-width-down/180?cb=20191014030055",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Fire House Captain",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/63"
+  },
+  {
+    "id": 64,
+    "name": "Captain Flarty",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3d/Captain_Flarty.jpg/revision/latest/scale-to-width-down/150?cb=20150801142050",
+    "age": "60-70s",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/64"
+  },
+  {
+    "id": 65,
+    "name": "Carl Lumpkin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/71/Carl.png/revision/latest/scale-to-width-down/200?cb=20160411125736",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Financial Advisor",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/65"
+  },
+  {
+    "id": 66,
+    "name": "Carly",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/eb/Carly1.png/revision/latest/scale-to-width-down/150?cb=20160526123231",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/66"
+  },
+  {
+    "id": 67,
+    "name": "Caroline",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/87/Caroline.png/revision/latest/scale-to-width-down/180?cb=20181112142627",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/67"
+  },
+  {
+    "id": 68,
+    "name": "Catherine Stokes",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/90/Catherine.jpg/revision/latest/scale-to-width-down/180?cb=20190622095900",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/81",
+      "https://bobsburgers-api.herokuapp.com/characters/259"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/68"
+  },
+  {
+    "id": 69,
+    "name": "Cha-Cha",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/42/Chacha.jpg/revision/latest/scale-to-width-down/200?cb=20150708154519",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Sex Worker",
+    "relatives": ["Unnamed wife"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/69"
+  },
+  {
+    "id": 70,
+    "name": "Chad",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/01/Chad1.png/revision/latest/scale-to-width-down/180?cb=20181001130113",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/70"
+  },
+  {
+    "id": 71,
+    "name": "Chad",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1b/Chad_der_Zombie.jpg/revision/latest/scale-to-width-down/150?cb=20150725141743",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Fictitious student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/71"
+  },
+  {
+    "id": 72,
+    "name": "Charac",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a4/Charac.jpg/revision/latest/scale-to-width-down/200?cb=20170223115103",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Caricature Artist",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/72"
+  },
+  {
+    "id": 73,
+    "name": "Charlene",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/60/Charlene.jpg/revision/latest/scale-to-width-down/150?cb=20190628094623",
+    "gender": "Female",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/73"
+  },
+  {
+    "id": 74,
+    "name": "Charles",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6d/Charles.png/revision/latest/scale-to-width-down/180?cb=20190318013822",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Owner & Operator of For Shuck's Sake Oyster Bar",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/74"
+  },
+  {
+    "id": 75,
+    "name": "Charlie Cross",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/ff/Charlie_Cross.png/revision/latest/scale-to-width-down/180?cb=20181126032306",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/447"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/75"
+  },
+  {
+    "id": 76,
+    "name": "Charlotte",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f3/Charlotte.png/revision/latest/scale-to-width-down/180?cb=20180123132623",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Owner & Operator of The Petalphile",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/76"
+  },
+  {
+    "id": 77,
+    "name": "Chase Kaminsky",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/85/Chase_Kaminsky.jpg/revision/latest/scale-to-width-down/150?cb=20150806162616",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Insurance Adjuster",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/77"
+  },
+  {
+    "id": 78,
+    "name": "Cheryl",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b3/Cheryl.png/revision/latest/scale-to-width-down/180?cb=20210222024753",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/78"
+  },
+  {
+    "id": 79,
+    "name": "Chet",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d4/Chet2.jpg/revision/latest/scale-to-width-down/150?cb=20150807102113",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/79"
+  },
+  {
+    "id": 80,
+    "name": "Chloe Barbash",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f5/Chloe.jpg/revision/latest/scale-to-width-down/150?cb=20180530154221",
+    "age": "10",
+    "gender": "Female",
+    "hairColor": "Auburn",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/80"
+  },
+  {
+    "id": 81,
+    "name": "Choo-Choo",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f5/Choo-Choo.jpg/revision/latest/scale-to-width-down/150?cb=20150724092608",
+    "age": "11",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/81"
+  },
+  {
+    "id": 82,
+    "name": "Chris Stokes",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/31/Chris.png/revision/latest/scale-to-width-down/180?cb=20171106020839",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/67",
+      "https://bobsburgers-api.herokuapp.com/characters/259"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/82"
+  },
+  {
+    "id": 83,
+    "name": "Christy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/96/Christy.png/revision/latest/scale-to-width-down/180?cb=20180402010601",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Soccer Coach",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/83"
+  },
+  {
+    "id": 84,
+    "name": "Chuck Charles",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cf/Chuck_Charles.jpg/revision/latest/scale-to-width-down/150?cb=20150727142630",
+    "age": "20s-30s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Television Personality",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/381"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/84"
+  },
+  {
+    "id": 85,
+    "name": "CJ and Darnell",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/06/CJ_und_Darnell.jpg/revision/latest/scale-to-width-down/250?cb=20150808091729",
+    "gender": "Male",
+    "hairColor": "Blond (CJ)Black (Darnell)",
+    "occupation": "Stuntmen",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/85"
+  },
+  {
+    "id": 86,
+    "name": "Claire",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e5/Claire.png/revision/latest/scale-to-width-down/180?cb=20180514155011",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/266"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/86"
+  },
+  {
+    "id": 87,
+    "name": "Claire and Jacqueline",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/64/Claire_und_Jacqueline.jpg/revision/latest/scale-to-width-down/300?cb=20150808144921",
+    "gender": "Female",
+    "hairColor": "Blonde (Claire)Brown (Jacqueline)",
+    "occupation": "Students",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/87"
+  },
+  {
+    "id": 88,
+    "name": "Clay",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/42/Clay.jpg/revision/latest/scale-to-width-down/200?cb=20170221170238",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "High School Student",
+    "relatives": ["Unnamed father", "Unnamed mother"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/88"
+  },
+  {
+    "id": 89,
+    "name": "Clem",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3d/Clem.png/revision/latest/scale-to-width-down/180?cb=20190408015754",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Radio DJ",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/89"
+  },
+  {
+    "id": 90,
+    "name": "Clyde",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d2/Clyde.jpg/revision/latest/scale-to-width-down/155?cb=20180603111624",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Owner & Operator of About a Toy",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/90"
+  },
+  {
+    "id": 91,
+    "name": "Coach Blevins",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Coach_Blevins.jpg/revision/latest/scale-to-width-down/150?cb=20150724133649",
+    "age": "40s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Wagstaff School Teacher",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/91"
+  },
+  {
+    "id": 92,
+    "name": "Colleen Caviello",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1b/Colleen_Caviello.jpg/revision/latest/scale-to-width-down/150?cb=20150625134437",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/92"
+  },
+  {
+    "id": 93,
+    "name": "Colton",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/84/Colton.png/revision/latest/scale-to-width-down/150?cb=20181112033224",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/46",
+      "https://bobsburgers-api.herokuapp.com/characters/10"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/93"
+  },
+  {
+    "id": 94,
+    "name": "Connor Coloroso",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/44/Connor.png/revision/latest/scale-to-width-down/180?cb=20180521021806",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/156"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/94"
+  },
+  {
+    "id": 95,
+    "name": "Cooper",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/af/Cooper.jpg/revision/latest/scale-to-width-down/150?cb=20150730112031",
+    "gender": "Male",
+    "hairColor": "Brown (former)",
+    "occupation": "Blueberry Farmer/Drug Dealer",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/44",
+      "5 unnamed children"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/95"
+  },
+  {
+    "id": 96,
+    "name": "Cory Battles",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9c/Cory.jpg/revision/latest/scale-to-width-down/200?cb=20190626161834",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Photographer for Coasters Magazine",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/96"
+  },
+  {
+    "id": 97,
+    "name": "Courtney Wheeler",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ea/Courtney.png/revision/latest/scale-to-width-down/100?cb=20130514022811",
+    "age": "11-12 (likely 12)",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/133",
+      "https://bobsburgers-api.herokuapp.com/characters/346"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/97"
+  },
+  {
+    "id": 98,
+    "name": "Critter",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/df/Critter-1.jpg/revision/latest/scale-to-width-down/150?cb=20150726152449",
+    "age": "20s-30s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Chapter president of the One Eyed Snakes/Employee at What the Tech",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/453",
+      "https://bobsburgers-api.herokuapp.com/characters/354"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/98"
+  },
+  {
+    "id": 99,
+    "name": "Curt",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d4/Curt_%28Bully%29.jpg/revision/latest/scale-to-width-down/200?cb=20170228170325",
+    "age": "43",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Buchannan Middle School (30 years ago)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/99"
+  },
+  {
+    "id": 100,
+    "name": "Cynthia Bush",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fa/Cynthia_Bush.jpg/revision/latest/scale-to-width-down/150?cb=20150613084345",
+    "age": "Early-40s",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Leasing Agent",
+    "relatives": ["Tom Bush  Logan Bush"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/100"
+  },
+  {
+    "id": 101,
+    "name": "Dahlia",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0f/Dahlia.png/revision/latest/scale-to-width-down/125?cb=20160404095208",
+    "age": "Possibly 6",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "relatives": [
+      "Unnamed father",
+      "https://bobsburgers-api.herokuapp.com/characters/57",
+      "Sasha Whiteman"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/101"
+  },
+  {
+    "id": 102,
+    "name": "Dakota Applebaum",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/38/Dakota_Applebaum.jpg/revision/latest/scale-to-width-down/150?cb=20150724135956",
+    "gender": "Male",
+    "hairColor": "Golden Blonde",
+    "occupation": "Mother-Daughter Guru",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/102"
+  },
+  {
+    "id": 103,
+    "name": "Dalton Crespin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a3/Dalton_Crespin.transparent.png/revision/latest/scale-to-width-down/260?cb=20180331072513",
+    "gender": "Male",
+    "hairColor": "Orange",
+    "occupation": "Blogger",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/103"
+  },
+  {
+    "id": 104,
+    "name": "Damon",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/82/Damon.png/revision/latest/scale-to-width-down/180?cb=20181001125345",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/104"
+  },
+  {
+    "id": 105,
+    "name": "Daniel Cunningham",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e7/Cunningham.png/revision/latest/scale-to-width-down/180?cb=20181119032435",
+    "gender": "Male",
+    "hairColor": "Red",
+    "occupation": "Deputy Mayor of Seymour's Bay",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/105"
+  },
+  {
+    "id": 106,
+    "name": "Danny Duszynski",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d8/Danny_Duszynski.jpg/revision/latest/scale-to-width-down/150?cb=20150808092737",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/106"
+  },
+  {
+    "id": 107,
+    "name": "Danny Kim",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/49/DKim.png/revision/latest/scale-to-width-down/180?cb=20190506013925",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Employee at Kim & Son's Hardware",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/335"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/107"
+  },
+  {
+    "id": 108,
+    "name": "Darryl",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5a/Darryl-2.jpg/revision/latest/scale-to-width-down/200?cb=20150725093554",
+    "age": "12-13",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student at Wagstaff School",
+    "relatives": ["Unnamed grandfather", "Unnamed mother"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/108"
+  },
+  {
+    "id": 109,
+    "name": "Dave",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Dave.png/revision/latest/scale-to-width-down/150?cb=20150521212649",
+    "age": "60s",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/109"
+  },
+  {
+    "id": 110,
+    "name": "Dave",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/67/Dave.jpg/revision/latest/scale-to-width-down/200?cb=20150808093159",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Trivia Master at Stoolz Bar",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/110"
+  },
+  {
+    "id": 111,
+    "name": "Dean Dixon",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/ff/Dixon.jpg/revision/latest/scale-to-width-down/150?cb=20170220164019",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Dean of Student Affairs",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/111"
+  },
+  {
+    "id": 112,
+    "name": "Debbie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/68/Debbie.jpg/revision/latest/scale-to-width-down/150?cb=20150802094913",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/112"
+  },
+  {
+    "id": 113,
+    "name": "Deborah",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fa/Deborah.png/revision/latest/scale-to-width-down/150?cb=20160710120750",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Waitress at Stoolz bar",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/113"
+  },
+  {
+    "id": 114,
+    "name": "Deirdre",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0e/Deirdre.jpg/revision/latest/scale-to-width-down/200?cb=20190710111739",
+    "gender": "Female",
+    "hairColor": "Reddish Brown",
+    "occupation": "Curator of Chalk of the Town Festival",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/114"
+  },
+  {
+    "id": 115,
+    "name": "Delilah",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/78/Delilah.png/revision/latest/scale-to-width-down/180?cb=20200110005928",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Mushroom Hunter",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/115"
+  },
+  {
+    "id": 116,
+    "name": "Demitri",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/70/Demetri.png/revision/latest/scale-to-width-down/150?cb=20150605125646",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Meat Delivery Guy",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/116"
+  },
+  {
+    "id": 117,
+    "name": "Denise",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e1/Denise2.png/revision/latest/scale-to-width-down/200?cb=20161010004330",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Waitress at The Schoon Hound bar",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/474",
+      "Paddy",
+      "Dana"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/117"
+  },
+  {
+    "id": 118,
+    "name": "Dennis",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/76/Dennis.jpg/revision/latest/scale-to-width-down/120?cb=20150808151218",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Truck Driver",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/118"
+  },
+  {
+    "id": 119,
+    "name": "Derek Dematopolis",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/75/Derek.jpg/revision/latest/scale-to-width-down/120?cb=20150802093833",
+    "age": "40s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Dermatologist",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/119"
+  },
+  {
+    "id": 120,
+    "name": "Dillon",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9b/Dillon.png/revision/latest/scale-to-width-down/150?cb=20170320002027",
+    "age": "13",
+    "gender": "Female",
+    "hairColor": "Dyed Purple",
+    "occupation": "Student",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/12"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/120"
+  },
+  {
+    "id": 121,
+    "name": "Dine n Dasher",
+    "image": "",
+    "gender": "Male",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/121"
+  },
+  {
+    "id": 122,
+    "name": "Dino",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1a/Dino.png/revision/latest/scale-to-width-down/180?cb=20200116225811",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Owner & Operator of Ocean Avenue Hi-Fi Emporium",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/122"
+  },
+  {
+    "id": 123,
+    "name": "DJ Elev-8",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/00/Elev8.png/revision/latest/scale-to-width-down/180?cb=20171220172134",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Club DJ",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/123"
+  },
+  {
+    "id": 124,
+    "name": "Dolores",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ed/Dolores.png/revision/latest/scale-to-width-down/180?cb=20201102174143",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/124"
+  },
+  {
+    "id": 125,
+    "name": "Dominic",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2e/Dominic.jpg/revision/latest/scale-to-width-down/200?cb=20150814094156",
+    "gender": "Male",
+    "hairColor": "Light Brown",
+    "occupation": "Employee at Top Hat Cinema",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/125"
+  },
+  {
+    "id": 126,
+    "name": "Don",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/24/Don.png/revision/latest/scale-to-width-down/180?cb=20190305002459",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Guidance Counsellor at Wagstaff School (former)",
+    "relatives": ["Principal Spoors"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/126"
+  },
+  {
+    "id": 127,
+    "name": "Dr. Donald Wallace",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c7/Wallace.jpg/revision/latest/scale-to-width-down/170?cb=20170307120904",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Historian",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/127"
+  },
+  {
+    "id": 128,
+    "name": "Donna",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4b/Donna.png/revision/latest/scale-to-width-down/180?cb=20191217192637",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Post Office Manager",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/150"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/128"
+  },
+  {
+    "id": 129,
+    "name": "Donny",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/51/Donny.png/revision/latest/scale-to-width-down/125?cb=20160523084753",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Head Chef at Succulent",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/129"
+  },
+  {
+    "id": 130,
+    "name": "Donovan",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a3/Donovan.png/revision/latest/scale-to-width-down/180?cb=20200107163853",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Theatrical Director",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/130"
+  },
+  {
+    "id": 131,
+    "name": "Doris",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fe/Doris.jpg/revision/latest/scale-to-width-down/150?cb=20170210110611",
+    "gender": "Female",
+    "hairColor": "Red",
+    "occupation": "Riding Instructor at Horsing Around Riding Center",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/131"
+  },
+  {
+    "id": 132,
+    "name": "Dot",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2a/Dot.png/revision/latest/scale-to-width-down/180?cb=20190328124956",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Technician at Esther Margaret Marionette-Odeum",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/132"
+  },
+  {
+    "id": 133,
+    "name": "Dottie Minerva",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bf/Dotty.png/revision/latest/scale-to-width-down/150?cb=20150414230913",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/133"
+  },
+  {
+    "id": 134,
+    "name": "Douglas Wheeler",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/12/Doug.png/revision/latest/scale-to-width-down/100?cb=20130514024319",
+    "age": "50s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Jingle Composer",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/96",
+      "https://bobsburgers-api.herokuapp.com/characters/346"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/134"
+  },
+  {
+    "id": 135,
+    "name": "Douglas",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/67/Douglas.jpg/revision/latest/scale-to-width-down/150?cb=20150726160320",
+    "gender": "Male",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/135"
+  },
+  {
+    "id": 136,
+    "name": "Dove Shannon",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5d/Dove.png/revision/latest/scale-to-width-down/180?cb=20200511030935",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "occupation": "Singer-Songwriter",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/136"
+  },
+  {
+    "id": 137,
+    "name": "Dr. Chegler",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/80/Dr_Chegler.jpg/revision/latest/scale-to-width-down/150?cb=20170216121521",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Doctor",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/137"
+  },
+  {
+    "id": 138,
+    "name": "Dr. Eigerman",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/80/Dr_Eigerman.jpg/revision/latest/scale-to-width-down/150?cb=20150809095732",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Doctor",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/138"
+  },
+  {
+    "id": 139,
+    "name": "Dr. Juarez",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9d/Juarez.png/revision/latest/scale-to-width-down/180?cb=20170424130845",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Chiropractor",
+    "relatives": ["Teresa"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/139"
+  },
+  {
+    "id": 140,
+    "name": "Dr. Marjorie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d8/Marjorie.png/revision/latest/scale-to-width-down/200?cb=20160523113520",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Therapist",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/140"
+  },
+  {
+    "id": 141,
+    "name": "Dr. Yap",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c1/Dr._Yap2.png/revision/latest/scale-to-width-down/100?cb=20130306195715",
+    "age": "20s-30s",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Dentist",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/141"
+  },
+  {
+    "id": 142,
+    "name": "Duncan",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ab/Duncan.jpg/revision/latest/scale-to-width-down/200?cb=20190718170724",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/142"
+  },
+  {
+    "id": 143,
+    "name": "Duval",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/ce/Duval.jpg/revision/latest/scale-to-width-down/150?cb=20150617142154",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Head Chef on the Windbreaker",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/143"
+  },
+  {
+    "id": 144,
+    "name": "Ed and Nora Samuels",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4f/Ed_and_Nora_Samuels.jpg/revision/latest/scale-to-width-down/200?cb=20150723113111",
+    "age": "40s",
+    "gender": "Male (Ed) Female (Nora)",
+    "hairColor": "Red (Ed) Brown (Nora)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/144"
+  },
+  {
+    "id": 145,
+    "name": "Ed Samuels",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/89/Ed_Samuels.png/revision/latest/scale-to-width-down/167?cb=20191129132250",
+    "age": "40s",
+    "gender": "Male",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/368"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/145"
+  },
+  {
+    "id": 146,
+    "name": "Eddy Wetty",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a7/Eddie_Wetty.png/revision/latest/scale-to-width-down/200?cb=20191129134121",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Owner of Wetty, Set, Go Water Park",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/146"
+  },
+  {
+    "id": 147,
+    "name": "Edith Cranwinkle",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7f/Edith_cranwinkle.jpg/revision/latest/scale-to-width-down/200?cb=20150527172020",
+    "age": "70s-80s",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "occupation": "Co-owner of Reflections",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/191"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/147"
+  },
+  {
+    "id": 148,
+    "name": "Elaine",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/51/Elaine.png/revision/latest/scale-to-width-down/180?cb=20210419141833",
+    "gender": "Female",
+    "hairColor": "Light Brown",
+    "occupation": "Clown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/148"
+  },
+  {
+    "id": 149,
+    "name": "Eleanor Hirschbaum",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9f/Eleanor.png/revision/latest/scale-to-width-down/180?cb=20181112140757",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "occupation": "Retired",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/149"
+  },
+  {
+    "id": 150,
+    "name": "Emily Rogers",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/28/Emily.png/revision/latest/scale-to-width-down/180?cb=20200504024328",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Bog Harbor Aquarium employee",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/150"
+  },
+  {
+    "id": 151,
+    "name": "Ernie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/67/Ernie.jpg/revision/latest/scale-to-width-down/180?cb=20180723151548",
+    "gender": "Male",
+    "hairColor": "Light Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/151"
+  },
+  {
+    "id": 152,
+    "name": "Esther Margaret",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ad/Esther.png/revision/latest/scale-to-width-down/180?cb=20190328123215",
+    "gender": "Female",
+    "hairColor": "White",
+    "occupation": "Founder of Esther Margaret Marionette-Odeum",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/152"
+  },
+  {
+    "id": 153,
+    "name": "Ethan",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/86/Ethan.jpg/revision/latest/scale-to-width-down/200?cb=20150814094546",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Wine Rail employee",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/153"
+  },
+  {
+    "id": 154,
+    "name": "Ethel",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e3/Ethel.png/revision/latest/scale-to-width-down/180?cb=20180514151358",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "occupation": "Retired",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/459"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/154"
+  },
+  {
+    "id": 155,
+    "name": "Eyebrow Man",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/01/Eyebrow.png/revision/latest/scale-to-width-down/200?cb=20160113211547",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Local Celebrity",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/155"
+  },
+  {
+    "id": 156,
+    "name": "Fanny",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4e/Fanny.jpg/revision/latest/scale-to-width-down/250?cb=20150814095004",
+    "age": "29",
+    "gender": "Female",
+    "hairColor": "Red",
+    "occupation": "Singer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/156"
+  },
+  {
+    "id": 157,
+    "name": "Farrah Coloroso",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9f/Farrah.png/revision/latest/scale-to-width-down/180?cb=20180521022748",
+    "gender": "Female",
+    "hairColor": "Black",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/93"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/157"
+  },
+  {
+    "id": 158,
+    "name": "Felix Fischoeder",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/00/Felix_Fischoeder.png/revision/latest/scale-to-width-down/150?cb=20140430162352",
+    "age": "50s",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Landlord",
+    "relatives": ["Calvin FischoederGrover Fischoeder"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/158"
+  },
+  {
+    "id": 159,
+    "name": "Ferdinand Spratt",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fd/Ferdie.jpg/revision/latest/scale-to-width-down/200?cb=20180629095434",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Head of Spratt's Sweets",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/158"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/159"
+  },
+  {
+    "id": 160,
+    "name": "Fletcher",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c2/Fletcher.png/revision/latest/scale-to-width-down/150?cb=20150630173700",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Speed Demons Outdoor Racing employee",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/160"
+  },
+  {
+    "id": 161,
+    "name": "Flips Whitefudge",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e1/Flips.jpg/revision/latest/scale-to-width-down/200?cb=20200325181711",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/451"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/161"
+  },
+  {
+    "id": 162,
+    "name": "Fluffy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f7/Fluffy.png/revision/latest/scale-to-width-down/180?cb=20170430184211",
+    "gender": "Female",
+    "hairColor": "Orange",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/162"
+  },
+  {
+    "id": 163,
+    "name": "Francesa",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/70/Francesca.jpg/revision/latest/scale-to-width-down/150?cb=20150726153310",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Beautician on board the Windbreaker",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/163"
+  },
+  {
+    "id": 164,
+    "name": "Francesco",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/03/Francesco.png/revision/latest/scale-to-width-down/150?cb=20170214213519",
+    "gender": "Male",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/164"
+  },
+  {
+    "id": 165,
+    "name": "Frank",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/da/Frank.jpg/revision/latest/scale-to-width-down/180?cb=20190719171257",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Volunteer Storyteller",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/165"
+  },
+  {
+    "id": 166,
+    "name": "Male",
+    "image": "",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "City councilperson",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/166"
+  },
+  {
+    "id": 167,
+    "name": "Fred",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d7/Fred.png/revision/latest/scale-to-width-down/180?cb=20191217193602",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Distribution Center Manager",
+    "relatives": ["Unnamed wife", "Unnamed daughter"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/167"
+  },
+  {
+    "id": 168,
+    "name": "Frida",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/94/Frida.jpg/revision/latest/scale-to-width-down/200?cb=20180609162313",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "relatives": [
+      "*Tammy Larsen",
+      "Mrs. Larsen (sister or sister-in-law)",
+      "Mr. Larsen (brother or brother-in-law)"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/168"
+  },
+  {
+    "id": 169,
+    "name": "Gary",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bd/Gary.jpg/revision/latest/scale-to-width-down/200?cb=20200417090035",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Truck Driver",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/169"
+  },
+  {
+    "id": 170,
+    "name": "Gayle",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/27/Gayle.png/revision/latest/scale-to-width-down/100?cb=20130306200027",
+    "age": "42",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Museum Security Guard",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/180",
+      "https://bobsburgers-api.herokuapp.com/characters/5",
+      "https://bobsburgers-api.herokuapp.com/characters/275",
+      "https://bobsburgers-api.herokuapp.com/characters/47",
+      "https://bobsburgers-api.herokuapp.com/characters/483",
+      "https://bobsburgers-api.herokuapp.com/characters/170",
+      "https://bobsburgers-api.herokuapp.com/characters/280",
+      "Burt"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/170"
+  },
+  {
+    "id": 171,
+    "name": "Gene Belcher",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b6/BobsBurgers_2019_KeyPoses_Gene_1.jpg/revision/latest/scale-to-width-down/240?cb=20210413150646",
+    "age": "11",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/275",
+      "https://bobsburgers-api.herokuapp.com/characters/47",
+      "https://bobsburgers-api.herokuapp.com/characters/483",
+      "https://bobsburgers-api.herokuapp.com/characters/280",
+      "https://bobsburgers-api.herokuapp.com/characters/180",
+      "https://bobsburgers-api.herokuapp.com/characters/5",
+      "https://bobsburgers-api.herokuapp.com/characters/169",
+      "https://bobsburgers-api.herokuapp.com/characters/45",
+      "Mrs. Belcher",
+      "Ernest Lombard",
+      "Burt",
+      "https://bobsburgers-api.herokuapp.com/characters/500"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/171"
+  },
+  {
+    "id": 172,
+    "name": "Gerald G. Garrison",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6c/Gerald.png/revision/latest/scale-to-width-down/200?cb=20161121095919",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Accountant at See You Later Calculator Accounting",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/172"
+  },
+  {
+    "id": 173,
+    "name": "Gertie Humikowski",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/05/Gertie.png/revision/latest/scale-to-width-down/180?cb=20181007194817",
+    "gender": "Female",
+    "hairColor": "Red",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/173"
+  },
+  {
+    "id": 174,
+    "name": "Gilbert McDougal",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/eb/Gilbert.png/revision/latest/scale-to-width-down/180?cb=20181105034831",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Guidance Counselor",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/174"
+  },
+  {
+    "id": 175,
+    "name": "Gina",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/eb/Gina.jpg/revision/latest/scale-to-width-down/200?cb=20150617142511",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/175"
+  },
+  {
+    "id": 176,
+    "name": "Ginger",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/85/Ginger.png/revision/latest/scale-to-width-down/200?cb=20150928004220",
+    "age": "40s",
+    "gender": "Female",
+    "hairColor": "Red",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/77",
+      "Unnamed daughter",
+      "Tony"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/176"
+  },
+  {
+    "id": 177,
+    "name": "Ginny",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2d/Ginny.jpg/revision/latest/scale-to-width-down/200?cb=20170301165828",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Office Worker/Thundergirls Troop 119 Leader",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/177"
+  },
+  {
+    "id": 178,
+    "name": "Girl #3",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/46/Girl_Nr_3.jpg/revision/latest/scale-to-width-down/200?cb=20150809171146",
+    "gender": "Female",
+    "hairColor": "Red",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/178"
+  },
+  {
+    "id": 179,
+    "name": "Glen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/68/Glen.png/revision/latest/scale-to-width-down/180?cb=20181022024001",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Handyman",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/179"
+  },
+  {
+    "id": 180,
+    "name": "Glitter",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d6/Glitter.jpg/revision/latest/scale-to-width-down/200?cb=20150717094953",
+    "gender": "Female",
+    "occupation": "Sex Worker",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/180"
+  },
+  {
+    "id": 181,
+    "name": "Gloria",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a0/Gloria.jpg/revision/latest/scale-to-width-down/150?cb=20150709171730",
+    "age": "70s",
+    "gender": "Female",
+    "occupation": "Retired",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/5",
+      "https://bobsburgers-api.herokuapp.com/characters/275",
+      "https://bobsburgers-api.herokuapp.com/characters/169",
+      "https://bobsburgers-api.herokuapp.com/characters/47",
+      "https://bobsburgers-api.herokuapp.com/characters/483",
+      "https://bobsburgers-api.herokuapp.com/characters/170",
+      "https://bobsburgers-api.herokuapp.com/characters/280",
+      "Burt",
+      "Marie"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/181"
+  },
+  {
+    "id": 182,
+    "name": "Godfrey",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1f/Godfrey.png/revision/latest/scale-to-width-down/200?cb=20161128095232",
+    "gender": "Male",
+    "hairColor": "White",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/182"
+  },
+  {
+    "id": 183,
+    "name": "Goldie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/63/Goldie.png/revision/latest/scale-to-width-down/180?cb=20190311022759",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Biker",
+    "relatives": ["Unnamed child"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/183"
+  },
+  {
+    "id": 184,
+    "name": "Graham",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8e/Graham.png/revision/latest/scale-to-width-down/180?cb=20210419141830",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/184"
+  },
+  {
+    "id": 185,
+    "name": "Greg",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/06/Greg.jpg/revision/latest/scale-to-width-down/150?cb=20160223170811",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Employee at Fresh Feed/Semi-Pro Kite Pilot",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/185"
+  },
+  {
+    "id": 186,
+    "name": "Greg",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1f/GregBrunch.png/revision/latest/scale-to-width-down/150?cb=20171002131322",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/186"
+  },
+  {
+    "id": 187,
+    "name": "Gretchen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/03/Gretchen.jpg/revision/latest/scale-to-width-down/200?cb=20150529110928",
+    "age": "30s-40s",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Hairstylist",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/187"
+  },
+  {
+    "id": 188,
+    "name": "Griffin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/17/Griffin_-_01.jpg/revision/latest/scale-to-width-down/100?cb=20150810112521",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Member of Boyz4Now",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/188"
+  },
+  {
+    "id": 189,
+    "name": "Grover Fischoeder",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/51/Grover.png/revision/latest/scale-to-width-down/180?cb=20190311015321",
+    "age": "40s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Lawyer",
+    "relatives": ["Calvin FischoederFelix Fischoeder"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/189"
+  },
+  {
+    "id": 190,
+    "name": "Gus",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/68/Gus.jpg/revision/latest/scale-to-width-down/200?cb=20160623144410",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/190"
+  },
+  {
+    "id": 191,
+    "name": "Harley",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e4/Harley.png/revision/latest/scale-to-width-down/150?cb=20160404112328",
+    "age": "9-10",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/191"
+  },
+  {
+    "id": 192,
+    "name": "Harold Cranwinkle",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/69/Harold_cranwinkle.jpg/revision/latest/scale-to-width-down/100?cb=20150528102939",
+    "age": "70s",
+    "gender": "Male",
+    "hairColor": "Bald & Gray",
+    "occupation": "Co-owner of Reflections",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/146"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/192"
+  },
+  {
+    "id": 193,
+    "name": "Harry",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9b/Harry.jpg/revision/latest/scale-to-width-down/150?cb=20150617142757",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Television Producer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/193"
+  },
+  {
+    "id": 194,
+    "name": "Hayden",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ad/Hayden.png/revision/latest/scale-to-width-down/180?cb=20181001125638",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/194"
+  },
+  {
+    "id": 195,
+    "name": "Heather Rockway",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "City councilperson",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/195"
+  },
+  {
+    "id": 196,
+    "name": "Hefty Jeff",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/59/Hefty_Jeff.jpg/revision/latest/scale-to-width-down/200?cb=20170214162513",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "College Student",
+    "relatives": ["Unnamed father"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/196"
+  },
+  {
+    "id": 197,
+    "name": "Helen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c1/Helen.jpg/revision/latest/scale-to-width-down/180?cb=20160425093611",
+    "age": "20s-30s",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Unemployed",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/270"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/197"
+  },
+  {
+    "id": 198,
+    "name": "Helen Kellerman",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/10/Helen_Kellerman.jpg/revision/latest/scale-to-width-down/200?cb=20150721150318",
+    "gender": "Female",
+    "hairColor": "Gray (dyed purple)",
+    "occupation": "Retired",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/198"
+  },
+  {
+    "id": 199,
+    "name": "Henry",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/03/Henry.jpg/revision/latest/scale-to-width-down/150?cb=20190707110640",
+    "gender": "Male",
+    "hairColor": "White",
+    "occupation": "Retired",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/199"
+  },
+  {
+    "id": 200,
+    "name": "Henry Haber",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/90/HenryHaber.png/revision/latest/scale-to-width-down/150?cb=20150213001419",
+    "age": "13-14",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/203"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/200"
+  },
+  {
+    "id": 201,
+    "name": "Herbie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/ce/Herbie.png/revision/latest/scale-to-width-down/150?cb=20170306015122",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Celebrity Impersonator",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/201"
+  },
+  {
+    "id": 202,
+    "name": "Herman",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/be/Herman_and_Marylin.jpg/revision/latest/scale-to-width-down/150?cb=20150728100332",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Ventriloquist Performer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/202"
+  },
+  {
+    "id": 203,
+    "name": "Hildy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/da/Hildy.png/revision/latest/scale-to-width-down/200?cb=20150311203522",
+    "age": "30-40s",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Caf-co Employee",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/203"
+  },
+  {
+    "id": 204,
+    "name": "Hogarth Haber",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ad/Hogarth.png/revision/latest/scale-to-width-down/150?cb=20150822111132",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/199"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/204"
+  },
+  {
+    "id": 205,
+    "name": "Horace",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/75/Horace.jpg/revision/latest/scale-to-width-down/200?cb=20170224103148",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Owner & Operator of Wands, Wands, Wands",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/205"
+  },
+  {
+    "id": 206,
+    "name": "Horny Dave",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/42/Horny_Dave.png/revision/latest/scale-to-width-down/351?cb=20150103150717",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "President of the One Eyed Snakes Biker Gang (former)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/206"
+  },
+  {
+    "id": 207,
+    "name": "Horseplay",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e4/Horseplay.png/revision/latest/scale-to-width-down/150?cb=20150624134431",
+    "gender": "Male",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/207"
+  },
+  {
+    "id": 208,
+    "name": "Hugo Habercore",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/17/Hugo_Habercore.png/revision/latest/scale-to-width-down/200?cb=20130305170235",
+    "age": "40s",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "City Health Inspector",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/208"
+  },
+  {
+    "id": 209,
+    "name": "Hummer Guy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/75/Hummer.jpg/revision/latest/scale-to-width-down/200?cb=20170211105509",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/209"
+  },
+  {
+    "id": 210,
+    "name": "Ian Amberson",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/41/Ian_Amberson.png/revision/latest/scale-to-width-down/200?cb=20170220120658",
+    "age": "40s",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Pet Agent for Pets Pawsitive Pet Agency",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/210"
+  },
+  {
+    "id": 211,
+    "name": "Ice Pick",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/ce/Ice_Pick.png/revision/latest/scale-to-width-down/180?cb=20170526165605",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Member of the One Eyed Snakes",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/211"
+  },
+  {
+    "id": 212,
+    "name": "Isabella",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1b/Isabella.png/revision/latest/scale-to-width-down/180?cb=20170214133117",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Caf-Co Food Services Employee/Substitute Lunchlady",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/212"
+  },
+  {
+    "id": 213,
+    "name": "Jack",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f9/Jack_Conway.jpg/revision/latest/scale-to-width-down/200?cb=20170214164212",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Owner & Operator of Conway Meats (former)",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/292", "Unnamed son"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/213"
+  },
+  {
+    "id": 214,
+    "name": "Jackie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9d/Jackie.png/revision/latest/scale-to-width-down/200?cb=20161024012649",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Crossing Guard at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/214"
+  },
+  {
+    "id": 215,
+    "name": "Jacob",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/44/Jacob.jpg/revision/latest/scale-to-width-down/150?cb=20160423170616",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/43"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/215"
+  },
+  {
+    "id": 216,
+    "name": "Jairo",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a6/Jairo2.png/revision/latest/scale-to-width-down/150?cb=20130306195917",
+    "age": "20s",
+    "gender": "Male",
+    "occupation": "Capoeira Instructor",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/216"
+  },
+  {
+    "id": 217,
+    "name": "Jamie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/22/Jamie.jpg/revision/latest/scale-to-width-down/200?cb=20170226104240",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Employee at Fresh Feed",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/217"
+  },
+  {
+    "id": 218,
+    "name": "Janet",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/84/Janet.png/revision/latest/scale-to-width-down/200?cb=20150405184849",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Party Planner",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/218"
+  },
+  {
+    "id": 219,
+    "name": "Janine",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/db/Janine.png/revision/latest/scale-to-width-down/180?cb=20171016003641",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Owner & Operator of Yours Truly Stationary",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/219"
+  },
+  {
+    "id": 220,
+    "name": "Jason",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f4/Jason.jpg/revision/latest/scale-to-width-down/150?cb=20190626111211",
+    "gender": "Male",
+    "hairColor": "Black",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/505"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/220"
+  },
+  {
+    "id": 221,
+    "name": "Jason & Mitchell",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/02/JasonMitchell.png/revision/latest/scale-to-width-down/180?cb=20191007020442",
+    "gender": "Male",
+    "hairColor": "Dark Brown (Jason) Light Brown (Mitchell)",
+    "occupation": "Mushroom Hunters",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/221"
+  },
+  {
+    "id": 222,
+    "name": "Javed Fazel",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1b/Javed.png/revision/latest/scale-to-width-down/179?cb=20130306195814",
+    "age": "40s",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Entomologist",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/222"
+  },
+  {
+    "id": 223,
+    "name": "Jen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0a/Jen.jpg/revision/latest/scale-to-width-down/250?cb=20170227082804",
+    "age": "20s",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Babysitter",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/223"
+  },
+  {
+    "id": 224,
+    "name": "Jennifer",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/ce/Jennifer.png/revision/latest/scale-to-width-down/150?cb=20171002130130",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/224"
+  },
+  {
+    "id": 225,
+    "name": "Jeremy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/60/Jeremy.jpg/revision/latest/scale-to-width-down/150?cb=20150727172423",
+    "gender": "Male",
+    "hairColor": "Red",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/225"
+  },
+  {
+    "id": 226,
+    "name": "Jerry",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/10/JerryF.png/revision/latest/scale-to-width-down/180?cb=20180115152553",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Trapeze Artist",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/480"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/226"
+  },
+  {
+    "id": 227,
+    "name": "Jesse",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/91/Jesse1.png/revision/latest/scale-to-width-down/180?cb=20181001131151",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/227"
+  },
+  {
+    "id": 228,
+    "name": "Jessica",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1b/Jessica.jpg/revision/latest/scale-to-width-down/200?cb=20160220155243",
+    "age": "9[1]",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/228"
+  },
+  {
+    "id": 229,
+    "name": "Jill",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1b/Jill.png/revision/latest/scale-to-width-down/180?cb=20190107031638",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/229"
+  },
+  {
+    "id": 230,
+    "name": "Jim Skillman",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8d/Skillman.png/revision/latest/scale-to-width-down/200?cb=20151012164657",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Land Ship Re-Enactor",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/230"
+  },
+  {
+    "id": 231,
+    "name": "Jimmy Pesto",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/32/Jimmy_Pesto.png/revision/latest?cb=20130305162049",
+    "age": "40s",
+    "gender": "Male",
+    "hairColor": "Dark Brown",
+    "occupation": "Owner of Jimmy Pesto's Pizzeria",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/231",
+      "Andy and Ollie Pesto"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/231"
+  },
+  {
+    "id": 232,
+    "name": "Jimmy Pesto, Jr.",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/70/Jimmy_pesto_junior.png/revision/latest/scale-to-width-down/125?cb=20160215225017",
+    "age": "13-14",
+    "gender": "Male",
+    "hairColor": "Dirty Blonde",
+    "occupation": "Busboy at Jimmy Pesto's PizzeriaStudent at Wagstaff School",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/230",
+      "Andy and Ollie Pesto",
+      "Unnamed mother"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/232"
+  },
+  {
+    "id": 233,
+    "name": "Joanne",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3c/Joanne.jpg/revision/latest/scale-to-width-down/180?cb=20200401143013",
+    "gender": "Female",
+    "hairColor": "Strawberry Blonde",
+    "occupation": "Co-owner of Jo-Jo Bear Publishing",
+    "relatives": ["Barry", "Unnamed child"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/233"
+  },
+  {
+    "id": 234,
+    "name": "Jocelyn",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7e/Jocelyn.png/revision/latest/scale-to-width-down/150?cb=20130306153628",
+    "age": "13-14",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "relatives": ["Unnamed mother", "Tina (cousin, not Tina Belcher)", "Unnamed brother"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/234"
+  },
+  {
+    "id": 235,
+    "name": "Jodi",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b6/Jodi.jpg/revision/latest/scale-to-width-down/200?cb=20170305145816",
+    "age": "9-10",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/235"
+  },
+  {
+    "id": 236,
+    "name": "Jody",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/dc/Jody.png/revision/latest/scale-to-width-down/150?cb=20150405144901",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Bus driver for Boyz4Now",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/236"
+  },
+  {
+    "id": 237,
+    "name": "Joe Harrison",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/77/Joe.png/revision/latest/scale-to-width-down/180?cb=20161121115837",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/237"
+  },
+  {
+    "id": 238,
+    "name": "Joel",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/39/Joelrolls.png/revision/latest/scale-to-width-down/180?cb=20190311023421",
+    "age": "20s-30s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Owner and operator of Joel's Rolls",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/238"
+  },
+  {
+    "id": 239,
+    "name": "Joel Glassman",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0f/Joel.jpg/revision/latest/scale-to-width-down/150?cb=20180530102058",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/309"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/239"
+  },
+  {
+    "id": 240,
+    "name": "Jonas",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0b/Jonas-2.jpg/revision/latest/scale-to-width-down/200?cb=20160423171118",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Delivery Boy for Reggie's Deli",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/240"
+  },
+  {
+    "id": 241,
+    "name": "Jordan Cagan",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/30/JordanK.jpg/revision/latest/scale-to-width-down/200?cb=20170308153010",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/241"
+  },
+  {
+    "id": 242,
+    "name": "Josh",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ec/Josh2.jpg/revision/latest/scale-to-width-down/150?cb=20150703161653",
+    "age": "14",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/242"
+  },
+  {
+    "id": 243,
+    "name": "Josie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0f/Josie.png/revision/latest/scale-to-width-down/180?cb=20190930021555",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Ticket Seller at Wetty, Set, Go Water Park",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/243"
+  },
+  {
+    "id": 244,
+    "name": "Judge Conklin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/77/Conklin.png/revision/latest/scale-to-width-down/200?cb=20170306021330",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Judge (former)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/244"
+  },
+  {
+    "id": 245,
+    "name": "Judy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/26/Judy.png/revision/latest/scale-to-width-down/150?cb=20170327021233",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Owner & Operator of Touch N' Sea Aquarium (former)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/245"
+  },
+  {
+    "id": 246,
+    "name": "Jules Beachum",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4c/Jules.png/revision/latest/scale-to-width-down/180?cb=20200322152459",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Owner & Operator of Beachum's BBQ (former)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/246"
+  },
+  {
+    "id": 247,
+    "name": "Julia",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/32/Juliasb.png/revision/latest/scale-to-width-down/180?cb=20180514024112",
+    "age": "Real Estate Agent",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Real Estate Agent",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/247"
+  },
+  {
+    "id": 248,
+    "name": "Julianne",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/94/Julianne.png/revision/latest/scale-to-width-down/180?cb=20191014024439",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "occupation": "Thundergirls National Office Worker",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/248"
+  },
+  {
+    "id": 249,
+    "name": "Julie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d8/Julie.jpg/revision/latest/scale-to-width-down/150?cb=20150711165945",
+    "age": "11",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/249"
+  },
+  {
+    "id": 250,
+    "name": "JustGrillin'",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/54/Justgrillin.jpg/revision/latest/scale-to-width-down/150?cb=20160522150640",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/250"
+  },
+  {
+    "id": 251,
+    "name": "Justin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/10/Justin1.png/revision/latest/scale-to-width-down/180?cb=20181001012920",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Hebrew School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/251"
+  },
+  {
+    "id": 252,
+    "name": "Karen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/71/Karen.png/revision/latest/scale-to-width-down/180?cb=20191014022136",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Thundergirls National Office Worker",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/252"
+  },
+  {
+    "id": 253,
+    "name": "Kathleen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/eb/Kathleen.png/revision/latest/scale-to-width-down/180?cb=20190114024547",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Accountant for The Happy Mask Sad Mask Players Theater Company",
+    "relatives": ["Unnamed husband"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/253"
+  },
+  {
+    "id": 254,
+    "name": "Kathy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bf/Kathy.png/revision/latest/scale-to-width-down/180?cb=20191118025640",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/254"
+  },
+  {
+    "id": 255,
+    "name": "Katie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/db/Katie-2.jpg/revision/latest/scale-to-width-down/150?cb=20150815160023",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/255"
+  },
+  {
+    "id": 256,
+    "name": "Katie Waxman",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/02/Katie_Waxman.png/revision/latest/scale-to-width-down/150?cb=20161024215020",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/256"
+  },
+  {
+    "id": 257,
+    "name": "Kayla",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/76/Kayla.png/revision/latest/scale-to-width-down/180?cb=20180402125243",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/257"
+  },
+  {
+    "id": 258,
+    "name": "Kaylee Morgenstern",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cc/Kaylee.png/revision/latest/scale-to-width-down/180?cb=20200217035438",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/258"
+  },
+  {
+    "id": 259,
+    "name": "Kelly",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3c/Kelly.png/revision/latest/scale-to-width-down/180?cb=20180510130342",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/259"
+  },
+  {
+    "id": 260,
+    "name": "Kendra Stokes",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/56/Kendra.jpg/revision/latest/scale-to-width-down/180?cb=20190617075633",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/67",
+      "https://bobsburgers-api.herokuapp.com/characters/81"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/260"
+  },
+  {
+    "id": 261,
+    "name": "Kenny",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c2/Kenny.jpg/revision/latest/scale-to-width-down/150?cb=20160423170640",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Investment Banker",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/261"
+  },
+  {
+    "id": 262,
+    "name": "Kevin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f1/Kevin.png/revision/latest/scale-to-width-down/150?cb=20150627201430",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Manager at Dusty's Feedbag",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/262"
+  },
+  {
+    "id": 263,
+    "name": "Krissy Davis",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/aa/Krissy.jpg/revision/latest/scale-to-width-down/170?cb=20170217170308",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Boyz4Now Fan Club President/Boo Crew Leader",
+    "relatives": ["Mrs. DavisMr. Davis"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/263"
+  },
+  {
+    "id": 264,
+    "name": "Kristi Sanducci",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9f/Kristi_Sanducci.jpg/revision/latest/scale-to-width-down/200?cb=20150726153732",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Water skiier",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/264"
+  },
+  {
+    "id": 265,
+    "name": "Kurt Enerny",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1e/Upskirt_kurt.jpg/revision/latest/scale-to-width-down/200?cb=20160220111418",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Pilot",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/271"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/265"
+  },
+  {
+    "id": 266,
+    "name": "Kyle",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ad/Kyle.png/revision/latest/scale-to-width-down/180?cb=20180514153136",
+    "gender": "Male",
+    "hairColor": "Black",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/85"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/266"
+  },
+  {
+    "id": 267,
+    "name": "Kyle",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/47/KyleChefMarks.png/revision/latest/scale-to-width-down/180?cb=20201116153100",
+    "gender": "Male",
+    "hairColor": "Red",
+    "occupation": "Employee at Chef Marks the Spot",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/267"
+  },
+  {
+    "id": 268,
+    "name": "Large Tommy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5f/Large_Tommy.png/revision/latest/scale-to-width-down/200?cb=20130308130532",
+    "age": "9",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/268"
+  },
+  {
+    "id": 269,
+    "name": "Larissa",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/12/Larissa.png/revision/latest/scale-to-width-down/200?cb=20150212121612",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/269"
+  },
+  {
+    "id": 270,
+    "name": "Larry",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/62/Larry.jpg/revision/latest/scale-to-width-down/150?cb=20190619101056",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/270"
+  },
+  {
+    "id": 271,
+    "name": "Larry Goodwin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/61/Larry_Goodwin.png/revision/latest/scale-to-width-down/200?cb=20160527205629",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Clock Mandate for Goodwin Clocks",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/196"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/271"
+  },
+  {
+    "id": 272,
+    "name": "Laverne Enerny",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/18/Laverne.png/revision/latest/scale-to-width-down/180?cb=20181105032227",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Pilot",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/264"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/272"
+  },
+  {
+    "id": 273,
+    "name": "Lenny DeStefano",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0d/Lenny_de_Stefano-1.jpg/revision/latest/scale-to-width-down/150?cb=20150604112102",
+    "age": "12",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/273"
+  },
+  {
+    "id": 274,
+    "name": "Leslie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/38/Leslie.png/revision/latest/scale-to-width-down/150?cb=20140914064757",
+    "gender": "Male",
+    "hairColor": "Dark Blonde",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/511"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/274"
+  },
+  {
+    "id": 275,
+    "name": "Lillian Bosco",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d7/Lillian.png/revision/latest/scale-to-width-down/180?cb=20181112022317",
+    "gender": "Female",
+    "hairColor": "White",
+    "occupation": "Retired",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/444"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/275"
+  },
+  {
+    "id": 276,
+    "name": "Linda Belcher",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a0/BobsBurgers_2019_KeyPoses_Linda_2.jpg/revision/latest/scale-to-width-down/240?cb=20210413150648",
+    "age": "44",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Cook at Bob's Burgers",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/5",
+      "https://bobsburgers-api.herokuapp.com/characters/180",
+      "https://bobsburgers-api.herokuapp.com/characters/169",
+      "https://bobsburgers-api.herokuapp.com/characters/47",
+      "https://bobsburgers-api.herokuapp.com/characters/483",
+      "https://bobsburgers-api.herokuapp.com/characters/170",
+      "https://bobsburgers-api.herokuapp.com/characters/280",
+      "https://bobsburgers-api.herokuapp.com/characters/45",
+      "Mrs. Belcher",
+      "Ernest Lombard",
+      "https://bobsburgers-api.herokuapp.com/characters/500",
+      "Burt",
+      "Marie"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/276"
+  },
+  {
+    "id": 277,
+    "name": "Lionel",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/be/Lionel.png/revision/latest/scale-to-width-down/125?cb=20160523084429",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Head Chef at Fennel & Fog",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/277"
+  },
+  {
+    "id": 278,
+    "name": "Little Boy Bandit",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/05/Boy_Bandit.png/revision/latest/scale-to-width-down/150?cb=20150516123232",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Jockey",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/278"
+  },
+  {
+    "id": 279,
+    "name": "Nurse Liz",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/06/Liz.jpg/revision/latest/scale-to-width-down/150?cb=20180531155356",
+    "age": "20-30s",
+    "gender": "Female",
+    "hairColor": "Ginger",
+    "occupation": "Wagstaff School Nurse",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/279"
+  },
+  {
+    "id": 280,
+    "name": "Logan Bush",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4d/Logan_Bush.jpg/revision/latest/scale-to-width-down/250?cb=20150612163056",
+    "age": "16-17",
+    "gender": "Male",
+    "hairColor": "Light Blonde",
+    "occupation": "Student at Huxley High School",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/99",
+      "https://bobsburgers-api.herokuapp.com/characters/486"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/280"
+  },
+  {
+    "id": 281,
+    "name": "Louise Belcher",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c6/BobsBurgers_2019_KeyPoses_Louise_1.jpg/revision/latest/scale-to-width-down/240?cb=20210413150651",
+    "age": "9",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Works at the family restaurant",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/275",
+      "https://bobsburgers-api.herokuapp.com/characters/47",
+      "https://bobsburgers-api.herokuapp.com/characters/483",
+      "https://bobsburgers-api.herokuapp.com/characters/170",
+      "https://bobsburgers-api.herokuapp.com/characters/180",
+      "https://bobsburgers-api.herokuapp.com/characters/5",
+      "https://bobsburgers-api.herokuapp.com/characters/169",
+      "https://bobsburgers-api.herokuapp.com/characters/45",
+      "Ernest Lombard",
+      "Mrs. Belcher",
+      "Burt",
+      "https://bobsburgers-api.herokuapp.com/characters/500"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/281"
+  },
+  {
+    "id": 282,
+    "name": "Madeline Greenberg",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0d/Greenberg.jpg/revision/latest/scale-to-width-down/150?cb=20170309104246",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Director at Museum of Natural History",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/282"
+  },
+  {
+    "id": 283,
+    "name": "Madison",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/62/Madison.png/revision/latest/scale-to-width-down/180?cb=20200217035929",
+    "age": "17-18",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Part-Time Employee at Caboose Kabob",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/283"
+  },
+  {
+    "id": 284,
+    "name": "Mall Santa",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5b/Santa.png/revision/latest/scale-to-width-down/250?cb=20151116132042",
+    "age": "60-70s",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Santa Performer at OMG Mall",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/284"
+  },
+  {
+    "id": 285,
+    "name": "Mandy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/38/Mandy2.png/revision/latest/scale-to-width-down/180?cb=20181210030200",
+    "gender": "Female",
+    "hairColor": "Red",
+    "occupation": "Student at Huxley High School",
+    "relatives": ["Regular Sized RudySylvester Stieblitz"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/285"
+  },
+  {
+    "id": 286,
+    "name": "Mandy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/21/Mandy.jpg/revision/latest/scale-to-width-down/150?cb=20170210165902",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/286"
+  },
+  {
+    "id": 287,
+    "name": "Manny",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/05/Manny.png/revision/latest/scale-to-width-down/200?cb=20150627225334",
+    "age": "20-30s",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Pedi-Cab Driver",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/287"
+  },
+  {
+    "id": 288,
+    "name": "Mara",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/23/Mara.png/revision/latest/scale-to-width-down/180?cb=20180402112500",
+    "gender": "Female",
+    "hairColor": "Reddish Brown",
+    "occupation": "Student",
+    "relatives": ["Unnamed father"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/288"
+  },
+  {
+    "id": 289,
+    "name": "Marbles",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b0/Marbles.jpg/revision/latest/scale-to-width-down/170?cb=20150717093456",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Sex Worker",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/289"
+  },
+  {
+    "id": 290,
+    "name": "Marco",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7d/Marco.jpg/revision/latest/scale-to-width-down/180?cb=20150607101811",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Masseuse at Spa-velous",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/290"
+  },
+  {
+    "id": 291,
+    "name": "Marco",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8c/Marc.jpg/revision/latest/scale-to-width-down/150?cb=20170222161521",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/291"
+  },
+  {
+    "id": 292,
+    "name": "Marcus",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/25/TinaRealGhostPreview.png/revision/latest/scale-to-width-down/300?cb=20141006013801",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Exterminator",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/292"
+  },
+  {
+    "id": 293,
+    "name": "Marian Conway",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/56/Marion.png/revision/latest/scale-to-width-down/130?cb=20161107030417",
+    "gender": "Female",
+    "hairColor": "Black",
+    "relatives": ["Jack Conway", "Unnamed son"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/293"
+  },
+  {
+    "id": 294,
+    "name": "Mars Sazerac",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/30/Sazerac.jpg/revision/latest/scale-to-width-down/200?cb=20170225112216",
+    "age": "40s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Magician",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/294"
+  },
+  {
+    "id": 295,
+    "name": "Marsha",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cb/Marsha.png/revision/latest/scale-to-width-down/180?cb=20181119031020",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Assistant to the Mayor (former)",
+    "relatives": ["Lisa", "Unnamed mother"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/295"
+  },
+  {
+    "id": 296,
+    "name": "Marshall",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c9/Marshall.jpg/revision/latest/scale-to-width-down/150?cb=20190627155722",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/296"
+  },
+  {
+    "id": 297,
+    "name": "Marshmallow",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5b/Marshmellow.jpg/revision/latest/scale-to-width-down/200?cb=20150717140656",
+    "age": "23",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Sex Worker",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/297"
+  },
+  {
+    "id": 298,
+    "name": "Marta",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/23/Marta.jpg/revision/latest/scale-to-width-down/170?cb=20160222172207",
+    "gender": "Female",
+    "hairColor": "Red",
+    "occupation": "Employee at Fresh Feed",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/298"
+  },
+  {
+    "id": 299,
+    "name": "Martha",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b9/Martha.png/revision/latest/scale-to-width-down/180?cb=20180423011309",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Works for a Brand Management Company (former)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/299"
+  },
+  {
+    "id": 300,
+    "name": "Martin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d8/Martin.png/revision/latest/scale-to-width-down/150?cb=20170214133802",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/300"
+  },
+  {
+    "id": 301,
+    "name": "Marty",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4c/Marty.png/revision/latest/scale-to-width-down/150?cb=20170704171358",
+    "gender": "Male",
+    "hairColor": "White",
+    "occupation": "Retired",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/301"
+  },
+  {
+    "id": 302,
+    "name": "Male",
+    "image": "",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/302"
+  },
+  {
+    "id": 303,
+    "name": "Ms. Merkin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/41/Mrs_Merkin.jpg/revision/latest/scale-to-width-down/200?cb=20180609100450",
+    "age": "70s",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "occupation": "Music Teacher at Wagstaff School",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/448"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/303"
+  },
+  {
+    "id": 304,
+    "name": "Matt",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/dc/Matt-2.jpg/revision/latest/scale-to-width-down/200?cb=20150810152613",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Member of Boyz4Now (former)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/304"
+  },
+  {
+    "id": 305,
+    "name": "Max",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/35/Max2.jpg/revision/latest/scale-to-width-down/150?cb=20190719015612",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/305"
+  },
+  {
+    "id": 306,
+    "name": "Maya",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/09/Maya.png/revision/latest/scale-to-width-down/180?cb=20191118031914",
+    "gender": "Female",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/306"
+  },
+  {
+    "id": 307,
+    "name": "MeatCute",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cc/Meatcute.jpg/revision/latest/scale-to-width-down/200?cb=20170223110149",
+    "gender": "Female",
+    "hairColor": "Dark Blonde",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/307"
+  },
+  {
+    "id": 308,
+    "name": "Megan",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e5/Megan.png/revision/latest/scale-to-width-down/180?cb=20200224032721",
+    "age": "11",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/308"
+  },
+  {
+    "id": 309,
+    "name": "Meredith",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4d/Meredith.png/revision/latest/scale-to-width-down/150?cb=20160509211203",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Stage manager",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/309"
+  },
+  {
+    "id": 310,
+    "name": "Meryl Winters",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a8/Meryl.jpg/revision/latest/scale-to-width-down/250?cb=20180518160816",
+    "age": "90",
+    "gender": "Female",
+    "hairColor": "White",
+    "occupation": "Retired",
+    "relatives": ["Joel Glassman (grandnephew)"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/310"
+  },
+  {
+    "id": 311,
+    "name": "Michael",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f3/Michael.png/revision/latest/scale-to-width-down/150?cb=20180511231426",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/311"
+  },
+  {
+    "id": 312,
+    "name": "Michael Carlish",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c2/MikeC.jpg/revision/latest/scale-to-width-down/150?cb=20150711160438",
+    "age": "12",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/312"
+  },
+  {
+    "id": 313,
+    "name": "Michel Du Rocher",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/99/Durocher.png/revision/latest/scale-to-width-down/180?cb=20200224034118",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Celebrity Chef",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/313"
+  },
+  {
+    "id": 314,
+    "name": "Michelle",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/75/Michelle.jpg/revision/latest/scale-to-width-down/180?cb=20200323165206",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Tour Guide at Spratt's Sweets",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/314"
+  },
+  {
+    "id": 315,
+    "name": "Mickey",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d9/Mickey.png/revision/latest/scale-to-width-down/100?cb=20130308181547",
+    "age": "20s-30s",
+    "gender": "Male",
+    "hairColor": "Red-Brown",
+    "occupation": "Ride Operator at Wonder Wharf",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/315"
+  },
+  {
+    "id": 316,
+    "name": "Mike Wobbles",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/90/Mike.jpg/revision/latest/scale-to-width-down/150?cb=20150712161902",
+    "age": "30s",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Mailman",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/316"
+  },
+  {
+    "id": 317,
+    "name": "Mildred \"Millie\" Frock",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3d/Millie_Frock.jpg/revision/latest/scale-to-width-down/150?cb=20150802093459",
+    "age": "9-10",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/317"
+  },
+  {
+    "id": 318,
+    "name": "Milo",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cd/Milo.jpg/revision/latest/scale-to-width-down/150?cb=20170215165903",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/318"
+  },
+  {
+    "id": 319,
+    "name": "Miss Triple X-Mas",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bf/XXXmas.png/revision/latest/scale-to-width-down/180?cb=20171212204354",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Singer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/319"
+  },
+  {
+    "id": 320,
+    "name": "Mitch",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/79/Mitch.jpg/revision/latest/scale-to-width-down/150?cb=20190711161925",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Employee at Fresh Feed/Musician",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/320"
+  },
+  {
+    "id": 321,
+    "name": "Molly",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7f/Molly.jpg/revision/latest/scale-to-width-down/200?cb=20170303110654",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/321"
+  },
+  {
+    "id": 322,
+    "name": "Monica",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/75/Monica.jpg/revision/latest/scale-to-width-down/150?cb=20150719133924",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Cheerleader (former)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/322"
+  },
+  {
+    "id": 323,
+    "name": "Moody Foodie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/11/Moodie_Foodie.jpg/revision/latest/scale-to-width-down/200?cb=20150716111015",
+    "age": "30s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Food Critic",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/323"
+  },
+  {
+    "id": 324,
+    "name": "Moolisa",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/76/Moolissa.jpg/revision/latest/scale-to-width-down/180?cb=20150704173802",
+    "gender": "Male",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/324"
+  },
+  {
+    "id": 325,
+    "name": "Mort",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/81/Mort2.png/revision/latest/scale-to-width-down/150?cb=20130305233503",
+    "age": "50s",
+    "gender": "Male",
+    "occupation": "Funeral Director & Owner of It's Your Funeral Home & Crematorium",
+    "relatives": ["Mother"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/325"
+  },
+  {
+    "id": 326,
+    "name": "Mort's mother",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c0/Morts_Mum.jpg/revision/latest/scale-to-width-down/150?cb=20150617143618",
+    "age": "86",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/324"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/326"
+  },
+  {
+    "id": 327,
+    "name": "Mr. Ambrose",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/17/Mr_Ambrose.jpg/revision/latest/scale-to-width-down/200?cb=20170213175530",
+    "age": "30s-40s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Librarian/Cheerleading Coach at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/327"
+  },
+  {
+    "id": 328,
+    "name": "Mr. Branca",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7b/Mr_Branca.jpg/revision/latest/scale-to-width-down/200?cb=20160226182144",
+    "age": "60s-70s",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Custodian at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/328"
+  },
+  {
+    "id": 329,
+    "name": "Mr. Caffrey",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/98/Caffrey2.png/revision/latest/scale-to-width-down/200?cb=20161010010800",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Owner of Caffrey Taffy Company",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/329"
+  },
+  {
+    "id": 330,
+    "name": "Mr. Davis",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a4/Davis.png/revision/latest/scale-to-width-down/125?cb=20160526121258",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Works for a Company",
+    "relatives": ["Mrs. DavisKrissy Davis"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/330"
+  },
+  {
+    "id": 331,
+    "name": "Mr. Desanto",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/44/Desanto.png/revision/latest/scale-to-width-down/150?cb=20170327023524",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Photography teacher/debate Team Coach at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/331"
+  },
+  {
+    "id": 332,
+    "name": "Mr. Dinkler",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a2/Mr_Dinkler.jpg/revision/latest/scale-to-width-down/200?cb=20150728153713",
+    "age": "30-40s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Substitute Science Teacher at Wagstaff School/Part-Time Thomas Edison Impersonator",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/332"
+  },
+  {
+    "id": 333,
+    "name": "Mr. Dowling",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b0/Dowling.jpg/revision/latest/scale-to-width-down/250?cb=20150712170034",
+    "age": "40s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Manager at First Oceanside Savings Bank",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/333"
+  },
+  {
+    "id": 334,
+    "name": "Mr. Grant",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0a/Mr_Grant.jpg/revision/latest/scale-to-width-down/150?cb=20150731152329",
+    "gender": "Male",
+    "hairColor": "Red",
+    "occupation": "Spanish teacher/A/V advisor at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/334"
+  },
+  {
+    "id": 335,
+    "name": "Mr. Huggins",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/48/Huggins.png/revision/latest/scale-to-width-down/180?cb=20180514004924",
+    "age": "late 50s",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Notary",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/335"
+  },
+  {
+    "id": 336,
+    "name": "Mr. Kim",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/65/MrKim.jpg/revision/latest/scale-to-width-down/180?cb=20200327085400",
+    "gender": "Male",
+    "hairColor": "White",
+    "occupation": "Owner of Kim & Son's Hardware",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/106"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/336"
+  },
+  {
+    "id": 337,
+    "name": "Mr. Larsen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1b/Larsen_Father.png/revision/latest/scale-to-width-down/150?cb=20150323005402",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "relatives": ["Mrs. LarsenTammy LarsenFrida (sister or sister-in-law)"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/337"
+  },
+  {
+    "id": 338,
+    "name": "Mr. Manoogian",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/53/Manoogian.png/revision/latest/scale-to-width-down/200?cb=20150404224159",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Owner of Sand Flea Motel",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/338"
+  },
+  {
+    "id": 339,
+    "name": "Mr. Papasian",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8d/Alex_Dad.png/revision/latest/scale-to-width-down/180?cb=20180409004119",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "relatives": ["Alex PapasianMrs. Papasian"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/339"
+  },
+  {
+    "id": 340,
+    "name": "Mr. Perkins",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/62/Perkins.jpg/revision/latest/scale-to-width-down/200?cb=20190827161937",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/340"
+  },
+  {
+    "id": 341,
+    "name": "Mr. Platt",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d2/Platt.png/revision/latest/scale-to-width-down/150?cb=20150309210818",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "President of Caf-co",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/341"
+  },
+  {
+    "id": 342,
+    "name": "Male",
+    "image": "",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/342"
+  },
+  {
+    "id": 343,
+    "name": "Mrs. Chang",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/48/MrsChang.png/revision/latest/scale-to-width-down/150?cb=20171211170838",
+    "gender": "Female",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/343"
+  },
+  {
+    "id": 344,
+    "name": "Mrs. Davis",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/af/Mrsdavis.png/revision/latest/scale-to-width-down/100?cb=20160526121705",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "relatives": ["Mr. DavisKrissy Davis"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/344"
+  },
+  {
+    "id": 345,
+    "name": "Mrs. Larsen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e9/Larsen_Mom.jpg/revision/latest/scale-to-width-down/150?cb=20170310151537",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "relatives": ["Mr. LarsenTammy LarsenFrida (sister or sister-in-law)"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/345"
+  },
+  {
+    "id": 346,
+    "name": "Mrs. Papasian",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/13/Alex_Mom.png/revision/latest/scale-to-width-down/180?cb=20180409004300",
+    "gender": "Female",
+    "hairColor": "Dark Blonde",
+    "occupation": "Housewife",
+    "relatives": ["Alex PapasianMr. Papasian"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/346"
+  },
+  {
+    "id": 347,
+    "name": "Mrs. Wheeler",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a7/Courtneys_mother.jpg/revision/latest/scale-to-width-down/150?cb=20160622170719",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/133",
+      "https://bobsburgers-api.herokuapp.com/characters/96"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/347"
+  },
+  {
+    "id": 348,
+    "name": "Ms. Jacobson",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/46/Ms_Jacobson-1.jpg/revision/latest/scale-to-width-down/250?cb=20150725113121",
+    "age": "20s-30s",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Teacher at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/348"
+  },
+  {
+    "id": 349,
+    "name": "Ms. LaBonz",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1c/Ms_LaBonz.jpg/revision/latest/scale-to-width-down/200?cb=20150609171524",
+    "age": "50s-60s",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Wagstaff School Teacher",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/349"
+  },
+  {
+    "id": 350,
+    "name": "Ms. Morris",
+    "image": "",
+    "gender": "Female",
+    "occupation": "Teacher at the School for the Performing Arts",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/350"
+  },
+  {
+    "id": 351,
+    "name": "Ms. Schnur",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/22/Ms._Schnur.jpg/revision/latest/scale-to-width-down/220?cb=20160221170545",
+    "age": "50-60s",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "occupation": "Secretary for Principal Spoors at Wagstaff School",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/358"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/351"
+  },
+  {
+    "id": 352,
+    "name": "Ms. Schroeder",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/40/Mrs_Schroeder.jpg/revision/latest/scale-to-width-down/200?cb=20150730101000",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Wagstaff School P.E. Teacher",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/352"
+  },
+  {
+    "id": 353,
+    "name": "Ms. Selbo",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c7/Mrs-Selbo.jpg/revision/latest/scale-to-width-down/200?cb=20180602090707",
+    "age": "46",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Wagstaff School Receptionist",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/353"
+  },
+  {
+    "id": 354,
+    "name": "Ms. Twitchell",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ac/Twitchell.jpg/revision/latest/scale-to-width-down/150?cb=20160426170841",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Wagstaff School Teacher",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/354"
+  },
+  {
+    "id": 355,
+    "name": "Mudflap",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e6/Mudflap.jpg/revision/latest/scale-to-width-down/150?cb=20150726161649",
+    "age": "20s-30s",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Member of the One Eyed Snakes",
+    "relatives": ["Sidecar Critter"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/355"
+  },
+  {
+    "id": 356,
+    "name": "Nancy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/62/Nancy.jpg/revision/latest/scale-to-width-down/200?cb=20180628112430",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/356"
+  },
+  {
+    "id": 357,
+    "name": "Nancy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/35/Nancy_tata.jpg/revision/latest/scale-to-width-down/200?cb=20150404225723",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/357"
+  },
+  {
+    "id": 358,
+    "name": "Natalie \"Nat\" Kinkle",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/53/Nat.jpg/revision/latest/scale-to-width-down/180?cb=20190624090443",
+    "age": "20s-30s",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Limousine Driver",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/358"
+  },
+  {
+    "id": 359,
+    "name": "Nathan",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/eb/Nathan.jpg/revision/latest/scale-to-width-down/200?cb=20150611160016",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/359"
+  },
+  {
+    "id": 360,
+    "name": "Nathaniel",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c8/Nathaniel.jpg/revision/latest/scale-to-width-down/180?cb=20170215162925",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Gardener",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/360"
+  },
+  {
+    "id": 361,
+    "name": "Ned",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0b/Ned.jpg/revision/latest/scale-to-width-down/150?cb=20170216115731",
+    "gender": "Male",
+    "relatives": ["Unnamed brother"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/361"
+  },
+  {
+    "id": 362,
+    "name": "Neil",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2f/Neil.png/revision/latest/scale-to-width-down/180?cb=20180514013044",
+    "gender": "Male",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/362"
+  },
+  {
+    "id": 363,
+    "name": "Newton Fremont",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3a/Newton.png/revision/latest/scale-to-width-down/200?cb=20160523114535",
+    "age": "30s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Reporter for Coasters Magazine",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/363"
+  },
+  {
+    "id": 364,
+    "name": "Nicholas",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/90/Nicolas.jpg/revision/latest/scale-to-width-down/180?cb=20150720171242",
+    "age": "9-11",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/364"
+  },
+  {
+    "id": 365,
+    "name": "Nicholas",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ac/Nicholas_D.png/revision/latest/scale-to-width-down/180?cb=20180416004938",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "relatives": ["Ruthanne DonahuePatrick Donahue"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/365"
+  },
+  {
+    "id": 366,
+    "name": "Nicholas Mendoza",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/81/Nicholas_Mendoza.png/revision/latest/scale-to-width-down/150?cb=20161024215604",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/366"
+  },
+  {
+    "id": 367,
+    "name": "Nick",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6f/Nick.png/revision/latest/scale-to-width-down/180?cb=20170424202151",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Planetarium Employee",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/367"
+  },
+  {
+    "id": 368,
+    "name": "Noah",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/dd/Noah.png/revision/latest/scale-to-width-down/180?cb=20191105154611",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/368"
+  },
+  {
+    "id": 369,
+    "name": "Nora Samuels",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/09/NoraSamuels.png/revision/latest/scale-to-width-down/200?cb=20191128090717",
+    "age": "40s",
+    "gender": "Female",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/144"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/369"
+  },
+  {
+    "id": 370,
+    "name": "Normal Sized Jenny",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/78/Normal_Sized_Jenny.png/revision/latest/scale-to-width-down/150?cb=20130308161639",
+    "age": "11",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/370"
+  },
+  {
+    "id": 371,
+    "name": "Norman",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2e/Norman.png/revision/latest/scale-to-width-down/180?cb=20191202043603",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Podiatrist",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/371"
+  },
+  {
+    "id": 372,
+    "name": "Norwegian Steven",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/32/Norwegian.png/revision/latest/scale-to-width-down/120?cb=20161121120750",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Wrestler",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/372"
+  },
+  {
+    "id": 373,
+    "name": "Officer Bridget",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/85/Bridget.png/revision/latest/scale-to-width-down/180?cb=20210419141832",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Police Officer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/373"
+  },
+  {
+    "id": 374,
+    "name": "Cliffany",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f2/Officer_Cliffany.jpg/revision/latest/scale-to-width-down/160?cb=20150718153413",
+    "age": "30s",
+    "gender": "Female",
+    "occupation": "Police Officer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/374"
+  },
+  {
+    "id": 375,
+    "name": "Officer Julia",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/92/Officer_Julia.jpg/revision/latest/scale-to-width-down/160?cb=20150718151729",
+    "age": "30s",
+    "gender": "Female",
+    "occupation": "Police Officer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/375"
+  },
+  {
+    "id": 376,
+    "name": "Officer McGill",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c4/Officer_McGill.jpg/revision/latest/scale-to-width-down/200?cb=20150801144501",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Police Officer",
+    "relatives": ["Paul McGill"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/376"
+  },
+  {
+    "id": 377,
+    "name": "Old Kevin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d6/Old_Kevin.png/revision/latest/scale-to-width-down/200?cb=20160710121432",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Retired",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/377"
+  },
+  {
+    "id": 378,
+    "name": "Olsen Benner",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/43/Olsen.jpg/revision/latest/scale-to-width-down/150?cb=20150725170257",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Reporter",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/378"
+  },
+  {
+    "id": 379,
+    "name": "Oscar",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/77/Oscar.jpg/revision/latest/scale-to-width-down/200?cb=20170209121207",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/379"
+  },
+  {
+    "id": 380,
+    "name": "Other Jennifer",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/26/Other_Jennifer.png/revision/latest/scale-to-width-down/150?cb=20171002130835",
+    "gender": "Female",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/380"
+  },
+  {
+    "id": 381,
+    "name": "Owen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2d/Owen.jpg/revision/latest/scale-to-width-down/200?cb=20180721165559",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Wonder Wharf Employee",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/381"
+  },
+  {
+    "id": 382,
+    "name": "Pam",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/ff/Pam.jpg/revision/latest/scale-to-width-down/100?cb=20150727141505",
+    "age": "30s",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Television Presenter",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/83"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/382"
+  },
+  {
+    "id": 383,
+    "name": "Pam Shrimple",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c4/PamShrimp.png/revision/latest/scale-to-width-down/180?cb=20201116145651",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Future owner and operator of A Shrimp-le Plan",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/383"
+  },
+  {
+    "id": 384,
+    "name": "Parker",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/92/Parker.png/revision/latest/scale-to-width-down/180?cb=20180507003828",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/384"
+  },
+  {
+    "id": 385,
+    "name": "Patricia",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1e/Patricia.png/revision/latest/scale-to-width-down/180?cb=20190311024002",
+    "age": "20s",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Owner & operator of Patricia's 77 Sandwiches",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/385"
+  },
+  {
+    "id": 386,
+    "name": "Patrick",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cf/Patrick.png/revision/latest/scale-to-width-down/180?cb=20190410221851",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Radio Sound Engineer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/386"
+  },
+  {
+    "id": 387,
+    "name": "Patsy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/22/Patsy.jpg/revision/latest/scale-to-width-down/200?cb=20150404230059",
+    "gender": "Female",
+    "hairColor": "Red",
+    "occupation": "Bassist in The Ta Tas",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/387"
+  },
+  {
+    "id": 388,
+    "name": "Patti",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c0/Patti.png/revision/latest/scale-to-width-down/180?cb=20210419141834",
+    "gender": "Female",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/388"
+  },
+  {
+    "id": 389,
+    "name": "Patty",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/17/Patty.jpg/revision/latest/scale-to-width-down/150?cb=20170304105022",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/389"
+  },
+  {
+    "id": 390,
+    "name": "Paul Blinkman",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/80/Blinkman.jpg/revision/latest/scale-to-width-down/200?cb=20170212164118",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Chairman of \"Lolla-Pa-Foods-A-Festival\"",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/390"
+  },
+  {
+    "id": 391,
+    "name": "Pepe",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/96/Pepe.jpg/revision/latest/scale-to-width-down/150?cb=20150716171755",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Fraternity Chef",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/391"
+  },
+  {
+    "id": 392,
+    "name": "Pete",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/89/Pete.png/revision/latest/scale-to-width-down/150?cb=20150401182208",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Owner of The Junk Yard",
+    "relatives": ["Unnamed cousin"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/392"
+  },
+  {
+    "id": 393,
+    "name": "Peter Pescadero",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/51/Peter_Pescadero.jpg/revision/latest/scale-to-width-down/250?cb=20150711161802",
+    "age": "11",
+    "gender": "Male",
+    "hairColor": "Red",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/393"
+  },
+  {
+    "id": 394,
+    "name": "Peter Wilcox",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d1/Admiral.png/revision/latest/scale-to-width-down/150?cb=20160523085608",
+    "gender": "Male",
+    "hairColor": "White",
+    "occupation": "Retired",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/394"
+  },
+  {
+    "id": 395,
+    "name": "Phil and Don",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9a/Phil_Don.png/revision/latest/scale-to-width-down/250?cb=20150627222319",
+    "gender": "Male",
+    "hairColor": "Blonde (Phil) Black (Don)",
+    "occupation": "Paranormal Investigators",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/395"
+  },
+  {
+    "id": 396,
+    "name": "Phil Finnegan",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/43/Philfin.png/revision/latest/scale-to-width-down/150?cb=20160731175042",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Co-announcer at Wonder Wharf Baseball Park",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/396"
+  },
+  {
+    "id": 397,
+    "name": "Phillip Frond",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/79/New_Frond.png/revision/latest/scale-to-width-down/250?cb=20200217030315",
+    "age": "40-41",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Wagstaff School Guidance Counselor",
+    "relatives": ["Unnamed mother", "Unnamed aunt"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/397"
+  },
+  {
+    "id": 398,
+    "name": "Pierre",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9a/Chrome_2019-11-08_01-32-07.png/revision/latest/scale-to-width-down/200?cb=20191108063523",
+    "age": "30-40s",
+    "gender": "Male",
+    "occupation": "Waiter",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/398"
+  },
+  {
+    "id": 399,
+    "name": "Male",
+    "image": "",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/399"
+  },
+  {
+    "id": 400,
+    "name": "Pony Danza",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bc/Pony_Danza.png/revision/latest/scale-to-width-down/150?cb=20150624133823",
+    "gender": "Male",
+    "hairColor": "Bald",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/400"
+  },
+  {
+    "id": 401,
+    "name": "\"Prince of Persuasia\"",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/85/Bobs-Burgers-Wiki_Prince-of-Persuasia_01.jpg/revision/latest/scale-to-width-down/150?cb=20140124051410",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Con Artist",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/401"
+  },
+  {
+    "id": 402,
+    "name": "Male",
+    "image": "",
+    "gender": "Male",
+    "occupation": "Principal at Wagstaff School",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/125"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/402"
+  },
+  {
+    "id": 403,
+    "name": "Pud",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a5/Pud.jpg/revision/latest/scale-to-width-down/150?cb=20170220112052",
+    "gender": "Male",
+    "hairColor": "Red",
+    "occupation": "College student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/403"
+  },
+  {
+    "id": 404,
+    "name": "Q.R. Dunlop",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fa/QR_Dunlop.png/revision/latest/scale-to-width-down/180?cb=20191104033849",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Author",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/404"
+  },
+  {
+    "id": 405,
+    "name": "Ralph",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/dc/Ralph.png/revision/latest/scale-to-width-down/180?cb=20181119034136",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Reporter",
+    "relatives": ["Unnamed niece"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/405"
+  },
+  {
+    "id": 406,
+    "name": "\"Downtown\" Randolph Brackenbrown",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/44/Downtown.png/revision/latest/scale-to-width-down/200?cb=20161128093841",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/406"
+  },
+  {
+    "id": 407,
+    "name": "Randy Watkins",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2c/Randy_Watkins.jpg/revision/latest/scale-to-width-down/150?cb=20150704170426",
+    "age": "40s-50s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Documentarian/Food Truck Owner",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/407"
+  },
+  {
+    "id": 408,
+    "name": "Ranger Carl",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/27/Ranger_Carl.png/revision/latest/scale-to-width-down/180?cb=20180423010750",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Ranger at the Outdoor Education Center",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/408"
+  },
+  {
+    "id": 409,
+    "name": "Matthew Dainko",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d0/Matthew_Dainko.png/revision/latest/scale-to-width-down/150?cb=20160404100154",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Ranger",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/409"
+  },
+  {
+    "id": 410,
+    "name": "Rat Daddy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5b/Ratdaddy.jpg/revision/latest/scale-to-width-down/180?cb=20180627154655",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "One Eyed Snakes Member",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/410"
+  },
+  {
+    "id": 411,
+    "name": "Ray",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d0/Ray.jpg/revision/latest/scale-to-width-down/150?cb=20190703173900",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Employee at Fig Jam",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/411"
+  },
+  {
+    "id": 412,
+    "name": "Reggie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/24/Reggie-1.jpg/revision/latest/scale-to-width-down/150?cb=20150801111253",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Owner of Reggie's Deli",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/412"
+  },
+  {
+    "id": 413,
+    "name": "Rudolph Stieblitz (Regular Sized Rudy)",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8d/Regular-Rudy.jpg/revision/latest/scale-to-width-down/200?cb=20160410170923",
+    "age": "10",
+    "gender": "Male",
+    "hairColor": "Ginger",
+    "occupation": "Student at Wagstaff School",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/470",
+      "https://bobsburgers-api.herokuapp.com/characters/285"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/413"
+  },
+  {
+    "id": 414,
+    "name": "Rena",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ed/Rena.jpg/revision/latest/scale-to-width-down/200?cb=20170302104626",
+    "gender": "Female",
+    "hairColor": "Red",
+    "relatives": ["Unnamed younger sister"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/414"
+  },
+  {
+    "id": 415,
+    "name": "Rick",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/71/Rick.jpg/revision/latest/scale-to-width-down/200?cb=20150808093729",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/415"
+  },
+  {
+    "id": 416,
+    "name": "Rick",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/aa/RickPumpinPatch.png/revision/latest/scale-to-width-down/180?cb=20200223203540",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Pumpin' Patch Fitness owner and operator",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/416"
+  },
+  {
+    "id": 417,
+    "name": "Rico",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Rico.png/revision/latest/scale-to-width-down/150?cb=20160526092042",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/417"
+  },
+  {
+    "id": 418,
+    "name": "Robber",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e5/Robber.jpg/revision/latest/scale-to-width-down/150?cb=20150718170046",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Robber",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/418"
+  },
+  {
+    "id": 419,
+    "name": "Robert",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a7/Robert.jpg/revision/latest/scale-to-width-down/150?cb=20150814161421",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Pet Store Employee",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/419"
+  },
+  {
+    "id": 420,
+    "name": "Robin",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2f/Robin.jpg/revision/latest/scale-to-width-down/150?cb=20180602142321",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/420"
+  },
+  {
+    "id": 421,
+    "name": "Rodney",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d3/Rodney.jpg/revision/latest/scale-to-width-down/180?cb=20150727144707",
+    "age": "30s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Unemployed",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/421"
+  },
+  {
+    "id": 422,
+    "name": "Roger Flanley",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d4/Flanley.jpg/revision/latest/scale-to-width-down/200?cb=20180702150317",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "IRS agent",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/422"
+  },
+  {
+    "id": 423,
+    "name": "Ron",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5c/Ron.jpg/revision/latest/scale-to-width-down/180?cb=20150712111156",
+    "age": "20s-30s",
+    "gender": "Male",
+    "hairColor": "Strawberry Blonde",
+    "occupation": "Health Inspector",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/423"
+  },
+  {
+    "id": 424,
+    "name": "Ronnie",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ad/Ronnie.png/revision/latest/scale-to-width-down/180?cb=20190107030832",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/168"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/424"
+  },
+  {
+    "id": 425,
+    "name": "Rosa Batista",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b8/Rosa.jpg/revision/latest/scale-to-width-down/100?cb=20180613110517",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/425"
+  },
+  {
+    "id": 426,
+    "name": "Rose Reynolds",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4f/Rose.png/revision/latest/scale-to-width-down/180?cb=20180319173803",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "relatives": ["Unnamed son"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/426"
+  },
+  {
+    "id": 427,
+    "name": "Roy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d1/Roy.PNG/revision/latest/scale-to-width-down/200?cb=20200524214651",
+    "age": "14-16",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/427"
+  },
+  {
+    "id": 428,
+    "name": "Rupa",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/99/Rupa.jpg/revision/latest/scale-to-width-down/150?cb=20160426154355",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/428"
+  },
+  {
+    "id": 429,
+    "name": "Ruthanne Donahue",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ef/Ruthanne.png/revision/latest/scale-to-width-down/180?cb=20180416005843",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "relatives": ["Nicholas Donahue", "Patrick Donahue"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/429"
+  },
+  {
+    "id": 430,
+    "name": "Sal",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5b/Sal.jpg/revision/latest/scale-to-width-down/200?cb=20160520155424",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Owner of Spanks A Lot",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/430"
+  },
+  {
+    "id": 431,
+    "name": "Sally",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2e/Sally.png/revision/latest/scale-to-width-down/140?cb=20150323004144",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/431"
+  },
+  {
+    "id": 432,
+    "name": "Sally the snow cone lady",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/ca/Snocone.png/revision/latest/scale-to-width-down/150?cb=20141229194804",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Employee at Wonder Wharf",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/432"
+  },
+  {
+    "id": 433,
+    "name": "Sam",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/94/Sam.png/revision/latest/scale-to-width-down/180?cb=20180430003529",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Future owner and operator of Wrap-topia",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/433"
+  },
+  {
+    "id": 434,
+    "name": "Samantha",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c7/Samantha.jpg/revision/latest/scale-to-width-down/200?cb=20150720103737",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Mortician",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/434"
+  },
+  {
+    "id": 435,
+    "name": "Samuel Summerbottom",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6e/Summerbottom.png/revision/latest/scale-to-width-down/200?cb=20161128094830",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/435"
+  },
+  {
+    "id": 436,
+    "name": "Sandra",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ac/Sandra.jpg/revision/latest/scale-to-width-down/150?cb=20180618084420",
+    "age": "30-40s",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Physician's Assistant",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/436"
+  },
+  {
+    "id": 437,
+    "name": "Sandy \"Can-Can\" Frye",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/86/Cancan.jpg/revision/latest/scale-to-width-down/200?cb=20151120224715",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "NFL Player (former)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/437"
+  },
+  {
+    "id": 438,
+    "name": "Sasha",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/04/Sasha.png/revision/latest/scale-to-width-down/125?cb=20160404093921",
+    "age": "13-14",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/100",
+      "https://bobsburgers-api.herokuapp.com/characters/57"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/438"
+  },
+  {
+    "id": 439,
+    "name": "Sawyer D",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fa/Sawyer_D.PNG/revision/latest/scale-to-width-down/200?cb=20200524221209",
+    "age": "14-16",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/439"
+  },
+  {
+    "id": 440,
+    "name": "Sawyer J",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/20/Sawyer_J.PNG/revision/latest/scale-to-width-down/200?cb=20200524215251",
+    "age": "14-16",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/440"
+  },
+  {
+    "id": 441,
+    "name": "Male",
+    "image": "",
+    "age": "14-16",
+    "gender": "Male",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/441"
+  },
+  {
+    "id": 442,
+    "name": "Scab",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/24/Scab.png/revision/latest/scale-to-width-down/200?cb=20191212022718",
+    "gender": "Male",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/442"
+  },
+  {
+    "id": 443,
+    "name": "Female",
+    "image": "",
+    "gender": "Female",
+    "hairColor": "Light brown",
+    "occupation": "Dog groomer at To Groom It May Concern Dog Grooming",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/443"
+  },
+  {
+    "id": 444,
+    "name": "Scott Bags",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0e/Scott_Bags.jpg/revision/latest/scale-to-width-down/150?cb=20150724111203",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Weatherman",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/444"
+  },
+  {
+    "id": 445,
+    "name": "Sergeant Bosco",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/62/Sergeant_Bosco.png/revision/latest/scale-to-width-down/200?cb=20140501011645",
+    "age": "50s-60s",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Police Sergeant",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/274",
+      "https://bobsburgers-api.herokuapp.com/characters/168"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/445"
+  },
+  {
+    "id": 446,
+    "name": "Sergio",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9a/Sergio.png/revision/latest/scale-to-width-down/200?cb=20150624125502",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "DJ",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/446"
+  },
+  {
+    "id": 447,
+    "name": "Seth",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8e/Seth.png/revision/latest/scale-to-width-down/200?cb=20150909125743",
+    "gender": "Male",
+    "hairColor": "Bald",
+    "occupation": "Student at Robot College",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/447"
+  },
+  {
+    "id": 448,
+    "name": "Sharon Cross",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5c/Sharon.png/revision/latest/scale-to-width-down/180?cb=20181126032557",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/74"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/448"
+  },
+  {
+    "id": 449,
+    "name": "Sheila",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/54/Sheila.png/revision/latest/scale-to-width-down/180?cb=20180402011943",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Actress",
+    "relatives": ["Matilda Merkin"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/449"
+  },
+  {
+    "id": 450,
+    "name": "Shelby Schnabel",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d8/Shelby_Schnabel.jpg/revision/latest/scale-to-width-down/150?cb=20150803085655",
+    "age": "60-70s",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "occupation": "Sharpshooter",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/450"
+  },
+  {
+    "id": 451,
+    "name": "Sheldon Felds",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5a/Sheldon.png/revision/latest/scale-to-width-down/200?cb=20150309011455",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Employee at The Hobby Hole (former)",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/451"
+  },
+  {
+    "id": 452,
+    "name": "Shelly",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/12/Shelly.jpg/revision/latest/scale-to-width-down/150?cb=20180629112935",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Hip hop dance teacher",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/160"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/452"
+  },
+  {
+    "id": 453,
+    "name": "Shinji \"Koji\" Kojima",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f2/Koji.png/revision/latest/scale-to-width-down/200?cb=20150518010628",
+    "age": "80s",
+    "gender": "Male",
+    "hairColor": "Grey (formerly black)",
+    "occupation": "Actor",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/506",
+      "Unnamed grandson"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/453"
+  },
+  {
+    "id": 454,
+    "name": "Sidecar",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5e/Sidecar.jpg/revision/latest/scale-to-width-down/150?cb=20160621154746",
+    "age": "Less than 1 year",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/354",
+      "https://bobsburgers-api.herokuapp.com/characters/97"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/454"
+  },
+  {
+    "id": 455,
+    "name": "Skip Marooch",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/71/Skip_Marooch.jpg/revision/latest/scale-to-width-down/150?cb=20160519152650",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Restauranteur/Author",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/455"
+  },
+  {
+    "id": 456,
+    "name": "Skye",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ae/Skye.png/revision/latest/scale-to-width-down/180?cb=20191105154644",
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/456"
+  },
+  {
+    "id": 457,
+    "name": "Sofa Jester",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1b/Jester.jpg/revision/latest/scale-to-width-down/200?cb=20190828144515",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Salesperson at Sofa Queen/advertising character",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/457"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/457"
+  },
+  {
+    "id": 458,
+    "name": "Sofa Queen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ab/Queen.png/revision/latest/scale-to-width-down/150?cb=20160307024419",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Spokesperson/owner of Sofa Queen",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/456"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/458"
+  },
+  {
+    "id": 459,
+    "name": "Speedo Guy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/47/Speedo.jpg/revision/latest/scale-to-width-down/200?cb=20150722172314",
+    "age": "20s-30s",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/459"
+  },
+  {
+    "id": 460,
+    "name": "Spencer",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/77/Spencer.png/revision/latest/scale-to-width-down/180?cb=20180514145050",
+    "gender": "Male",
+    "hairColor": "Dark Blonde",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/153"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/460"
+  },
+  {
+    "id": 461,
+    "name": "Stacy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Stacee.jpg/revision/latest/scale-to-width-down/150?cb=20170311102254",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Spa Worker",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/461"
+  },
+  {
+    "id": 462,
+    "name": "Stacy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c7/Stacy.jpg/revision/latest/scale-to-width-down/150?cb=20170218115023",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/462"
+  },
+  {
+    "id": 463,
+    "name": "Stacy Micelli",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c9/Stacy_M.png/revision/latest/scale-to-width-down/150?cb=20170612124802",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Unknown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/463"
+  },
+  {
+    "id": 464,
+    "name": "Stan",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9e/Stan.png/revision/latest/scale-to-width-down/180?cb=20200511132445",
+    "gender": "Male",
+    "hairColor": "White",
+    "occupation": "Owner and operator of Treasures o' the Tide",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/464"
+  },
+  {
+    "id": 465,
+    "name": "Steve",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/53/Steve.jpg/revision/latest/scale-to-width-down/200?cb=20180615162247",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Archeologist",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/510"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/465"
+  },
+  {
+    "id": 466,
+    "name": "Steve",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1c/SteveThumb.png/revision/latest/scale-to-width-down/180?cb=20190311024126",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/466"
+  },
+  {
+    "id": 467,
+    "name": "Sunpuddle",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/56/Sunpuddle.png/revision/latest/scale-to-width-down/150?cb=20150624132606",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/467"
+  },
+  {
+    "id": 468,
+    "name": "Superintendent Douglas",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5c/Superintendent.jpg/revision/latest/scale-to-width-down/150?cb=20150723162147",
+    "gender": "Female",
+    "hairColor": "Gray",
+    "occupation": "School Superintendent",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/468"
+  },
+  {
+    "id": 469,
+    "name": "Susan",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/82/Susan.jpg/revision/latest/scale-to-width-down/200?cb=20170220101724",
+    "gender": "Female",
+    "hairColor": "Black",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/469"
+  },
+  {
+    "id": 470,
+    "name": "Susmita",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/79/Susmita.png/revision/latest/scale-to-width-down/180?cb=20181203032148",
+    "age": "13-14",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/470"
+  },
+  {
+    "id": 471,
+    "name": "Sylvester Stieblitz",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/56/Steiblitz.jpg/revision/latest/scale-to-width-down/150?cb=20150222181545",
+    "gender": "Male",
+    "hairColor": "Orange",
+    "relatives": [
+      "Regular Sized Rudy",
+      "Mrs. Stieblitz",
+      "https://bobsburgers-api.herokuapp.com/characters/285"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/471"
+  },
+  {
+    "id": 472,
+    "name": "Tabitha Johansson",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9e/Tabitha_Johansson-2.jpg/revision/latest/scale-to-width-down/250?cb=20150725145222",
+    "age": "37",
+    "gender": "Female",
+    "hairColor": "Pink",
+    "occupation": "Singer/Songwriter",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/472"
+  },
+  {
+    "id": 473,
+    "name": "Tamica",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/43/Tomika.png/revision/latest/scale-to-width-down/150?cb=20170327023833",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/473"
+  },
+  {
+    "id": 474,
+    "name": "Tammy Larsen",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e9/Tammy_Larsen.jpg/revision/latest/scale-to-width-down/200?cb=20150721110758",
+    "age": "13-14",
+    "gender": "Female",
+    "hairColor": "Brown (natural)Blonde (dyed)",
+    "occupation": "Student at Wagstaff School",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/344",
+      "https://bobsburgers-api.herokuapp.com/characters/336",
+      "https://bobsburgers-api.herokuapp.com/characters/167",
+      "A cousin in Greece"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/474"
+  },
+  {
+    "id": 475,
+    "name": "Teddy",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e5/BobsBurgers_2019_KeyPoses_Teddy_2.jpg/revision/latest/scale-to-width-down/240?cb=20210413150653",
+    "age": "50s (The Wolf of Wharf Street)",
+    "gender": "Male",
+    "hairColor": "Blonde (Bald)",
+    "occupation": "Contractor, Handyman, Carpenter, Hockey Player",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/116",
+      "Paddy",
+      "Dana",
+      "Dan",
+      "Unnamed Mother Unnamed Father"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/475"
+  },
+  {
+    "id": 476,
+    "name": "Terry",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/55/Terry.jpg/revision/latest/scale-to-width-down/150?cb=20160509163448",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "The Hobby Hole Employee",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/476"
+  },
+  {
+    "id": 477,
+    "name": "The Mayor",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/20/Mayor.png/revision/latest/scale-to-width-down/190?cb=20210212205402",
+    "gender": "Male",
+    "hairColor": "Gray",
+    "occupation": "Mayor",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/477"
+  },
+  {
+    "id": 478,
+    "name": "The Nose",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2d/Nose.png/revision/latest/scale-to-width-down/150?cb=20150624135850",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Wonder Wharf Employee",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/478"
+  },
+  {
+    "id": 479,
+    "name": "Theresa Shaw",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fd/Theresa.png/revision/latest/scale-to-width-down/180?cb=20200323024630",
+    "age": "20s-30s",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Owner of Shaw-shank-tuary Animal Sanctuary",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/479"
+  },
+  {
+    "id": 480,
+    "name": "Tim",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fb/Tim.jpg/revision/latest/scale-to-width-down/200?cb=20160413143952",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Pianist at The Royal Oyster Hotel",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/480"
+  },
+  {
+    "id": 481,
+    "name": "Tim Flanagan",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/29/TimF.png/revision/latest/scale-to-width-down/180?cb=20180115151925",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Trapeze Artist",
+    "relatives": ["Jerry Flanagan"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/481"
+  },
+  {
+    "id": 482,
+    "name": "Tim Jones",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/80/Maxflush.jpg/revision/latest/scale-to-width-down/200?cb=20150703160337",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Burglar",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/482"
+  },
+  {
+    "id": 483,
+    "name": "Timmy and Scott O'Brien",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c9/Timmy_and_Scott.png/revision/latest/scale-to-width-down/200?cb=20170501003147",
+    "gender": "Male",
+    "hairColor": "Red",
+    "occupation": "Wagstaff School Students",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/483"
+  },
+  {
+    "id": 484,
+    "name": "Tina Ruth Belcher",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/72/BobsBurgers_2019_KeyPoses_Tina_2.jpg/revision/latest/scale-to-width-down/240?cb=20210413150655",
+    "age": "12 (episodes 1-5) 13(episode 6+)",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Grill Cook at Bob's Burgers; Blueberry Delivery Girl (formerly)",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/47",
+      "https://bobsburgers-api.herokuapp.com/characters/275",
+      "https://bobsburgers-api.herokuapp.com/characters/170",
+      "https://bobsburgers-api.herokuapp.com/characters/280",
+      "https://bobsburgers-api.herokuapp.com/characters/5",
+      "https://bobsburgers-api.herokuapp.com/characters/180",
+      "https://bobsburgers-api.herokuapp.com/characters/169",
+      "https://bobsburgers-api.herokuapp.com/characters/45",
+      "Mrs. Belcher",
+      "Ernest Lombard",
+      "Burt",
+      "https://bobsburgers-api.herokuapp.com/characters/500"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/484"
+  },
+  {
+    "id": 485,
+    "name": "Tiny Peter",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/16/Tiny_Peter2.png/revision/latest/scale-to-width-down/150?cb=20130308151422",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/485"
+  },
+  {
+    "id": 486,
+    "name": "Todd",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0f/Todd.png/revision/latest/scale-to-width-down/200?cb=20150228225728",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/486"
+  },
+  {
+    "id": 487,
+    "name": "Tom Bush",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/53/Tom_Bush.jpg/revision/latest/scale-to-width-down/150?cb=20150613170224",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Doctor",
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/99",
+      "https://bobsburgers-api.herokuapp.com/characters/279"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/487"
+  },
+  {
+    "id": 488,
+    "name": "Tom Innocenti",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/08/TomTush.jpg/revision/latest/scale-to-width-down/200?cb=20180618150628",
+    "age": "40s",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Lawyer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/488"
+  },
+  {
+    "id": 489,
+    "name": "Tommy Jaronda",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/83/Tommy_Jaronda.jpg/revision/latest/scale-to-width-down/250?cb=20150617143121",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Health Inspector/Singer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/489"
+  },
+  {
+    "id": 490,
+    "name": "Torpedo Jones",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/61/Torpedo_Jones.jpg/revision/latest/scale-to-width-down/200?cb=20150610090935",
+    "age": "44",
+    "gender": "Male",
+    "hairColor": "Dirty Blond",
+    "occupation": "Baseball player",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/490"
+  },
+  {
+    "id": 491,
+    "name": "Tracy Schwartz",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/19/Tracy_Schwartz.jpg/revision/latest/scale-to-width-down/200?cb=20150724135524",
+    "age": "12",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/491"
+  },
+  {
+    "id": 492,
+    "name": "Tran",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fc/Tran.jpg/revision/latest/scale-to-width-down/200?cb=20150725162101",
+    "gender": "Male",
+    "hairColor": "Black with Blonde Highlights",
+    "occupation": "Owner & Operator of Tran's Noodles",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/492"
+  },
+  {
+    "id": 493,
+    "name": "Travis Albright",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/99/Travis.jpg/revision/latest/scale-to-width-down/150?cb=20170213164713",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/493"
+  },
+  {
+    "id": 494,
+    "name": "Trev",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/33/Trev.jpg/revision/latest/scale-to-width-down/150?cb=20150712095843",
+    "age": "20 - 30s",
+    "gender": "Male",
+    "hairColor": "Black",
+    "occupation": "Bartender at Jimmy Pesto's Pizzeria",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/494"
+  },
+  {
+    "id": 495,
+    "name": "Trina Belson",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1d/Trina.png/revision/latest/scale-to-width-down/150?cb=20161024220041",
+    "gender": "Female",
+    "hairColor": "Unseen",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/495"
+  },
+  {
+    "id": 496,
+    "name": "Trip",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cf/Trip.png/revision/latest/scale-to-width-down/180?cb=20181008021324",
+    "gender": "Male",
+    "hairColor": "Dark blonde",
+    "occupation": "Manager at Family Funtime",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/496"
+  },
+  {
+    "id": 497,
+    "name": "Trish",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c4/Trish.jpg/revision/latest/scale-to-width-down/150?cb=20180602145630",
+    "gender": "Female",
+    "hairColor": "Light Brown",
+    "occupation": "Scammer",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/497"
+  },
+  {
+    "id": 498,
+    "name": "Turd",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4f/Turd.jpg/revision/latest/scale-to-width-down/200?cb=20170219165834",
+    "gender": "Male",
+    "hairColor": "Light Brown",
+    "occupation": "College Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/498"
+  },
+  {
+    "id": 499,
+    "name": "Tyler",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8b/Tyler.jpg/revision/latest/scale-to-width-down/200?cb=20150725160636",
+    "age": "12",
+    "gender": "Male",
+    "hairColor": "Blonde",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/499"
+  },
+  {
+    "id": 500,
+    "name": "Vance",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/ff/Vance.png/revision/latest/scale-to-width-down/180?cb=20190408020644",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Station manager at WIXU",
+    "relatives": ["A son"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/500"
+  },
+  {
+    "id": 501,
+    "name": "Vanessa",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/94/Vanessa%28Moo%27s_Clues%29.png/revision/latest/scale-to-width-down/180?cb=20200919173142",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Scooper at Moo's Clues Ice Cream",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/501"
+  },
+  {
+    "id": 502,
+    "name": "Vanessa Jackson",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/69/Vanessa.jpg/revision/latest/scale-to-width-down/120?cb=20150628165810",
+    "gender": "Female",
+    "hairColor": "Brown",
+    "occupation": "Student at Huxley High School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/502"
+  },
+  {
+    "id": 503,
+    "name": "Walter Rubens",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/58/WalterRu.png/revision/latest/scale-to-width-down/180?cb=20180402121821",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Goal Setter for The Gold Dragons",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/503"
+  },
+  {
+    "id": 504,
+    "name": "Warren Fitzgerald",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c2/Warren.jpg/revision/latest/scale-to-width-down/150?cb=20170219121555",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Businessman",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/504"
+  },
+  {
+    "id": 505,
+    "name": "Wayne",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/32/Wayne.jpg/revision/latest/scale-to-width-down/150?cb=20190705155029",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/505"
+  },
+  {
+    "id": 506,
+    "name": "Willow",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b2/Willow.png/revision/latest/scale-to-width-down/100?cb=20180511222334",
+    "gender": "Female",
+    "hairColor": "Black",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/219"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/506"
+  },
+  {
+    "id": 507,
+    "name": "Yuki Kojima",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d3/Yuki.png/revision/latest/scale-to-width-down/200?cb=20150518010440",
+    "age": "40",
+    "gender": "Female",
+    "hairColor": "Black",
+    "occupation": "Former movie actressAccountant at Deduction Junction",
+    "relatives": ["Shinji Kojima", "Unnamed mother", "Unnamed son"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/507"
+  },
+  {
+    "id": 508,
+    "name": "Yuli",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0f/Yuli.jpg/revision/latest/scale-to-width-down/200?cb=20180612153712",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Security Guard",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/508"
+  },
+  {
+    "id": 509,
+    "name": "Zach",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f6/Zach.png/revision/latest/scale-to-width-down/180?cb=20180507024149",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Lifeguard",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/509"
+  },
+  {
+    "id": 510,
+    "name": "Zach",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/41/Zach.jpg/revision/latest/scale-to-width-down/150?cb=20190617112706",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/510"
+  },
+  {
+    "id": 511,
+    "name": "Zander",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2f/Zander.jpg/revision/latest/scale-to-width-down/200?cb=20170210171732",
+    "age": "10",
+    "gender": "Male",
+    "hairColor": "Brown",
+    "occupation": "Student",
+    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/465"],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/511"
+  },
+  {
+    "id": 512,
+    "name": "Zeke",
+    "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/69/Vlcsnap-2013-03-05-10h47m16s100.png/revision/latest/scale-to-width-down/250?cb=20160227013540",
+    "age": "13-14",
+    "gender": "Male",
+    "occupation": "Student at Wagstaff School",
+    "relatives": [
+      "Unnamed parents",
+      "https://bobsburgers-api.herokuapp.com/characters/77",
+      "Unnamed 44 year old brother",
+      "Unnamed grandparents",
+      "Unnamed aunt",
+      "https://bobsburgers-api.herokuapp.com/characters/273"
+    ],
+    "url": "https://bobsburgers-api.herokuapp.com/characters/512"
+  }
+]

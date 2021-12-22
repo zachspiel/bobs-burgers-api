@@ -11,6 +11,9 @@ for i in data['characters']:
     if "name" in i:
         formatted_character["name"] = i["name"]
 
+    if "image" in i:
+        formatted_character["image"] = i["image"]
+
     if "age" in i:
         formatted_character["age"] = i["age"]
 
