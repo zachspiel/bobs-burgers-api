@@ -9,10 +9,10 @@ interface ApiResponse {
 
 const getRootData = async (req: Request, res: Response) => {
   const data = {
-    characters: 'https://bobsburgers-api.herokuapp.com//characters/',
-    storeNextDoor: 'https://bobsburgers-api.herokuapp.com//storeNextDoor/',
-    pestControlTruck: 'https://bobsburgers-api.herokuapp.com//pestControlTruck/',
-    endCreditsSequence: 'https://bobsburgers-api.herokuapp.com//endCreditsSequence/',
+    characters: 'https://bobsburgers-api.herokuapp.com/characters/',
+    storeNextDoor: 'https://bobsburgers-api.herokuapp.com/storeNextDoor/',
+    pestControlTruck: 'https://bobsburgers-api.herokuapp.com/pestControlTruck/',
+    endCreditsSequence: 'https://bobsburgers-api.herokuapp.com/endCreditsSequence/',
   };
 
   return res.status(200).json(data);
