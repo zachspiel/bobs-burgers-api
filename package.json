@@ -1,7 +1,7 @@
 {
-  "name": "bobs-burgers-api",
+  "name": "bobsburgers-api",
   "version": "1.0.0",
-  "main": "server.ts",
+  "main": "src/server.ts",
   "scripts": {
     "build": "tsc",
     "start": "node lib/server.js"
