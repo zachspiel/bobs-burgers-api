@@ -1,7 +1,13 @@
 import { Request, Response, NextFunction } from 'express';
 import { promises as fs } from 'fs';
 
-const ROUTES = ['characters', 'pestControlTruck', 'endCreditsSequence', 'storeNextDoor'];
+const ROUTES = [
+  'characters',
+  'episodes',
+  'pestControlTruck',
+  'endCreditsSequence',
+  'storeNextDoor',
+];
 
 interface ApiResponse {
   [key: string]: unknown[];
@@ -10,6 +16,7 @@ interface ApiResponse {
 const getRootData = async (req: Request, res: Response) => {
   const data = {
     characters: 'https://bobsburgers-api.herokuapp.com/characters/',
+    episodes: 'https://bobsburgers-api.herokuapp.com/episodes/',
     storeNextDoor: 'https://bobsburgers-api.herokuapp.com/storeNextDoor/',
     pestControlTruck: 'https://bobsburgers-api.herokuapp.com/pestControlTruck/',
     endCreditsSequence: 'https://bobsburgers-api.herokuapp.com/endCreditsSequence/',

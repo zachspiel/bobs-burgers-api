@@ -4,21 +4,32 @@ file = open('data.json')
 data = json.load(file)
 fixed_characters = []
 
-index = 1
-for i in data['endCreditsSequence']:
-    print(index)
-    formatted_character = i
-    formatted_character["id"] = index
+for i in data['characters']:
+    formatted_character = {}
+    formatted_character["id"] = i["id"]
 
-    formatted_character["url"] = "http://bobs-burgers-api/endCreditsSequence/" + \
-        str(index)
+    if "name" in i:
+        formatted_character["name"] = i["name"]
+
+    if "age" in i:
+        formatted_character["age"] = i["age"]
+
+    if "gender" in i:
+        formatted_character["gender"] = i["gender"]
+
+    if "hairColor" in i:
+        formatted_character["hairColor"] = i["hairColor"]
+
+    if "occupation" in i:
+        formatted_character["occupation"] = i["occupation"]
+
+    if "relatives" in i:
+        formatted_character["relatives"] = i["relatives"]
+
+    formatted_character["url"] = i["url"]
     fixed_characters.append(formatted_character)
-    index += 1
 
 file.close()
-
-out_file = open("new2.json", "w")
-
+out_file = open("new.json", "w")
 json.dump(fixed_characters, out_file, indent=6)
-
 out_file.close()

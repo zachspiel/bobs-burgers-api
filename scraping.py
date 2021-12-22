@@ -169,11 +169,10 @@ def scrap_end_credits(url, file):
                     store = {}
                     a_tags = rows[index].find_all("a")
                     if(len(a_tags) > 0):
+                        store["id"] = id
                         store["episode"] = a_tags[0].text.strip()
                         store["image"] = a_tags[1]["href"]
                         store["season"] = table_index + 2
-
-                        store["id"] = id
                         store["url"] = "http://bobs-burgers-api/stores/" + \
                             str(id)
                         stores.append(store)
@@ -183,6 +182,76 @@ def scrap_end_credits(url, file):
         out_file = open(file, "w")
         json.dump(stores, out_file, indent=2)
         out_file.close()
+
+
+def scrape_episodes(url, file):
+    html_text = requests.get(url).text
+    soup = BeautifulSoup(html_text, "html.parser")
+    print("Fetched: " + url)
+    wiki_tables = soup.find_all(
+        "table", class_="wikitable")
+    episodes = []
+
+    id = 1
+    if wiki_tables != None:
+        table_index = 0
+        for wiki_table in wiki_tables:
+            rows = wiki_table.find_all("tr")
+            if rows != None and len(rows) > 0:
+
+                for index in range(1, len(rows)):
+                    episode = {}
+                    link = rows[index].find("a")["href"]
+
+                    cells = rows[index].find_all("td")
+                    season_episode = cells[2].text.strip().split(",")
+                    season_number = season_episode[0].split(" ")[1]
+                    episode_number = season_episode[1].strip().split(" ")[
+                        1]
+                    formatted_episode = episode_number if len(
+                        episode_number) > 2 else int(episode_number)
+
+                    total_viewers = scrape_total_Viewers(link, False)
+                    name = cells[0].text.strip()
+
+                    episode["id"] = id
+                    if (len(name) != 0):
+                        episode["name"] = name
+
+                    episode["productionCode"] = cells[1].text.strip()
+                    episode["airDate"] = cells[len(cells) - 1].text.strip()
+                    episode["season"] = int(season_number)
+                    episode["episode"] = formatted_episode
+
+                    if (len(total_viewers) > 0):
+                        episode["totalViewers"] = total_viewers
+                    episode["url"] = "http://bobs-burgers-api/episodes/" + \
+                        str(id)
+                    episodes.append(episode)
+                    id += 1
+            table_index += 1
+
+        out_file = open(file, "w")
+        json.dump(episodes, out_file, indent=2)
+        out_file.close()
+
+
+def scrape_total_Viewers(url, retried):
+    complete_url = "https://bobs-burgers.fandom.com" + url
+    episode_html_text = requests.get(complete_url).text
+    # print("Getting episode details for: " + complete_url)
+
+    soup = BeautifulSoup(episode_html_text, "html.parser")
+    info_box = soup.find("aside", class_="portable-infobox")
+
+    if info_box != None:
+        viewers = info_box.find(
+            "div", {"data-source": "viewers"})
+        return viewers.text.strip()
+    elif(retried == False):
+        return scrape_total_Viewers(url + "_(Episode)", True)
+    else:
+        return ""
 
 
 '''
@@ -196,6 +265,5 @@ if __name__ == "__main__":
     else:
         print(f"Error - {result}")
 '''
-
-scrap_end_credits(
-    "https://bobs-burgers.fandom.com/wiki/End_Credits_Sequence", "endCredits.json")
+scrape_episodes(
+    "https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order", "episodes.json")
