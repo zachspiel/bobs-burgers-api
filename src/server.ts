@@ -1,11 +1,13 @@
 import http from 'http';
 import express, { Express } from 'express';
 import routes from './routes/router';
+import helmet from 'helmet';
 
 const router: Express = express();
 
 router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
+router.use(helmet());
 
 router.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
