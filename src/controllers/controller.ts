@@ -28,7 +28,8 @@ const getRootData = async (req: Request, res: Response) => {
 const getAllData = async (req: Request, res: Response) => {
     const route = req.params.route;
     if (ROUTES.includes(route)) {
-        return res.json(await getData(route, {}));
+        const result = await getData(route, {});
+        return res.json(sanitizeResult(result));
     } else {
         return res
             .status(400)
@@ -44,12 +45,26 @@ const getSpecificItem = async (req: Request, res: Response) => {
     if (ROUTES.includes(route) && req.params.id !== undefined) {
         let id: number = parseInt(req.params.id);
 
-        return res.json(await getData(route, { id: id }));
+        const result = (await getData(route, { id: id })) as Record<any, any>;
+
+        return res.json(sanitizeResult(result[0]));
     } else {
         return res
             .status(400)
             .json(`Error while retreiving data with id ${req.params.id}.`);
     }
+};
+
+const sanitizeResult = (result: Record<any, any>) => {
+    if (result.relatives !== undefined && result.relatives.length === 0) {
+        const resultObject = result[0].toObject();
+
+        const { relatives, ...filtered } = resultObject;
+
+        return filtered;
+    }
+
+    return result;
 };
 
 const getData = async (route: String, data: Record<string, unknown>) => {
