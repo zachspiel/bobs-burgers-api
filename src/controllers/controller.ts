@@ -56,8 +56,12 @@ const getSpecificItem = async (req: Request, res: Response) => {
 };
 
 const sanitizeResult = (result: Record<any, any>) => {
-    if (result.relatives !== undefined && result.relatives.length === 0) {
-        const resultObject = result[0].toObject();
+    if (
+        result !== undefined &&
+        result.relatives !== undefined &&
+        result.relatives.length === 0
+    ) {
+        const resultObject = result.toObject();
 
         const { relatives, ...filtered } = resultObject;
 
