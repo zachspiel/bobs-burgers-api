@@ -29,7 +29,11 @@ const getAllData = async (req: Request, res: Response) => {
     const route = req.params.route;
     if (ROUTES.includes(route)) {
         const result = await getData(route, {});
-        return res.json(sanitizeResult(result));
+
+        result.forEach((item, index) => {
+            result[index] = sanitizeResult(item);
+        });
+        return res.json(result);
     } else {
         return res
             .status(400)
