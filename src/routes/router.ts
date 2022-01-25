@@ -15,9 +15,7 @@ router.get('/:route', controller.getAllData);
 router.get('/:route/:id', controller.getSpecificItem);
 router.get('/images/:folder/:file', (req, res) => {
   const error = new Error('Image not found');
-  const filePath = path.join(
-    __dirname + '/../images/' + req.params.folder + '/' + req.params.file
-  );
+  const filePath = path.join(__dirname, '../images', req.params.folder, req.params.file);
   if (avaialableFolders.includes(req.params.folder)) {
     res.sendFile(path.resolve(filePath));
   } else {

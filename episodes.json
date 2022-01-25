@@ -1,0 +1,2152 @@
+[
+  {
+    "id": 1,
+    "name": "\"Human Flesh\" (a.k.a. \"Pilot\")",
+    "productionCode": "1ASA01",
+    "airDate": "January 9, 2011",
+    "season": 1,
+    "episode": 1,
+    "totalViewers": "9.38 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/1"
+  },
+  {
+    "id": 2,
+    "name": "\"Crawl Space\"",
+    "productionCode": "1ASA02",
+    "airDate": "January 16, 2011",
+    "season": 1,
+    "episode": 2,
+    "totalViewers": "5.07 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/2"
+  },
+  {
+    "id": 3,
+    "name": "\"Burger War\"",
+    "productionCode": "1ASA03",
+    "airDate": "April 10, 2011",
+    "season": 1,
+    "episode": 10,
+    "totalViewers": "4.00 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/3"
+  },
+  {
+    "id": 4,
+    "name": "\"Sacred Cow\"",
+    "productionCode": "1ASA04",
+    "airDate": "January 23, 2011",
+    "season": 1,
+    "episode": 3,
+    "totalViewers": "4.81 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/4"
+  },
+  {
+    "id": 5,
+    "name": "\"Hamburger Dinner Theater\"",
+    "productionCode": "1ASA05",
+    "airDate": "February 20, 2011",
+    "season": 1,
+    "episode": 5,
+    "totalViewers": "4.87 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/5"
+  },
+  {
+    "id": 6,
+    "name": "\"Sexy Dance Fighting\"",
+    "productionCode": "1ASA06",
+    "airDate": "February 13, 2011",
+    "season": 1,
+    "episode": 4,
+    "totalViewers": "4.19 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/6"
+  },
+  {
+    "id": 7,
+    "name": "\"Art Crawl\"",
+    "productionCode": "1ASA07",
+    "airDate": "March 20, 2011",
+    "season": 1,
+    "episode": 8,
+    "totalViewers": "4.43 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/7"
+  },
+  {
+    "id": 8,
+    "name": "\"Bed & Breakfast\"",
+    "productionCode": "1ASA08",
+    "airDate": "March 13, 2011",
+    "season": 1,
+    "episode": 7,
+    "totalViewers": "4.10 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/8"
+  },
+  {
+    "id": 9,
+    "name": "\"Sheesh! Cab, Bob?\"",
+    "productionCode": "1ASA09",
+    "airDate": "March 6, 2011",
+    "season": 1,
+    "episode": 6,
+    "totalViewers": "4.91 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/9"
+  },
+  {
+    "id": 10,
+    "name": "\"Spaghetti Western and Meatballs\"",
+    "productionCode": "1ASA10",
+    "airDate": "March 27, 2011",
+    "season": 1,
+    "episode": 9,
+    "totalViewers": "4.65 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/10"
+  },
+  {
+    "id": 11,
+    "name": "\"Weekend at Mort's\"",
+    "productionCode": "1ASA11",
+    "airDate": "May 8, 2011",
+    "season": 1,
+    "episode": 11,
+    "totalViewers": "4.26 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/11"
+  },
+  {
+    "id": 12,
+    "name": "\"Torpedo\"",
+    "productionCode": "1ASA12",
+    "airDate": "May 22, 2011",
+    "season": 1,
+    "episode": 13,
+    "totalViewers": "4.31 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/12"
+  },
+  {
+    "id": 13,
+    "name": "\"Lobsterfest\"",
+    "productionCode": "1ASA13",
+    "airDate": "May 15, 2011",
+    "season": 1,
+    "episode": 12,
+    "totalViewers": "4.66 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/13"
+  },
+  {
+    "id": 14,
+    "name": "\"The Belchies\"",
+    "productionCode": "2ASA01",
+    "airDate": "March 11, 2012",
+    "season": 2,
+    "episode": 1,
+    "totalViewers": "4.04 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/14"
+  },
+  {
+    "id": 15,
+    "name": "\"Bob Day Afternoon\"",
+    "productionCode": "2ASA02",
+    "airDate": "March 18, 2012",
+    "season": 2,
+    "episode": 2,
+    "totalViewers": "4.40 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/15"
+  },
+  {
+    "id": 16,
+    "name": "\"Synchronized Swimming\"",
+    "productionCode": "2ASA03",
+    "airDate": "March 25, 2012",
+    "season": 2,
+    "episode": 3,
+    "totalViewers": "3.97 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/16"
+  },
+  {
+    "id": 17,
+    "name": "\"Burgerboss\"",
+    "productionCode": "2ASA04",
+    "airDate": "April 1, 2012",
+    "season": 2,
+    "episode": 4,
+    "totalViewers": "3.66 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/17"
+  },
+  {
+    "id": 18,
+    "name": "\"Food Truckin'\"",
+    "productionCode": "2ASA05",
+    "airDate": "April 15, 2012",
+    "season": 2,
+    "episode": 5,
+    "totalViewers": "3.90 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/18"
+  },
+  {
+    "id": 19,
+    "name": "\"Moody Foodie\"",
+    "productionCode": "2ASA06",
+    "airDate": "May 6, 2012",
+    "season": 2,
+    "episode": 7,
+    "totalViewers": "3.72 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/19"
+  },
+  {
+    "id": 20,
+    "name": "\"Dr. Yap\"",
+    "productionCode": "2ASA07",
+    "airDate": "April 22, 2012",
+    "season": 2,
+    "episode": 6,
+    "totalViewers": "3.92 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/20"
+  },
+  {
+    "id": 21,
+    "name": "\"Mutiny on the Windbreaker\"",
+    "productionCode": "2ASA08",
+    "airDate": "November 11, 2012",
+    "season": 3,
+    "episode": 4,
+    "totalViewers": "4.89 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/21"
+  },
+  {
+    "id": 22,
+    "name": "\"Beefsquatch\"",
+    "productionCode": "2ASA09",
+    "airDate": "May 20, 2012",
+    "season": 2,
+    "episode": 9,
+    "totalViewers": "3.57 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/22"
+  },
+  {
+    "id": 23,
+    "name": "\"Bad Tina\"",
+    "productionCode": "2ASA10",
+    "airDate": "May 13, 2012",
+    "season": 2,
+    "episode": 8,
+    "totalViewers": "3.69 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/23"
+  },
+  {
+    "id": 24,
+    "name": "\"The Deepening\"",
+    "productionCode": "2ASA11",
+    "airDate": "November 25, 2012",
+    "season": 3,
+    "episode": 6,
+    "totalViewers": "4.66 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/24"
+  },
+  {
+    "id": 25,
+    "name": "\"Bob Fires the Kids\"",
+    "productionCode": "2ASA12",
+    "airDate": "November 4, 2012",
+    "season": 3,
+    "episode": 3,
+    "totalViewers": "3.92 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/25"
+  },
+  {
+    "id": 26,
+    "name": "\"Ear-sy Rider\"",
+    "productionCode": "2ASA13",
+    "airDate": "September 30, 2012",
+    "season": 3,
+    "episode": 1,
+    "totalViewers": "5.46 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/26"
+  },
+  {
+    "id": 27,
+    "name": "\"Tinarannosaurus Wrecks\"",
+    "productionCode": "2ASA14",
+    "airDate": "December 2, 2012",
+    "season": 3,
+    "episode": 7,
+    "totalViewers": "3.97 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/27"
+  },
+  {
+    "id": 28,
+    "name": "\"Mother Daughter Laser Razor\"",
+    "productionCode": "2ASA15",
+    "airDate": "January 6, 2013",
+    "season": 3,
+    "episode": 10,
+    "totalViewers": "6.40 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/28"
+  },
+  {
+    "id": 29,
+    "name": "\"The Unbearable Like-Likeness of Gene\"",
+    "productionCode": "2ASA16",
+    "airDate": "December 9, 2012",
+    "season": 3,
+    "episode": 8,
+    "totalViewers": "4.55 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/29"
+  },
+  {
+    "id": 30,
+    "name": "\"Full Bars\"",
+    "productionCode": "2ASA17",
+    "airDate": "October 7, 2012",
+    "season": 3,
+    "episode": 2,
+    "totalViewers": "4.89 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/30"
+  },
+  {
+    "id": 31,
+    "name": "\"God Rest Ye Merry Gentle-Mannequins\"",
+    "productionCode": "2ASA18",
+    "airDate": "December 16, 2012",
+    "season": 3,
+    "episode": 9,
+    "totalViewers": "3.09 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/31"
+  },
+  {
+    "id": 32,
+    "name": "\"An Indecent Thanksgiving Proposal\"",
+    "productionCode": "2ASA19",
+    "airDate": "November 18, 2012",
+    "season": 3,
+    "episode": 5,
+    "totalViewers": "3.94 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/32"
+  },
+  {
+    "id": 33,
+    "name": "\"Nude Beach\"",
+    "productionCode": "2ASA20",
+    "airDate": "January 13, 2013",
+    "season": 3,
+    "episode": 11,
+    "totalViewers": "4.44 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/33"
+  },
+  {
+    "id": 34,
+    "name": "\"Broadcast Wagstaff School News\"",
+    "productionCode": "2ASA21",
+    "airDate": "January 27, 2013",
+    "season": 3,
+    "episode": 12,
+    "totalViewers": "4.12 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/34"
+  },
+  {
+    "id": 35,
+    "name": "\"Lindapendent Woman\"",
+    "productionCode": "2ASA22",
+    "airDate": "February 17, 2013",
+    "season": 3,
+    "episode": 14,
+    "totalViewers": "3.93 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/35"
+  },
+  {
+    "id": 36,
+    "name": "\"My Fuzzy Valentine\"",
+    "productionCode": "3ASA01",
+    "airDate": "February 10, 2013",
+    "season": 3,
+    "episode": 13,
+    "totalViewers": "3.45 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/36"
+  },
+  {
+    "id": 37,
+    "name": "\"O.T. The Outside Toilet\"",
+    "productionCode": "3ASA02",
+    "airDate": "March 3, 2013",
+    "season": 3,
+    "episode": 15,
+    "totalViewers": "3.67 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/37"
+  },
+  {
+    "id": 38,
+    "name": "\"Topsy\"",
+    "productionCode": "3ASA03",
+    "airDate": "March 10, 2013",
+    "season": 3,
+    "episode": 16,
+    "totalViewers": "3.85 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/38"
+  },
+  {
+    "id": 39,
+    "name": "\"Two for Tina\"",
+    "productionCode": "3ASA04",
+    "airDate": "March 17, 2013",
+    "season": 3,
+    "episode": 17,
+    "totalViewers": "3.62 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/39"
+  },
+  {
+    "id": 40,
+    "name": "\"It Snakes a Village\"",
+    "productionCode": "3ASA05",
+    "airDate": "March 24, 2013",
+    "season": 3,
+    "episode": 18,
+    "totalViewers": "3.76 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/40"
+  },
+  {
+    "id": 41,
+    "name": "\"Family Fracas\"",
+    "productionCode": "3ASA06",
+    "airDate": "April 14, 2013",
+    "season": 3,
+    "episode": 19,
+    "totalViewers": "3.45 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/41"
+  },
+  {
+    "id": 42,
+    "name": "\"The Kids Run the Restaurant\"",
+    "productionCode": "3ASA07",
+    "airDate": "April 21, 2013",
+    "season": 3,
+    "episode": 20,
+    "totalViewers": "3.74 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/42"
+  },
+  {
+    "id": 43,
+    "name": "\"Boyz 4 Now\"",
+    "productionCode": "3ASA08",
+    "airDate": "April 28, 2013",
+    "season": 3,
+    "episode": 21,
+    "totalViewers": "3.50 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/43"
+  },
+  {
+    "id": 44,
+    "name": "\"Carpe Museum\"",
+    "productionCode": "3ASA09",
+    "airDate": "May 5, 2013",
+    "season": 3,
+    "episode": 22,
+    "totalViewers": "3.96 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/44"
+  },
+  {
+    "id": 45,
+    "name": "\"The Unnatural\"",
+    "productionCode": "3ASA10",
+    "airDate": "May 12, 2013",
+    "season": 3,
+    "episode": 23,
+    "totalViewers": "3.38 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/45"
+  },
+  {
+    "id": 46,
+    "name": "\"A River Runs Through Bob\"",
+    "productionCode": "3ASA11",
+    "airDate": "September 29, 2013",
+    "season": 4,
+    "episode": 1,
+    "totalViewers": "4.480 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/46"
+  },
+  {
+    "id": 47,
+    "name": "\"My Big Fat Greek Bob\"",
+    "productionCode": "3ASA12",
+    "airDate": "November 10, 2013",
+    "season": 4,
+    "episode": 4,
+    "totalViewers": "3.169 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/47"
+  },
+  {
+    "id": 48,
+    "name": "\"Fort Night\"",
+    "productionCode": "3ASA13",
+    "airDate": "October 6, 2013",
+    "season": 4,
+    "episode": 2,
+    "totalViewers": "4.20 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/48"
+  },
+  {
+    "id": 49,
+    "name": "\"Seaplane!\"",
+    "productionCode": "3ASA14",
+    "airDate": "November 3, 2013",
+    "season": 4,
+    "episode": 3,
+    "totalViewers": "3.750 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/49"
+  },
+  {
+    "id": 50,
+    "name": "\"Purple Rain-Union\"",
+    "productionCode": "3ASA15",
+    "airDate": "December 1, 2013",
+    "season": 4,
+    "episode": 6,
+    "totalViewers": "3.390 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/50"
+  },
+  {
+    "id": 51,
+    "name": "\"Turkey in a Can\"",
+    "productionCode": "3ASA16",
+    "airDate": "November 24, 2013",
+    "season": 4,
+    "episode": 5,
+    "totalViewers": "4.076 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/51"
+  },
+  {
+    "id": 52,
+    "name": "\"Christmas in the Car\"",
+    "productionCode": "3ASA17",
+    "airDate": "December 15, 2013",
+    "season": 4,
+    "episode": 8,
+    "totalViewers": "5.567 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/52"
+  },
+  {
+    "id": 53,
+    "name": "\"Bob and Deliver\"",
+    "productionCode": "3ASA18",
+    "airDate": "December 8, 2013",
+    "season": 4,
+    "episode": 7,
+    "totalViewers": "4.601 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/53"
+  },
+  {
+    "id": 54,
+    "name": "\"Easy Com-mercial, Easy Go-mercial\"",
+    "productionCode": "3ASA19",
+    "airDate": "January 26, 2014",
+    "season": 4,
+    "episode": 11,
+    "totalViewers": "3.240 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/54"
+  },
+  {
+    "id": 55,
+    "name": "\"Presto Tina-o\"",
+    "productionCode": "3ASA20",
+    "airDate": "January 12, 2014",
+    "season": 4,
+    "episode": 10,
+    "totalViewers": "4.202 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/55"
+  },
+  {
+    "id": 56,
+    "name": "\"Slumber Party\"",
+    "productionCode": "3ASA21",
+    "airDate": "January 5, 2014",
+    "season": 4,
+    "episode": 9,
+    "totalViewers": "5.772 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/56"
+  },
+  {
+    "id": 57,
+    "name": "\"Uncle Teddy\"",
+    "productionCode": "3ASA22",
+    "airDate": "March 23, 2014",
+    "season": 4,
+    "episode": 14,
+    "totalViewers": "2.450 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/57"
+  },
+  {
+    "id": 58,
+    "name": "\"The Kids Rob a Train\"",
+    "productionCode": "4ASA01",
+    "airDate": "March 30, 2014",
+    "season": 4,
+    "episode": 15,
+    "totalViewers": "2.263 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/58"
+  },
+  {
+    "id": 59,
+    "name": "\"I Get Psy-chic Out of You\"",
+    "productionCode": "4ASA02",
+    "airDate": "April 6, 2014",
+    "season": 4,
+    "episode": 16,
+    "totalViewers": "2.265 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/59"
+  },
+  {
+    "id": 60,
+    "name": "\"Mazel Tina\"",
+    "productionCode": "4ASA03",
+    "airDate": "March 16, 2014",
+    "season": 4,
+    "episode": 13,
+    "totalViewers": "2.440 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/60"
+  },
+  {
+    "id": 61,
+    "name": "\"The Frond Files",
+    "productionCode": "4ASA04",
+    "airDate": "March 9, 2014",
+    "season": 4,
+    "episode": 12,
+    "totalViewers": "2.198 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/61"
+  },
+  {
+    "id": 62,
+    "name": "\"The Equestranauts\"",
+    "productionCode": "4ASA05",
+    "airDate": "April 13, 2014",
+    "season": 4,
+    "episode": 17,
+    "totalViewers": "1.832 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/62"
+  },
+  {
+    "id": 63,
+    "name": "\"Ambergris\"",
+    "productionCode": "4ASA06",
+    "airDate": "April 20, 2014",
+    "season": 4,
+    "episode": 18,
+    "totalViewers": "1.522 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/63"
+  },
+  {
+    "id": 64,
+    "name": "\"The Kids Run Away\"",
+    "productionCode": "4ASA07",
+    "airDate": "April 27, 2014",
+    "season": 4,
+    "episode": 19,
+    "totalViewers": "2.262 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/64"
+  },
+  {
+    "id": 65,
+    "name": "\"Gene It On\"",
+    "productionCode": "4ASA08",
+    "airDate": "May 4, 2014",
+    "season": 4,
+    "episode": 20,
+    "totalViewers": "2.230 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/65"
+  },
+  {
+    "id": 66,
+    "name": "\"Wharf Horse\"",
+    "productionCode": "4ASA09",
+    "airDate": "May 11, 2014",
+    "season": 4,
+    "episode": 21,
+    "totalViewers": "1.972 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/66"
+  },
+  {
+    "id": 67,
+    "name": "\"World Wharf II: The Wharfening\"",
+    "productionCode": "4ASA10",
+    "airDate": "May 18, 2014",
+    "season": 4,
+    "episode": 22,
+    "totalViewers": "1.954 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/67"
+  },
+  {
+    "id": 68,
+    "name": "\"Friends with Burger-fits\"",
+    "productionCode": "4ASA11",
+    "airDate": "November 16, 2014",
+    "season": 5,
+    "episode": 3,
+    "totalViewers": "3.346 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/68"
+  },
+  {
+    "id": 69,
+    "name": "\"Best Burger\"",
+    "productionCode": "4ASA12",
+    "airDate": "November 30, 2014",
+    "season": 5,
+    "episode": 5,
+    "totalViewers": "2.232 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/69"
+  },
+  {
+    "id": 70,
+    "name": "\"Tina and the Real Ghost\"",
+    "productionCode": "4ASA13",
+    "airDate": "November 2, 2014",
+    "season": 5,
+    "episode": 2,
+    "totalViewers": "2.891 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/70"
+  },
+  {
+    "id": 71,
+    "name": "\"Work Hard or Die Trying, Girl\"",
+    "productionCode": "4ASA14",
+    "airDate": "October 5, 2014",
+    "season": 5,
+    "episode": 1,
+    "totalViewers": "3.140 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/71"
+  },
+  {
+    "id": 72,
+    "name": "\"Tina Tailor Soldier Spy\"",
+    "productionCode": "4ASA15",
+    "airDate": "December 14, 2014",
+    "season": 5,
+    "episode": 7,
+    "totalViewers": "2.541 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/72"
+  },
+  {
+    "id": 73,
+    "name": "\"Dawn of the Peck\"",
+    "productionCode": "4ASA16",
+    "airDate": "November 23, 2014",
+    "season": 5,
+    "episode": 4,
+    "totalViewers": "1.904 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/73"
+  },
+  {
+    "id": 74,
+    "name": "\"Midday Run\"",
+    "productionCode": "4ASA17",
+    "airDate": "January 4, 2015",
+    "season": 5,
+    "episode": 8,
+    "totalViewers": "3.949 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/74"
+  },
+  {
+    "id": 75,
+    "name": "\"Father of the Bob\"",
+    "productionCode": "4ASA18",
+    "airDate": "December 7, 2014",
+    "season": 5,
+    "episode": 6,
+    "totalViewers": "3.177 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/75"
+  },
+  {
+    "id": 76,
+    "name": "\"Late Afternoon in the Garden of Bob and Louise\"",
+    "productionCode": "4ASA19",
+    "airDate": "January 25, 2015",
+    "season": 5,
+    "episode": 10,
+    "totalViewers": "2.486 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/76"
+  },
+  {
+    "id": 77,
+    "name": "\"Speakeasy Rider\"",
+    "productionCode": "4ASA20",
+    "airDate": "January 11, 2015",
+    "season": 5,
+    "episode": 9,
+    "totalViewers": "3.336 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/77"
+  },
+  {
+    "id": 78,
+    "name": "\"The Millie-Churian Candidate\"",
+    "productionCode": "4ASA21",
+    "airDate": "February 15, 2015",
+    "season": 5,
+    "episode": 12,
+    "totalViewers": "2.01 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/78"
+  },
+  {
+    "id": 79,
+    "name": "\"Can't Buy Me Math\"",
+    "productionCode": "4ASA22",
+    "airDate": "February 8, 2015",
+    "season": 5,
+    "episode": 11,
+    "totalViewers": "1.936 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/79"
+  },
+  {
+    "id": 80,
+    "name": "\"The Gayle Tales\"",
+    "productionCode": "5ASA01",
+    "airDate": "March 1, 2015",
+    "season": 5,
+    "episode": 13,
+    "totalViewers": "3.032 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/80"
+  },
+  {
+    "id": 81,
+    "name": "\"Li'l Hard Dad\"",
+    "productionCode": "5ASA02",
+    "airDate": "March 8, 2015",
+    "season": 5,
+    "episode": 14,
+    "totalViewers": "2.558 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/81"
+  },
+  {
+    "id": 82,
+    "name": "\"Adventures in Chinchilla-sitting\"",
+    "productionCode": "5ASA03",
+    "airDate": "March 15, 2015",
+    "season": 5,
+    "episode": 15,
+    "totalViewers": "2.237 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/82"
+  },
+  {
+    "id": 83,
+    "name": "\"The Runway Club\"",
+    "productionCode": "5ASA04",
+    "airDate": "March 22, 2015",
+    "season": 5,
+    "episode": 16,
+    "totalViewers": "2.207 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/83"
+  },
+  {
+    "id": 84,
+    "name": "\"The Itty Bitty Ditty Committee\"",
+    "productionCode": "5ASA05",
+    "airDate": "April 26, 2015",
+    "season": 5,
+    "episode": 17,
+    "totalViewers": "2.037 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/84"
+  },
+  {
+    "id": 85,
+    "name": "\"Eat, Spray, Linda\"",
+    "productionCode": "5ASA06",
+    "airDate": "May 3, 2015",
+    "season": 5,
+    "episode": 18,
+    "totalViewers": "2.240 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/85"
+  },
+  {
+    "id": 86,
+    "name": "\"Housetrap\"",
+    "productionCode": "5ASA07",
+    "airDate": "May 10, 2015",
+    "season": 5,
+    "episode": 19,
+    "totalViewers": "2.466 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/86"
+  },
+  {
+    "id": 87,
+    "name": "\"The Oeder Games\"",
+    "productionCode": "5ASA08",
+    "airDate": "May 17, 2015",
+    "season": 5,
+    "episode": 21,
+    "totalViewers": "2.440 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/87"
+  },
+  {
+    "id": 88,
+    "name": "\"Hawk & Chick\"",
+    "productionCode": "5ASA09",
+    "airDate": "87",
+    "season": 5,
+    "episode": 20,
+    "totalViewers": "1.950 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/88"
+  },
+  {
+    "id": 89,
+    "name": "\"Sliding Bobs\"",
+    "productionCode": "5ASA10",
+    "airDate": "September 27, 2015",
+    "season": 6,
+    "episode": 1,
+    "totalViewers": "2.510 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/89"
+  },
+  {
+    "id": 90,
+    "name": "\"The Land Ship\"",
+    "productionCode": "5ASA11",
+    "airDate": "October 11, 2015",
+    "season": 6,
+    "episode": 2,
+    "totalViewers": "2.190 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/90"
+  },
+  {
+    "id": 91,
+    "name": "\"The Cook, the Steve, the Gayle, & Her Lover\"",
+    "productionCode": "5ASA12",
+    "airDate": "January 17, 2016",
+    "season": 6,
+    "episode": 6,
+    "totalViewers": "2.261 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/91"
+  },
+  {
+    "id": 92,
+    "name": "\"The Hauntening\"",
+    "productionCode": "5ASA13",
+    "airDate": "October 18, 2015",
+    "season": 6,
+    "episode": 3,
+    "totalViewers": "2.092 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/92"
+  },
+  {
+    "id": 93,
+    "name": "\"Stand by Gene\"",
+    "productionCode": "5ASA14",
+    "airDate": "April 3, 2016",
+    "season": 6,
+    "episode": 12,
+    "totalViewers": "1.989 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/93"
+  },
+  {
+    "id": 94,
+    "name": "\"Sexy Dance Healing\"",
+    "productionCode": "5ASA15",
+    "airDate": "February 21, 2016",
+    "season": 6,
+    "episode": 8,
+    "totalViewers": "2.292 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/94"
+  },
+  {
+    "id": 95,
+    "name": "\"Sacred Couch\"",
+    "productionCode": "5ASA16",
+    "airDate": "March 6, 2016",
+    "season": 6,
+    "episode": 9,
+    "totalViewers": "2.638 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/95"
+  },
+  {
+    "id": 96,
+    "name": "\"Gayle Makin' Bob Sled\"",
+    "productionCode": "5ASA17",
+    "airDate": "November 8, 2015",
+    "season": 6,
+    "episode": 4,
+    "totalViewers": "3.126 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/96"
+  },
+  {
+    "id": 97,
+    "name": "\"Nice-Capades\"",
+    "productionCode": "5ASA18",
+    "airDate": "November 15, 2015",
+    "season": 6,
+    "episode": 5,
+    "totalViewers": "2.274 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/97"
+  },
+  {
+    "id": 98,
+    "name": "\"Lice Things Are Lice\"",
+    "productionCode": "5ASA19",
+    "airDate": "March 13, 2016",
+    "season": 6,
+    "episode": 10,
+    "totalViewers": "2.279 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/98"
+  },
+  {
+    "id": 99,
+    "name": "\"House of 1000 Bounces\"",
+    "productionCode": "5ASA20",
+    "airDate": "April 3, 2016",
+    "season": 6,
+    "episode": 11,
+    "totalViewers": "2.050 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/99"
+  },
+  {
+    "id": 100,
+    "name": "\"Glued, Where's My Bob?\"",
+    "productionCode": "5ASA21",
+    "airDate": "May 22, 2016",
+    "season": 6,
+    "episode": 19,
+    "totalViewers": "2.041 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/100"
+  },
+  {
+    "id": 101,
+    "name": "\"Wag the Hog\"",
+    "productionCode": "5ASA22",
+    "airDate": "April 10, 2016",
+    "season": 6,
+    "episode": 13,
+    "totalViewers": "2.348 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/101"
+  },
+  {
+    "id": 102,
+    "name": "\"The Gene and Courtney Show\"",
+    "productionCode": "6ASA01",
+    "airDate": "February 14, 2016",
+    "season": 6,
+    "episode": 7,
+    "totalViewers": "2.046 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/102"
+  },
+  {
+    "id": 103,
+    "name": "\"The Horse Rider-er\"",
+    "productionCode": "6ASA02",
+    "airDate": "May 15, 2016",
+    "season": 6,
+    "episode": 17,
+    "totalViewers": "2.268 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/103"
+  },
+  {
+    "id": 104,
+    "name": "\"Pro Tiki/Con Tiki\"",
+    "productionCode": "6ASA03",
+    "airDate": "April 24, 2016",
+    "season": 6,
+    "episode": 15,
+    "totalViewers": "2.346 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/104"
+  },
+  {
+    "id": 105,
+    "name": "\"The Hormone-iums\"",
+    "productionCode": "6ASA04",
+    "airDate": "April 17, 2016",
+    "season": 6,
+    "episode": 14,
+    "totalViewers": "2.181 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/105"
+  },
+  {
+    "id": 106,
+    "name": "\"Bye Bye Boo Boo\"",
+    "productionCode": "6ASA05",
+    "airDate": "May 8, 2016",
+    "season": 6,
+    "episode": 16,
+    "totalViewers": "2.309 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/106"
+  },
+  {
+    "id": 107,
+    "name": "\"Secret Admiral-irer\"",
+    "productionCode": "6ASA06",
+    "airDate": "May 22, 2016",
+    "season": 6,
+    "episode": 20,
+    "totalViewers": "2.229 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/107"
+  },
+  {
+    "id": 108,
+    "name": "\"Sea Me Now\"",
+    "productionCode": "6ASA07",
+    "airDate": "October 9, 2016",
+    "season": 7,
+    "episode": 2,
+    "totalViewers": "2.793 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/108"
+  },
+  {
+    "id": 109,
+    "name": "\"They Serve Horses, Don't They?\"",
+    "productionCode": "6ASA08",
+    "airDate": "November 6, 2016",
+    "season": 7,
+    "episode": 4,
+    "totalViewers": "2.422 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/109"
+  },
+  {
+    "id": 110,
+    "name": "\"Ex MachTina\"",
+    "productionCode": "6ASA09",
+    "airDate": "January 8, 2017",
+    "season": 7,
+    "episode": 8,
+    "totalViewers": "3.581 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/110"
+  },
+  {
+    "id": 111,
+    "name": "\"Large Brother, Where Fart Thou?\"",
+    "productionCode": "6ASA10",
+    "airDate": "November 20, 2016",
+    "season": 7,
+    "episode": 5,
+    "totalViewers": "2.345 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/111"
+  },
+  {
+    "id": 112,
+    "name": "\"Flu-ouise\"",
+    "productionCode": "6ASA11",
+    "airDate": "September 25, 2016",
+    "season": 7,
+    "episode": 1,
+    "totalViewers": "2.601 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/112"
+  },
+  {
+    "id": 113,
+    "name": "\"Like Gene for Chocolate\"",
+    "productionCode": "6ASA12",
+    "airDate": "March 12, 2017",
+    "season": 7,
+    "episode": 12,
+    "totalViewers": "1.815 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/113"
+  },
+  {
+    "id": 114,
+    "name": "\"Teen-a Witch\"",
+    "productionCode": "6ASA13",
+    "airDate": "October 23, 2016",
+    "season": 7,
+    "episode": 3,
+    "totalViewers": "3.014 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/114"
+  },
+  {
+    "id": 115,
+    "name": "\"The Grand Mama-pest Hotel\"",
+    "productionCode": "6ASA14",
+    "airDate": "March 19, 2017",
+    "season": 7,
+    "episode": 13,
+    "totalViewers": "1.932 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/115"
+  },
+  {
+    "id": 116,
+    "name": "\"There's No Business Like Mr. Business Business\"",
+    "productionCode": "6ASA15",
+    "airDate": "February 19, 2017",
+    "season": 7,
+    "episode": 10,
+    "totalViewers": "1.970 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/116"
+  },
+  {
+    "id": 117,
+    "name": "\"The Quirk-ducers\"",
+    "productionCode": "6ASA16",
+    "airDate": "November 20, 2016",
+    "season": 7,
+    "episode": 6,
+    "totalViewers": "2.462 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/117"
+  },
+  {
+    "id": 118,
+    "name": "\"Aquaticism\"",
+    "productionCode": "6ASA17",
+    "airDate": "March 26, 2017",
+    "season": 7,
+    "episode": 14,
+    "totalViewers": "1.826 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/118"
+  },
+  {
+    "id": 119,
+    "name": "\"The Last Gingerbread House on the Left\"",
+    "productionCode": "6ASA18",
+    "airDate": "November 27, 2016",
+    "season": 7,
+    "episode": 7,
+    "totalViewers": "2.436 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/119"
+  },
+  {
+    "id": 120,
+    "name": "\"A Few 'Gurt Men\"",
+    "productionCode": "6ASA19",
+    "airDate": "March 5, 2017",
+    "season": 7,
+    "episode": 11,
+    "totalViewers": "1.771 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/120"
+  },
+  {
+    "id": 121,
+    "name": "\"Ain't Miss Debatin'\"",
+    "productionCode": "6ASA20",
+    "airDate": "March 26, 2017",
+    "season": 7,
+    "episode": 15,
+    "totalViewers": "1.901 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/121"
+  },
+  {
+    "id": 122,
+    "name": "\"Eggs for Days\"",
+    "productionCode": "6ASA21",
+    "airDate": "April 2, 2017",
+    "season": 7,
+    "episode": 16,
+    "totalViewers": "1.516 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/122"
+  },
+  {
+    "id": 123,
+    "name": "\"Bob Actually\"",
+    "productionCode": "6ASA22",
+    "airDate": "February 12, 2017",
+    "season": 7,
+    "episode": 9,
+    "totalViewers": "1.670 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/123"
+  },
+  {
+    "id": 124,
+    "name": "\"Zero Larp Thirty\"",
+    "productionCode": "7ASA01",
+    "airDate": "April 23, 2017",
+    "season": 7,
+    "episode": 17,
+    "totalViewers": "1.579 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/124"
+  },
+  {
+    "id": 125,
+    "name": "\"The Laser-inth\"",
+    "productionCode": "7ASA02",
+    "airDate": "125",
+    "season": 7,
+    "episode": 18,
+    "totalViewers": "1.87 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/125"
+  },
+  {
+    "id": 126,
+    "name": "\"Thelma & Louise Except Thelma is Linda\"",
+    "productionCode": "7ASA03",
+    "airDate": "April 30, 2017",
+    "season": 7,
+    "episode": 19,
+    "totalViewers": "1.593 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/126"
+  },
+  {
+    "id": 127,
+    "name": "\"Mom, Lies, and Videotape\"",
+    "productionCode": "7ASA04",
+    "airDate": "May 7, 2017",
+    "season": 7,
+    "episode": 20,
+    "totalViewers": "2.024 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/127"
+  },
+  {
+    "id": 128,
+    "name": "\"Paraders of the Lost Float\"",
+    "productionCode": "7ASA05",
+    "airDate": "May 21, 2017",
+    "season": 7,
+    "episode": 21,
+    "totalViewers": "1.611 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/128"
+  },
+  {
+    "id": 129,
+    "name": "\"Into the Mild\"",
+    "productionCode": "7ASA06",
+    "airDate": "June 11, 2017",
+    "season": 7,
+    "episode": 22,
+    "totalViewers": "1.522 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/129"
+  },
+  {
+    "id": 130,
+    "name": "\"The Wolf of Wharf Street\"",
+    "productionCode": "7ASA07",
+    "airDate": "October 22, 2017",
+    "season": 8,
+    "episode": 3,
+    "totalViewers": "3.017 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/130"
+  },
+  {
+    "id": 131,
+    "name": "\"Sit Me Baby One More Time\"",
+    "productionCode": "7ASA08",
+    "airDate": "November 5, 2017",
+    "season": 8,
+    "episode": 4,
+    "totalViewers": "2.890 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/131"
+  },
+  {
+    "id": 132,
+    "name": "\"The Silence of the Louise\"",
+    "productionCode": "7ASA09",
+    "airDate": "October 15, 2017",
+    "season": 8,
+    "episode": 2,
+    "totalViewers": "2.432 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/132"
+  },
+  {
+    "id": 133,
+    "name": "\"Cheer Up, Sleepy Gene\"",
+    "productionCode": "7ASA10",
+    "airDate": "April 8, 2018",
+    "season": 8,
+    "episode": 13,
+    "totalViewers": "1.743 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/133"
+  },
+  {
+    "id": 134,
+    "name": "\"Boywatch\"",
+    "productionCode": "7ASA11",
+    "airDate": "May 6, 2018",
+    "season": 8,
+    "episode": 17,
+    "totalViewers": "1.555 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/134"
+  },
+  {
+    "id": 135,
+    "name": "\"Y Tu Ga-Ga Tambien\"",
+    "productionCode": "7ASA12",
+    "airDate": "March 11, 2018",
+    "season": 8,
+    "episode": 9,
+    "totalViewers": "1.837 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/135"
+  },
+  {
+    "id": 136,
+    "name": "\"The Taking of Funtime One Two Three\"",
+    "productionCode": "7ASA13",
+    "airDate": "October 7, 2018",
+    "season": 9,
+    "episode": 2,
+    "totalViewers": "3.081 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/136"
+  },
+  {
+    "id": 137,
+    "name": "\"Brunchsquatch\"",
+    "productionCode": "7ASA14",
+    "airDate": "October 1, 2017",
+    "season": 8,
+    "episode": 1,
+    "totalViewers": "2.930 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/137"
+  },
+  {
+    "id": 138,
+    "name": "\"Thanks-hoarding\"",
+    "productionCode": "7ASA15",
+    "airDate": "November 19, 2017",
+    "season": 8,
+    "episode": 5,
+    "totalViewers": "2.371 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/138"
+  },
+  {
+    "id": 139,
+    "name": "\"The Bleakening\"",
+    "productionCode": "7ASA16-17",
+    "airDate": "December 10, 2017",
+    "season": 8,
+    "episode": "6-7",
+    "totalViewers": "3.173 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/139"
+  },
+  {
+    "id": 140,
+    "name": "\"The Trouble with Doubles\"",
+    "productionCode": "7ASA18",
+    "airDate": "April 15, 2018",
+    "season": 8,
+    "episode": 14,
+    "totalViewers": "1.830 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/140"
+  },
+  {
+    "id": 141,
+    "name": "\"The Secret Ceramics Room of Secrets\"",
+    "productionCode": "7ASA19",
+    "airDate": "March 18, 2018",
+    "season": 8,
+    "episode": 10,
+    "totalViewers": "1.721 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/141"
+  },
+  {
+    "id": 142,
+    "name": "\"Sleeping with the Frenemy\"",
+    "productionCode": "7ASA20",
+    "airDate": "March 25, 2018",
+    "season": 8,
+    "episode": 11,
+    "totalViewers": "1.738 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/142"
+  },
+  {
+    "id": 143,
+    "name": "\"Mission Impos-slug-ble\"",
+    "productionCode": "7ASA21",
+    "airDate": "May 20, 2018",
+    "season": 8,
+    "episode": 20,
+    "totalViewers": "1.649 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/143"
+  },
+  {
+    "id": 144,
+    "name": "\"V for Valentine-detta\"",
+    "productionCode": "7ASA22",
+    "airDate": "January 14, 2018",
+    "season": 8,
+    "episode": 8,
+    "totalViewers": "4.757 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/144"
+  },
+  {
+    "id": 145,
+    "name": "\"The Hurt Soccer\"",
+    "productionCode": "7ASA23",
+    "airDate": "April 1, 2018",
+    "season": 8,
+    "episode": 12,
+    "totalViewers": "1.537 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/145"
+  },
+  {
+    "id": 146,
+    "name": "\"Go Tina on the Mountain\"",
+    "productionCode": "8ASA01",
+    "airDate": "April 22, 2018",
+    "season": 8,
+    "episode": 15,
+    "totalViewers": "1.658 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/146"
+  },
+  {
+    "id": 147,
+    "name": "\"As I Walk Through the Alley of the Shadow of Ramps\"",
+    "productionCode": "8ASA02",
+    "airDate": "May 13, 2018",
+    "season": 8,
+    "episode": 18,
+    "totalViewers": "1.562 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/147"
+  },
+  {
+    "id": 148,
+    "name": "\"Mo Mommy Mo Problems\"",
+    "productionCode": "8ASA03",
+    "airDate": "148",
+    "season": 8,
+    "episode": 19,
+    "totalViewers": "1.877 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/148"
+  },
+  {
+    "id": 149,
+    "name": "\"Are You There Bob? It's Me, Birthday\"",
+    "productionCode": "8ASA04",
+    "airDate": "April 29, 2018",
+    "season": 8,
+    "episode": 16,
+    "totalViewers": "1.907 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/149"
+  },
+  {
+    "id": 150,
+    "name": "\"Something Old, Something New, Something Bob Caters for You\"",
+    "productionCode": "8ASA05",
+    "airDate": "May 20, 2018",
+    "season": 8,
+    "episode": 21,
+    "totalViewers": "1.616 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/150"
+  },
+  {
+    "id": 151,
+    "name": "\"Just One of the Boyz 4 Now for Now\"",
+    "productionCode": "8ASA06",
+    "airDate": "September 30, 2018",
+    "season": 9,
+    "episode": 1,
+    "totalViewers": "2.473 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/151"
+  },
+  {
+    "id": 152,
+    "name": "\"Nightmare on Ocean Avenue Street\"",
+    "productionCode": "8ASA07",
+    "airDate": "October 21, 2018",
+    "season": 9,
+    "episode": 4,
+    "totalViewers": "2.797 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/152"
+  },
+  {
+    "id": 153,
+    "name": "\"I Bob Your Pardon\"",
+    "productionCode": "8ASA08",
+    "airDate": "November 18, 2018",
+    "season": 9,
+    "episode": 7,
+    "totalViewers": "2.908 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/153"
+  },
+  {
+    "id": 154,
+    "name": "\"Tweentrepreneurs\"",
+    "productionCode": "8ASA09",
+    "airDate": "October 14, 2018",
+    "season": 9,
+    "episode": 3,
+    "totalViewers": "2.136 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/154"
+  },
+  {
+    "id": 155,
+    "name": "\"Better Off Sled\"",
+    "productionCode": "8ASA10",
+    "airDate": "December 9, 2018",
+    "season": 9,
+    "episode": 10,
+    "totalViewers": "4.353 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/155"
+  },
+  {
+    "id": 156,
+    "name": "\"Live and Let Fly\"",
+    "productionCode": "8ASA11",
+    "airDate": "November 4, 2018",
+    "season": 9,
+    "episode": 5,
+    "totalViewers": "3.156 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/156"
+  },
+  {
+    "id": 157,
+    "name": "\"Bobby Driver\"",
+    "productionCode": "8ASA12",
+    "airDate": "November 11, 2018",
+    "season": 9,
+    "episode": 6,
+    "totalViewers": "2.226 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/157"
+  },
+  {
+    "id": 158,
+    "name": "\"Roller? I Hardly Know Her!\"",
+    "productionCode": "8ASA13",
+    "airDate": "November 25, 2018",
+    "season": 9,
+    "episode": 8,
+    "totalViewers": "1.966 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/158"
+  },
+  {
+    "id": 159,
+    "name": "\"UFO No You Didn't\"",
+    "productionCode": "8ASA14",
+    "airDate": "December 2, 2018",
+    "season": 9,
+    "episode": 9,
+    "totalViewers": "2.994 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/159"
+  },
+  {
+    "id": 160,
+    "name": "\"Bed, Bob & Beyond\"",
+    "productionCode": "8ASA15",
+    "airDate": "February 10, 2019",
+    "season": 9,
+    "episode": 13,
+    "totalViewers": "1.659 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/160"
+  },
+  {
+    "id": 161,
+    "name": "\"Lorenzo's Oil? No, Linda's\"",
+    "productionCode": "8ASA16",
+    "airDate": "January 6, 2019",
+    "season": 9,
+    "episode": 11,
+    "totalViewers": "2.212 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/161"
+  },
+  {
+    "id": 162,
+    "name": "\"The Helen Hunt\"",
+    "productionCode": "8ASA17",
+    "airDate": "January 13, 2019",
+    "season": 9,
+    "episode": 12,
+    "totalViewers": "4.889 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/162"
+  },
+  {
+    "id": 163,
+    "name": "\"Every Which Way but Goose\"",
+    "productionCode": "8ASA18",
+    "airDate": "February 17, 2019",
+    "season": 9,
+    "episode": 14,
+    "totalViewers": "2.182 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/163"
+  },
+  {
+    "id": 164,
+    "name": "\"The Fresh Princ-ipal\"",
+    "productionCode": "8ASA19",
+    "airDate": "March 3, 2019",
+    "season": 9,
+    "episode": 15,
+    "totalViewers": "1.983 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/164"
+  },
+  {
+    "id": 165,
+    "name": "\"Roamin' Bob-iday\"",
+    "productionCode": "8ASA20",
+    "airDate": "March 10, 2019",
+    "season": 9,
+    "episode": 16,
+    "totalViewers": "2.001 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/165"
+  },
+  {
+    "id": 166,
+    "name": "\"What About Blob?\"",
+    "productionCode": "8ASA21",
+    "airDate": "March 17, 2019",
+    "season": 9,
+    "episode": 17,
+    "totalViewers": "2.082 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/166"
+  },
+  {
+    "id": 167,
+    "name": "\"If You Love It So Much, Why Don't You Marionette?\"",
+    "productionCode": "8ASA22",
+    "airDate": "March 24, 2019",
+    "season": 9,
+    "episode": 18,
+    "totalViewers": "2.028 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/167"
+  },
+  {
+    "id": 168,
+    "name": "\"Long Time Listener, First Time Bob\"",
+    "productionCode": "8ASA23",
+    "airDate": "April 7, 2019",
+    "season": 9,
+    "episode": 19,
+    "totalViewers": "1.763 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/168"
+  },
+  {
+    "id": 169,
+    "name": "\"P.T.A. It Ain't So\"",
+    "productionCode": "8ASA24",
+    "airDate": "April 28, 2019",
+    "season": 9,
+    "episode": 20,
+    "totalViewers": "1.576 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/169"
+  },
+  {
+    "id": 170,
+    "name": "\"The Gene Mile\"",
+    "productionCode": "8ASA25",
+    "airDate": "May 5, 2019",
+    "season": 9,
+    "episode": 21,
+    "totalViewers": "1.843 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/170"
+  },
+  {
+    "id": 171,
+    "name": "\"Yes Without My Zeke\"",
+    "productionCode": "8ASA26",
+    "airDate": "May 12, 2019",
+    "season": 9,
+    "episode": 22,
+    "totalViewers": "1.484 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/171"
+  },
+  {
+    "id": 172,
+    "name": "\"The Ring (But Not Scary)\"",
+    "productionCode": "9ASA01",
+    "airDate": "September 29, 2019",
+    "season": 10,
+    "episode": 1,
+    "totalViewers": "1.817 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/172"
+  },
+  {
+    "id": 173,
+    "name": "\"Boys Just Wanna Have Fungus\"",
+    "productionCode": "9ASA02",
+    "airDate": "October 6, 2019",
+    "season": 10,
+    "episode": 2,
+    "totalViewers": "2.343 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/173"
+  },
+  {
+    "id": 174,
+    "name": "\"Motor, She Boat\"",
+    "productionCode": "9ASA03",
+    "airDate": "October 13, 2019",
+    "season": 10,
+    "episode": 3,
+    "totalViewers": "1.640 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/174"
+  },
+  {
+    "id": 175,
+    "name": "\"Pig Trouble in Little Tina\"",
+    "productionCode": "9ASA04",
+    "airDate": "October 20, 2019",
+    "season": 10,
+    "episode": 4,
+    "totalViewers": "2.447 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/175"
+  },
+  {
+    "id": 176,
+    "name": "\"Legends of the Mall\"",
+    "productionCode": "9ASA05",
+    "airDate": "November 3, 2019",
+    "season": 10,
+    "episode": 5,
+    "totalViewers": "1.513 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/176"
+  },
+  {
+    "id": 177,
+    "name": "\"The Hawkening: Look Who's Hawking Now!\"",
+    "productionCode": "9ASA06",
+    "airDate": "November 10, 2019",
+    "season": 10,
+    "episode": 6,
+    "totalViewers": "2.059 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/177"
+  },
+  {
+    "id": 178,
+    "name": "\"Now We're Not Cooking with Gas\"",
+    "productionCode": "9ASA07",
+    "airDate": "November 24, 2019",
+    "season": 10,
+    "episode": 8,
+    "totalViewers": "2.288 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/178"
+  },
+  {
+    "id": 179,
+    "name": "\"Land of the Loft\"",
+    "productionCode": "9ASA08",
+    "airDate": "November 17, 2019",
+    "season": 10,
+    "episode": 7,
+    "totalViewers": "1.877 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/179"
+  },
+  {
+    "id": 180,
+    "name": "\"Have Yourself a Maily Linda Christmas\"",
+    "productionCode": "9ASA09",
+    "airDate": "December 15, 2019",
+    "season": 10,
+    "episode": 10,
+    "totalViewers": "2.408 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/180"
+  },
+  {
+    "id": 181,
+    "name": "\"All That Gene\"",
+    "productionCode": "9ASA10",
+    "airDate": "December 1, 2019",
+    "season": 10,
+    "episode": 9,
+    "totalViewers": "1.599 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/181"
+  },
+  {
+    "id": 182,
+    "name": "\"Drumforgiven\"",
+    "productionCode": "9ASA11",
+    "airDate": "January 12, 2020",
+    "season": 10,
+    "episode": 11,
+    "totalViewers": "5.757 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/182"
+  },
+  {
+    "id": 183,
+    "name": "\"A Fish Called Tina\"",
+    "productionCode": "9ASA12",
+    "airDate": "February 16, 2020",
+    "season": 10,
+    "episode": 12,
+    "totalViewers": "1.508 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/183"
+  },
+  {
+    "id": 184,
+    "name": "\"Three Girls and a Little Wharfy\"",
+    "productionCode": "9ASA13",
+    "airDate": "February 23, 2020",
+    "season": 10,
+    "episode": 13,
+    "totalViewers": "1.577 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/184"
+  },
+  {
+    "id": 185,
+    "name": "\"Wag the Song\"",
+    "productionCode": "9ASA14",
+    "airDate": "March 1, 2020",
+    "season": 10,
+    "episode": 14,
+    "totalViewers": "1.432 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/185"
+  },
+  {
+    "id": 186,
+    "name": "\"Flat-Top o' the Morning to Ya\"",
+    "productionCode": "9ASA15",
+    "airDate": "March 15, 2020",
+    "season": 10,
+    "episode": 16,
+    "totalViewers": "1.443 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/186"
+  },
+  {
+    "id": 187,
+    "name": "\"Yurty Rotten Scoundrels\"",
+    "productionCode": "9ASA16",
+    "airDate": "March 8, 2020",
+    "season": 10,
+    "episode": 15,
+    "totalViewers": "1.279 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/187"
+  },
+  {
+    "id": 188,
+    "name": "\"Just the Trip\"",
+    "productionCode": "9ASA17",
+    "airDate": "March 22, 2020",
+    "season": 10,
+    "episode": 17,
+    "totalViewers": "1.308 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/188"
+  },
+  {
+    "id": 189,
+    "name": "\"Tappy Tappy Tappy Tap Tap Tap\"",
+    "productionCode": "9ASA18",
+    "airDate": "April 19, 2020",
+    "season": 10,
+    "episode": 18,
+    "totalViewers": "1.363 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/189"
+  },
+  {
+    "id": 190,
+    "name": "\"The Handyman Can\"",
+    "productionCode": "9ASA19",
+    "airDate": "April 26, 2020",
+    "season": 10,
+    "episode": 19,
+    "totalViewers": "1.290 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/190"
+  },
+  {
+    "id": 191,
+    "name": "\"Poops!\u2026 I Didn't Do It Again\"",
+    "productionCode": "9ASA20",
+    "airDate": "May 3, 2020",
+    "season": 10,
+    "episode": 20,
+    "totalViewers": "1.116 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/191"
+  },
+  {
+    "id": 192,
+    "name": "\"Local She-ro\"",
+    "productionCode": "9ASA21",
+    "airDate": "May 10, 2020",
+    "season": 10,
+    "episode": 21,
+    "totalViewers": "1.041 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/192"
+  },
+  {
+    "id": 193,
+    "name": "\"Prank You for Being a Friend\"",
+    "productionCode": "9ASA22",
+    "airDate": "May 17, 2020",
+    "season": 10,
+    "episode": 22,
+    "totalViewers": "1.284 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/193"
+  },
+  {
+    "id": 194,
+    "name": "\"Worms of In-Rear-ment\"",
+    "productionCode": "9ASA23",
+    "airDate": "October 4, 2020",
+    "season": 11,
+    "episode": 2,
+    "totalViewers": "1.123 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/194"
+  },
+  {
+    "id": 195,
+    "name": "\"Dream a Little Bob of Bob\"",
+    "productionCode": "AASA01",
+    "airDate": "September 27, 2020",
+    "season": 11,
+    "episode": 1,
+    "totalViewers": "1.773 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/195"
+  },
+  {
+    "id": 196,
+    "name": "\"Copa-Bob-bana\"",
+    "productionCode": "AASA02",
+    "airDate": "October 11, 2020",
+    "season": 11,
+    "episode": 3,
+    "totalViewers": "1.260 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/196"
+  },
+  {
+    "id": 197,
+    "name": "\"Fast Time Capsules at Wagstaff School\"",
+    "productionCode": "AASA03",
+    "airDate": "November 8, 2020",
+    "season": 11,
+    "episode": 5,
+    "totalViewers": "1.412 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/197"
+  },
+  {
+    "id": 198,
+    "name": "\"Heartbreak Hotel-oween\"",
+    "productionCode": "AASA04",
+    "airDate": "October 18, 2020 (Canada)November 1, 2020 (United States)",
+    "season": 11,
+    "episode": 4,
+    "totalViewers": "1.903 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/198"
+  },
+  {
+    "id": 199,
+    "name": "\"Bob Belcher and the Terrible, Horrible, No Good, Very Bad Kids\"",
+    "productionCode": "AASA05",
+    "airDate": "November 15, 2020",
+    "season": 11,
+    "episode": 6,
+    "totalViewers": "1.785 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/199"
+  },
+  {
+    "id": 200,
+    "name": "\"Mommy Boy\"",
+    "productionCode": "AASA06",
+    "airDate": "December 6, 2020",
+    "season": 11,
+    "episode": 9,
+    "totalViewers": "1.253 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/200"
+  },
+  {
+    "id": 201,
+    "name": "\"The Terminalator II: Terminals of Endearment\"",
+    "productionCode": "AASA07",
+    "airDate": "November 29, 2020",
+    "season": 11,
+    "episode": 8,
+    "totalViewers": "1.232 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/201"
+  },
+  {
+    "id": 202,
+    "name": "\"Diarrhea of a Poopy Kid\"",
+    "productionCode": "AASA08",
+    "airDate": "November 22, 2020",
+    "season": 11,
+    "episode": 7,
+    "totalViewers": "1.766 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/202"
+  },
+  {
+    "id": 203,
+    "name": "\"Yachty or Nice\"",
+    "productionCode": "AASA09",
+    "airDate": "December 13, 2020",
+    "season": 11,
+    "episode": 10,
+    "totalViewers": "1.808 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/203"
+  },
+  {
+    "id": 204,
+    "name": "\"Die Card, or Card Trying\"",
+    "productionCode": "AASA10",
+    "airDate": "February 28, 2021",
+    "season": 11,
+    "episode": 12,
+    "totalViewers": "1.086 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/204"
+  },
+  {
+    "id": 205,
+    "name": "\"An Incon-Wheelie-ent Truth\"",
+    "productionCode": "AASA11",
+    "airDate": "March 7, 2021",
+    "season": 11,
+    "episode": 13,
+    "totalViewers": "1.209 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/205"
+  },
+  {
+    "id": 206,
+    "name": "\"Mr. Lonely Farts\"",
+    "productionCode": "AASA12",
+    "airDate": "March 14, 2021",
+    "season": 11,
+    "episode": 14,
+    "totalViewers": "1.207 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/206"
+  },
+  {
+    "id": 207,
+    "name": "\"Romancing the Beef\"",
+    "productionCode": "AASA13",
+    "airDate": "February 21, 2021",
+    "season": 11,
+    "episode": 11,
+    "totalViewers": "1.243 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/207"
+  },
+  {
+    "id": 208,
+    "name": "\"Sheshank Redumption\"",
+    "productionCode": "AASA14",
+    "airDate": "March 21, 2021",
+    "season": 11,
+    "episode": 15,
+    "totalViewers": "1.052 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/208"
+  },
+  {
+    "id": 209,
+    "name": "\"Y Tu Tina Tambi\u00e9n",
+    "productionCode": "AASA15",
+    "airDate": "March 28, 2021",
+    "season": 11,
+    "episode": 16,
+    "totalViewers": "1.068 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/209"
+  },
+  {
+    "id": 210,
+    "name": "\"Fingers-loose\"",
+    "productionCode": "AASA16",
+    "airDate": "April 11, 2021",
+    "season": 11,
+    "episode": 17,
+    "totalViewers": "1.19 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/210"
+  },
+  {
+    "id": 211,
+    "name": "\"Some Kind of Fender Benderful\"",
+    "productionCode": "AASA17",
+    "airDate": "April 18, 2021",
+    "season": 11,
+    "episode": 18,
+    "totalViewers": "1.052 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/211"
+  },
+  {
+    "id": 212,
+    "name": "\"Vampire Disco Death Dance\"",
+    "productionCode": "AASA18",
+    "airDate": "May 23, 2021",
+    "season": 11,
+    "episode": 22,
+    "totalViewers": "0.975 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/212"
+  },
+  {
+    "id": 213,
+    "name": "\"Bridge Over Troubled Rudy\"",
+    "productionCode": "AASA19",
+    "airDate": "May 2, 2021",
+    "season": 11,
+    "episode": 19,
+    "totalViewers": "0.953 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/213"
+  },
+  {
+    "id": 214,
+    "name": "\"Steal Magazine-olias\"",
+    "productionCode": "AASA20",
+    "airDate": "May 9, 2021",
+    "season": 11,
+    "episode": 20,
+    "totalViewers": "1.108 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/214"
+  },
+  {
+    "id": 215,
+    "name": "\"Tell Me Dumb Thing Good\"",
+    "productionCode": "AASA21",
+    "airDate": "May 16, 2021",
+    "season": 11,
+    "episode": 21,
+    "totalViewers": "1.077 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/215"
+  }
+]
