@@ -29,7 +29,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/images', express.static('images'));
+app.use('/', express.static('./images'));
 app.use('/', routes);
 app.use((req, res, next) => {
   const error = new Error('not found');

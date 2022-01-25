@@ -77,11 +77,13 @@ const sanitizeResult = (result: Record<any, any>) => {
 
 const getOptions = (req: Request): QueryOptions => {
   const options: QueryOptions = {};
+  const sort: Record<string, number> = {};
 
   if (req.query.sortBy) {
     const orderBy = req.query?.OrderBy ?? '';
-    const sortBy = req.query?.sortBy.toString();
-    options.sort[sortBy] = orderBy === 'desc' ? -1 : 1;
+    sort[req.query?.sortBy.toString()] = orderBy === 'desc' ? -1 : 1;
+
+    options.sort = { ...sort };
   }
 
   if (req.query.limit !== undefined) {
@@ -108,8 +110,6 @@ const getData = async (
   data: Record<string, unknown>,
   options: QueryOptions
 ) => {
-  console.log('OPTIONS: ' + JSON.stringify(options));
-
   switch (route) {
     case 'episodes':
       const episodes = await Episodes.find(data, '-_id', options);
