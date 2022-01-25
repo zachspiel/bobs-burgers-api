@@ -1,4 +1,5 @@
 import { Request, Response } from 'express';
+import { QueryOptions } from 'mongoose';
 import Characters from '../models/characterModel';
 import EndCredits from '../models/endCreditModel';
 import Episodes from '../models/episodeModel';
@@ -19,8 +20,7 @@ const getRootData = async (req: Request, res: Response) => {
     episodes: 'https://bobsburgers-api.herokuapp.com/episodes/',
     storeNextDoor: 'https://bobsburgers-api.herokuapp.com/storeNextDoor/',
     pestControlTruck: 'https://bobsburgers-api.herokuapp.com/pestControlTruck/',
-    endCreditsSequence:
-      'https://bobsburgers-api.herokuapp.com/endCreditsSequence/',
+    endCreditsSequence: 'https://bobsburgers-api.herokuapp.com/endCreditsSequence/',
   };
 
   return res.status(200).json(data);
@@ -31,7 +31,7 @@ const getAllData = async (req: Request, res: Response) => {
   if (ROUTES.includes(route)) {
     const result = await getData(route, {}, getOptions(req));
 
-    result.forEach((item, index) => {
+    result.forEach((item: Record<any, any>, index: number) => {
       result[index] = sanitizeResult(item);
     });
 
@@ -51,13 +51,11 @@ const getSpecificItem = async (req: Request, res: Response) => {
   if (ROUTES.includes(route) && req.params.id !== undefined) {
     let id: number = parseInt(req.params.id);
 
-    const result = (await getData(route, { id: id })) as Record<any, any>;
+    const result = (await getData(route, { id: id }, {})) as Record<any, any>;
 
     return res.json(sanitizeResult(result[0]));
   } else {
-    return res
-      .status(400)
-      .json(`Error while retreiving data with id ${req.params.id}.`);
+    return res.status(400).json(`Error while retreiving data with id ${req.params.id}.`);
   }
 };
 
@@ -77,18 +75,14 @@ const sanitizeResult = (result: Record<any, any>) => {
   return result;
 };
 
-const getOptions = (req: Request) => {
-  const sort: Record<string, unknown> = {};
+const getOptions = (req: Request): QueryOptions => {
+  const options: QueryOptions = {};
 
   if (req.query.sortBy) {
     const orderBy = req.query?.OrderBy ?? '';
-
-    sort[req.query?.sortBy.toString()] = orderBy === 'desc' ? -1 : 1;
+    const sortBy = req.query?.sortBy.toString();
+    options.sort[sortBy] = orderBy === 'desc' ? -1 : 1;
   }
-
-  const options: Record<string, unknown> = {
-    sort,
-  };
 
   if (req.query.limit !== undefined) {
     const limit = req.query.limit.toString();
@@ -108,38 +102,29 @@ const getOptions = (req: Request) => {
 
   return options;
 };
+
 const getData = async (
   route: String,
   data: Record<string, unknown>,
-  options?: Record<string, unknown>
+  options: QueryOptions
 ) => {
+  console.log('OPTIONS: ' + JSON.stringify(options));
+
   switch (route) {
     case 'episodes':
-      const episodes = await Episodes.find(data, '-_id', options ?? {});
+      const episodes = await Episodes.find(data, '-_id', options);
       return episodes;
     case 'pestControlTruck':
-      const pestControlTrucks = await PestControlTrucks.find(
-        data,
-        '-_id',
-        options ?? {}
-      );
+      const pestControlTrucks = await PestControlTrucks.find(data, '-_id', options);
       return pestControlTrucks;
     case 'endCreditsSequence':
-      const endCreditsSquences = await EndCredits.find(
-        data,
-        '-_id',
-        options ?? {}
-      );
+      const endCreditsSquences = await EndCredits.find(data, '-_id', options);
       return endCreditsSquences;
     case 'storeNextDoor':
-      const storesNextDOor = await StoreNextDoor.find(
-        data,
-        '-_id',
-        options ?? {}
-      );
+      const storesNextDOor = await StoreNextDoor.find(data, '-_id', options);
       return storesNextDOor;
     default:
-      const characters = await Characters.find(data, '-_id', options ?? {});
+      const characters = await Characters.find(data, '-_id', options);
       return characters;
   }
 };
