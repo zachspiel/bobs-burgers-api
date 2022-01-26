@@ -4,6 +4,7 @@ import routes from './routes/router';
 import helmet from 'helmet';
 import cors from 'cors';
 import * as dotenv from 'dotenv';
+import path from 'path';
 const mongoose = require('mongoose');
 
 dotenv.config();
@@ -29,7 +30,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/images', express.static('images'));
+app.use(express.static(path.join(__dirname, '../public')));
 app.use('/', routes);
 app.use((req, res, next) => {
   const error = new Error('not found');
