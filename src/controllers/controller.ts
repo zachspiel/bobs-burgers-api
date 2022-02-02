@@ -93,8 +93,7 @@ const getData = async (
 ) => {
   for (const [key, model] of Object.entries(models)) {
     if (key === route) {
-      const returnedData = await model.find(data, '-_id', options);
-      return returnedData;
+      return await model.find(data, '-_id', options);
     }
   }
 
