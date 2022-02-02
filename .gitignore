@@ -3,6 +3,7 @@
 /.pnp
 .pnp.js
 /lib 
+/data
 
 # testing
 /coverage

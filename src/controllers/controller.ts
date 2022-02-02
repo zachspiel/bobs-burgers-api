@@ -5,6 +5,9 @@ import EndCredits from '../models/endCreditModel';
 import Episodes from '../models/episodeModel';
 import PestControlTrucks from '../models/pestControlTruckModel';
 import StoreNextDoor from '../models/storeModel';
+import path from 'path';
+import { getOptions, getTotalFilesInFolder } from '../util/util';
+import * as fs from 'fs';
 
 const ROUTES = [
   'characters',
@@ -13,6 +16,14 @@ const ROUTES = [
   'endCreditsSequence',
   'storeNextDoor',
 ];
+
+const models = {
+  characters: Characters,
+  episodes: Episodes,
+  pestControlTruck: PestControlTrucks,
+  storeNextDoor: StoreNextDoor,
+  endCreditsSequence: EndCredits,
+};
 
 const getRootData = async (req: Request, res: Response) => {
   const data = {
@@ -75,58 +86,47 @@ const sanitizeResult = (result: Record<any, any>) => {
   return result;
 };
 
-const getOptions = (req: Request): QueryOptions => {
-  const options: QueryOptions = {};
-  const sort: Record<string, number> = {};
-
-  if (req.query.sortBy) {
-    const orderBy = req.query?.OrderBy ?? '';
-    sort[req.query?.sortBy.toString()] = orderBy === 'desc' ? -1 : 1;
-
-    options.sort = { ...sort };
-  }
-
-  if (req.query.limit !== undefined) {
-    const limit = req.query.limit.toString();
-
-    if (!isNaN(limit as any)) {
-      options.limit = parseInt(limit);
-    }
-  }
-
-  if (req.query.skip !== undefined) {
-    const skip = req.query.skip.toString();
-
-    if (!isNaN(skip as any)) {
-      options.skip = parseInt(skip);
-    }
-  }
-
-  return options;
-};
-
 const getData = async (
   route: String,
   data: Record<string, unknown>,
   options: QueryOptions
 ) => {
-  switch (route) {
-    case 'episodes':
-      const episodes = await Episodes.find(data, '-_id', options);
-      return episodes;
-    case 'pestControlTruck':
-      const pestControlTrucks = await PestControlTrucks.find(data, '-_id', options);
-      return pestControlTrucks;
-    case 'endCreditsSequence':
-      const endCreditsSquences = await EndCredits.find(data, '-_id', options);
-      return endCreditsSquences;
-    case 'storeNextDoor':
-      const storesNextDOor = await StoreNextDoor.find(data, '-_id', options);
-      return storesNextDOor;
-    default:
-      const characters = await Characters.find(data, '-_id', options);
-      return characters;
+  for (const [key, model] of Object.entries(models)) {
+    if (key === route) {
+      const returnedData = await model.find(data, '-_id', options);
+      return returnedData;
+    }
+  }
+
+  return [];
+};
+
+const getImage = async (req: Request, res: Response) => {
+  const { file, folder } = req.params;
+  const errorMessage =
+    file === undefined ? 'No image was provided in url' : `Image ${file} was not found`;
+  const targetDirectory = path.join(__dirname, '../../public/images', folder);
+
+  if (fs.existsSync(targetDirectory)) {
+    const targetId = file.split('.')[0];
+    let totalImages = getTotalFilesInFolder(targetDirectory.toString());
+    const outOfBoundsError = `Image ${file} is outside of bounds ${totalImages} for directory ${folder}`;
+
+    if (!Number.isNaN(Number(targetId)) && Number(targetId) <= totalImages) {
+      const filePath = path.join(targetDirectory, file);
+      return res.sendFile(path.resolve(filePath));
+    }
+
+    sendErrorMessage(res, outOfBoundsError);
+  } else {
+    sendErrorMessage(res, errorMessage);
   }
 };
 
-export default { getRootData, getAllData, getSpecificItem };
+const sendErrorMessage = (response: Response, message: string) => {
+  return response.status(404).json({
+    message: message,
+  });
+};
+
+export default { getRootData, getAllData, getSpecificItem, getImage };
