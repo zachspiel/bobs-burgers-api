@@ -10,10 +10,12 @@
   "main": "src/server.ts",
   "scripts": {
     "build": "tsc",
+    "postinstall": "tsc",
     "start": "nodemon src/server.ts"
   },
   "dependencies": {
     "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
     "axios": "^0.24.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
