@@ -30,7 +30,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static(path.join(__dirname, '../public')));
+app.use('/images', express.static(path.join(__dirname, '../public/images')));
 app.use('/', routes);
 app.use((req, res, next) => {
   const error = new Error('not found');

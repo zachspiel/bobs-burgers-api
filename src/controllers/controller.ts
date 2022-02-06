@@ -5,9 +5,7 @@ import EndCredits from '../models/endCreditModel';
 import Episodes from '../models/episodeModel';
 import PestControlTrucks from '../models/pestControlTruckModel';
 import StoreNextDoor from '../models/storeModel';
-import path from 'path';
-import { getOptions, getTotalFilesInFolder } from '../util/util';
-import * as fs from 'fs';
+import { getOptions } from '../util/util';
 
 const ROUTES = [
   'characters',
@@ -37,7 +35,7 @@ const getRootData = async (req: Request, res: Response) => {
   return res.status(200).json(data);
 };
 
-const getAllData = async (req: Request, res: Response) => {
+const getAllDataInEndpoint = async (req: Request, res: Response) => {
   const route = req.params.route;
   if (ROUTES.includes(route)) {
     const result = await getData(route, {}, getOptions(req));
@@ -56,7 +54,7 @@ const getAllData = async (req: Request, res: Response) => {
   }
 };
 
-const getSpecificItem = async (req: Request, res: Response) => {
+const getSpecificItemInEndpoint = async (req: Request, res: Response) => {
   const route = req.params.route;
 
   if (ROUTES.includes(route) && req.params.id !== undefined) {
@@ -100,32 +98,4 @@ const getData = async (
   return [];
 };
 
-const getImage = async (req: Request, res: Response) => {
-  const { file, folder } = req.params;
-  const errorMessage =
-    file === undefined ? 'No image was provided in url' : `Image ${file} was not found`;
-  const targetDirectory = path.join(__dirname, '../../public/images', folder);
-
-  if (fs.existsSync(targetDirectory)) {
-    const targetId = file.split('.')[0];
-    let totalImages = getTotalFilesInFolder(targetDirectory.toString());
-    const outOfBoundsError = `Image ${file} is outside of bounds ${totalImages} for directory ${folder}`;
-
-    if (!Number.isNaN(Number(targetId)) && Number(targetId) <= totalImages) {
-      const filePath = path.join(targetDirectory, file);
-      return res.sendFile(path.resolve(filePath));
-    }
-
-    sendErrorMessage(res, outOfBoundsError);
-  } else {
-    sendErrorMessage(res, errorMessage);
-  }
-};
-
-const sendErrorMessage = (response: Response, message: string) => {
-  return response.status(404).json({
-    message: message,
-  });
-};
-
-export default { getRootData, getAllData, getSpecificItem, getImage };
+export default { getRootData, getAllDataInEndpoint, getSpecificItemInEndpoint };
