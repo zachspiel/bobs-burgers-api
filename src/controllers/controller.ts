@@ -1,4 +1,4 @@
-import { Request, Response } from 'express';
+import { Request, response, Response } from 'express';
 import { QueryOptions } from 'mongoose';
 import Characters from '../models/characterModel';
 import EndCredits from '../models/endCreditModel';
@@ -35,7 +35,7 @@ const getRootData = async (req: Request, res: Response) => {
   return res.status(200).json(data);
 };
 
-const getAllDataInEndpoint = async (req: Request, res: Response) => {
+const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
   const route = req.params.route;
   if (ROUTES.includes(route)) {
     const result = await getData(route, {}, getOptions(req));
@@ -46,26 +46,35 @@ const getAllDataInEndpoint = async (req: Request, res: Response) => {
 
     return res.json(result);
   } else {
-    return res
-      .status(400)
-      .json(
-        `Error while getting data for route: ${route}. Available options are: characters, pescControlTrucks, endCredits or storeNextDoor.`
-      );
+    return sendErrorMessage(
+      `Error while getting data for route: ${route}. Available options are: characters, episodes, pestControlTrucks, endCreditsSequence or storeNextDoor.`,
+      res
+    );
   }
 };
 
-const getSpecificItemInEndpoint = async (req: Request, res: Response) => {
+const getResourceById = async (req: Request, res: Response) => {
   const route = req.params.route;
 
   if (ROUTES.includes(route) && req.params.id !== undefined) {
     let id: number = parseInt(req.params.id);
 
-    const result = (await getData(route, { id: id }, {})) as Record<any, any>;
+    const result = await getData(route, { id: id }, {});
+
+    if (result.length === 0) {
+      return sendErrorMessage(
+        `Error while retreiving data with id ${req.params.id}.`,
+        res
+      );
+    }
 
     return res.json(sanitizeResult(result[0]));
-  } else {
-    return res.status(400).json(`Error while retreiving data with id ${req.params.id}.`);
   }
+
+  return sendErrorMessage(
+    `Error while retreiving data with id ${req.params.id} in route ${route}.`,
+    res
+  );
 };
 
 const sanitizeResult = (result: Record<any, any>) => {
@@ -91,11 +100,19 @@ const getData = async (
 ) => {
   for (const [key, model] of Object.entries(models)) {
     if (key === route) {
-      return await model.find(data, '-_id', options);
+      return await model
+        .find(data, '-_id')
+        .limit(options.limit ?? 502)
+        .skip(options.skip ?? 0)
+        .sort(options.sort ?? 'asc');
     }
   }
 
   return [];
 };
 
-export default { getRootData, getAllDataInEndpoint, getSpecificItemInEndpoint };
+const sendErrorMessage = (message: string, response: Response) => {
+  return response.status(500).json({ error: message });
+};
+
+export default { getRootData, getAllResourcesInEndpoint, getResourceById };

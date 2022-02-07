@@ -1,8 +1,10 @@
+![](https://img.shields.io/badge/Coverage-96%25-83A603.svg?prefix=$coverage$)
+
 ![Banner Image](./public/images/readme-banner.jpg?raw=true 'Title')
 
 # The Bob's Burgers API
 
-The [Bob's Burgers API](https://bobsburgers-api.herokuapp.com/) is a REST API based on the television show Bob's Burgers. The Bob's Burgers API contains data for hundreds of characters, episodes, running gags and images from the show.
+The [Bob's Burgers API](https://www.bobsburgersapi.com/) is a REST API based on the television show Bob's Burgers. The Bob's Burgers API contains data for hundreds of characters, episodes, running gags and images from the show.
 
 ## Getting Started
 

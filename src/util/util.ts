@@ -1,6 +1,5 @@
 import { Request } from 'express';
 import { QueryOptions } from 'mongoose';
-import * as fs from 'fs';
 
 const getOptions = (req: Request): QueryOptions => {
   const options: QueryOptions = {};
@@ -32,12 +31,4 @@ const getOptions = (req: Request): QueryOptions => {
   return options;
 };
 
-const getTotalFilesInFolder = (folder: string): number => {
-  try {
-    return fs.readdirSync(folder).length;
-  } catch (err) {
-    return 0;
-  }
-};
-
-export { getOptions, getTotalFilesInFolder };
+export { getOptions };
