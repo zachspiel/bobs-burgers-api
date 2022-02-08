@@ -32,10 +32,13 @@ const getOptions = (req: Request): QueryOptions => {
 };
 
 const filterResult = (result: any[], filters: Record<any, any>): any[] => {
+  const optionKeys = ['limit', 'skip', 'sortBy'];
+  const keys = Object.keys(filters).filter((key) => !optionKeys.includes(key));
+
   const filtered = result.filter((item) => {
     let isValid = true;
 
-    for (const key in filters) {
+    for (const key in keys) {
       isValid = isValid && item[key] == filters[key];
     }
     return isValid;
@@ -44,4 +47,17 @@ const filterResult = (result: any[], filters: Record<any, any>): any[] => {
   return filtered;
 };
 
-export { getOptions, filterResult };
+const getFilters = (req: Request) => {
+  const optionKeys = ['limit', 'skip', 'sortBy'];
+  const keys = Object.keys(req.query).filter((key) => !optionKeys.includes(key));
+
+  const filtered: Record<any, any> = {};
+
+  keys.forEach((key) => {
+    filtered[key] = req.query[key];
+  });
+
+  return filtered;
+};
+
+export { getOptions, filterResult, getFilters };

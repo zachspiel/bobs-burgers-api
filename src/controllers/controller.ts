@@ -5,7 +5,7 @@ import EndCredits from '../models/endCreditModel';
 import Episodes from '../models/episodeModel';
 import PestControlTrucks from '../models/pestControlTruckModel';
 import StoreNextDoor from '../models/storeModel';
-import { filterResult, getOptions } from '../util/util';
+import { getFilters, getOptions } from '../util/util';
 
 const ROUTES = [
   'characters',
@@ -39,10 +39,10 @@ const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
   const route = req.params.route;
 
   if (ROUTES.includes(route)) {
-    const result = await getData(route, {}, getOptions(req));
-    const filtered = filterResult(result, req.query);
+    const filters = getFilters(req);
+    const result = await getData(route, filters, getOptions(req));
 
-    return res.json(filtered);
+    return res.json(result);
   } else {
     return sendErrorMessage(
       `Error while getting data for route: ${route}. Available options are: characters, episodes, pestControlTrucks, endCreditsSequence or storeNextDoor.`,
@@ -55,8 +55,20 @@ const getResourceById = async (req: Request, res: Response) => {
   const route = req.params.route;
 
   if (ROUTES.includes(route) && req.params.id !== undefined) {
-    const id: number = parseInt(req.params.id);
-    const result = await getData(route, { id: id }, {});
+    let filter = {};
+
+    /* if (Array.isArray(req.params.id)) {
+      const id = JSON.parse(req.params.id);
+      filter = { id: { $in: id } };
+    } else if (!Array.isArray(id) && !isNaN(parseInt(req.params.id))) {
+      console.log('here');
+      filter = { id: parseInt(req.params.id) };
+    }
+
+    console.log(filter);
+    */
+    //const id: number = parseInt(req.params.id);
+    const result = await getData(route, { id: parseInt(req.params.id) }, {});
 
     if (result.length === 0) {
       return sendErrorMessage(
@@ -83,9 +95,9 @@ const getData = async (
     if (key === route) {
       return await model
         .find(data, '-_id')
+        .sort(options.sort ?? { id: 1 })
         .limit(options.limit ?? 502)
-        .skip(options.skip ?? 0)
-        .sort(options.sort ?? 'asc');
+        .skip(options.skip ?? 0);
     }
   }
 
