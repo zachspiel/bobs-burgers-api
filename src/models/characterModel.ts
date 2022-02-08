@@ -1,4 +1,4 @@
-import mongoose, { Schema } from 'mongoose';
+import mongoose from 'mongoose';
 
 const CharacterSchema = new mongoose.Schema({
   _id: {
@@ -27,13 +27,10 @@ const CharacterSchema = new mongoose.Schema({
   occupation: {
     type: String,
   },
-  relatives: [
-    {
-      type: String,
-      required: false,
-      default: undefined,
-    },
-  ],
+  relatives: {
+    type: [String],
+    default: undefined,
+  },
   firstEpisode: {
     type: String,
   },

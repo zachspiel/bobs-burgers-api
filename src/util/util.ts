@@ -1,6 +1,5 @@
 import { Request } from 'express';
 import { QueryOptions } from 'mongoose';
-import * as fs from 'fs';
 
 const getOptions = (req: Request): QueryOptions => {
   const options: QueryOptions = {};
@@ -32,12 +31,17 @@ const getOptions = (req: Request): QueryOptions => {
   return options;
 };
 
-const getTotalFilesInFolder = (folder: string): number => {
-  try {
-    return fs.readdirSync(folder).length;
-  } catch (err) {
-    return 0;
-  }
+const filterResult = (result: any[], filters: Record<any, any>): any[] => {
+  const filtered = result.filter((item) => {
+    let isValid = true;
+
+    for (const key in filters) {
+      isValid = isValid && item[key] == filters[key];
+    }
+    return isValid;
+  });
+
+  return filtered;
 };
 
-export { getOptions, getTotalFilesInFolder };
+export { getOptions, filterResult };

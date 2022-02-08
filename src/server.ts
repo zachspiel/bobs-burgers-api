@@ -23,16 +23,12 @@ app.use((req, res, next) => {
     'Access-Control-Allow-Headers',
     'origin, X-Requested-With,Content-Type,Accept, Authorization'
   );
-  if (req.method === 'OPTIONS') {
-    res.header('Access-Control-Allow-Methods', 'GET');
-    return res.status(200).json({});
-  }
   next();
 });
 
 app.use('/images', express.static(path.join(__dirname, '../public/images')));
 app.use('/', routes);
-app.use((req, res, next) => {
+app.use((req, res) => {
   const error = new Error('not found');
   return res.status(404).json({
     message: error.message,
@@ -42,3 +38,5 @@ app.use((req, res, next) => {
 const httpServer = http.createServer(app);
 const PORT: any = process.env.PORT ?? 5000;
 httpServer.listen(PORT, () => console.log(`The server is running on port ${PORT}`));
+
+export default app;
