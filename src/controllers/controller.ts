@@ -53,22 +53,24 @@ const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
 
 const getResourceById = async (req: Request, res: Response) => {
   const route = req.params.route;
+  const id = req.params.id;
+  let includeMultipleResults = false;
+  let filter = {};
 
   if (ROUTES.includes(route) && req.params.id !== undefined) {
-    let filter = {};
-
-    /* if (Array.isArray(req.params.id)) {
-      const id = JSON.parse(req.params.id);
-      filter = { id: { $in: id } };
-    } else if (!Array.isArray(id) && !isNaN(parseInt(req.params.id))) {
-      console.log('here');
-      filter = { id: parseInt(req.params.id) };
+    if (/\[.+\]$/.test(id)) {
+      const idArray = JSON.parse(id).map(Number);
+      filter = { id: { $in: idArray } };
+      includeMultipleResults = true;
+    } else if (id.includes(',') && !/\[|\]/.test(id) && id.length > 1) {
+      const idArray = id.split(',').map(Number);
+      filter = { id: { $in: idArray } };
+      includeMultipleResults = true;
+    } else if (!Array.isArray(id) && !isNaN(parseInt(id))) {
+      filter = { id: parseInt(id) };
     }
 
-    console.log(filter);
-    */
-    //const id: number = parseInt(req.params.id);
-    const result = await getData(route, { id: parseInt(req.params.id) }, {});
+    const result = await getData(route, filter, {});
 
     if (result.length === 0) {
       return sendErrorMessage(
@@ -77,7 +79,7 @@ const getResourceById = async (req: Request, res: Response) => {
       );
     }
 
-    return res.json(result[0]);
+    return includeMultipleResults ? res.json(result) : res.json(result[0]);
   }
 
   return sendErrorMessage(
