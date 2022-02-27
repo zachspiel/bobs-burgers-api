@@ -49,7 +49,9 @@ const filterResult = (result: any[], filters: Record<any, any>): any[] => {
 
 const getFilters = (req: Request) => {
   const optionKeys = ['limit', 'skip', 'sortBy'];
-  const keys = Object.keys(req.query).filter((key) => !optionKeys.includes(key));
+  const keys = Object.keys(req.query).filter(
+    (key) => !optionKeys.includes(key)
+  );
 
   const filtered: Record<any, any> = {};
 
@@ -60,4 +62,12 @@ const getFilters = (req: Request) => {
   return filtered;
 };
 
-export { getOptions, filterResult, getFilters };
+const isArray = (id: string) => {
+  return /\[.+\]$/.test(id);
+};
+
+const isCommaSeparated = (id: string) => {
+  return id.includes(',') && !isArray(id) && id.length > 1;
+};
+
+export { getOptions, filterResult, getFilters, isArray, isCommaSeparated };

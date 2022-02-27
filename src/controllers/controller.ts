@@ -5,7 +5,12 @@ import EndCredits from '../models/endCreditModel';
 import Episodes from '../models/episodeModel';
 import PestControlTrucks from '../models/pestControlTruckModel';
 import StoreNextDoor from '../models/storeModel';
-import { getFilters, getOptions } from '../util/util';
+import {
+  getFilters,
+  getOptions,
+  isArray,
+  isCommaSeparated,
+} from '../util/util';
 
 const ROUTES = [
   'characters',
@@ -29,7 +34,8 @@ const getRootData = async (req: Request, res: Response) => {
     episodes: 'https://bobsburgers-api.herokuapp.com/episodes/',
     storeNextDoor: 'https://bobsburgers-api.herokuapp.com/storeNextDoor/',
     pestControlTruck: 'https://bobsburgers-api.herokuapp.com/pestControlTruck/',
-    endCreditsSequence: 'https://bobsburgers-api.herokuapp.com/endCreditsSequence/',
+    endCreditsSequence:
+      'https://bobsburgers-api.herokuapp.com/endCreditsSequence/',
   };
 
   return res.status(200).json(data);
@@ -58,11 +64,11 @@ const getResourceById = async (req: Request, res: Response) => {
   let filter = {};
 
   if (ROUTES.includes(route) && req.params.id !== undefined) {
-    if (/\[.+\]$/.test(id)) {
+    if (isArray(id)) {
       const idArray = JSON.parse(id).map(Number);
       filter = { id: { $in: idArray } };
       includeMultipleResults = true;
-    } else if (id.includes(',') && !/\[|\]/.test(id) && id.length > 1) {
+    } else if (isCommaSeparated(id)) {
       const idArray = id.split(',').map(Number);
       filter = { id: { $in: idArray } };
       includeMultipleResults = true;
