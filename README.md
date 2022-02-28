@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Coverage-96%25-83A603.svg?prefix=$coverage$)
+
 ![Banner Image](./public/images/readme-banner.jpg?raw=true 'Title')
 
 # The Bob's Burgers API
