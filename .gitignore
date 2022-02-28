@@ -4,6 +4,7 @@
 .pnp.js
 /lib 
 /data
+/.nyc_output
 
 # testing
 /coverage

@@ -4,6 +4,8 @@ import { QueryOptions } from 'mongoose';
 const getOptions = (req: Request): QueryOptions => {
   const options: QueryOptions = {};
   const sort: Record<string, number> = {};
+  const limit = req.query.limit?.toString() ?? '';
+  const skip = req.query.skip?.toString() ?? '';
 
   if (req.query.sortBy) {
     const orderBy = req.query?.OrderBy ?? '';
@@ -12,39 +14,15 @@ const getOptions = (req: Request): QueryOptions => {
     options.sort = { ...sort };
   }
 
-  if (req.query.limit !== undefined) {
-    const limit = req.query.limit.toString();
-
-    if (!isNaN(limit as any)) {
-      options.limit = parseInt(limit);
-    }
+  if (!isNaN(parseInt(limit))) {
+    options.limit = parseInt(limit);
   }
 
-  if (req.query.skip !== undefined) {
-    const skip = req.query.skip.toString();
-
-    if (!isNaN(skip as any)) {
-      options.skip = parseInt(skip);
-    }
+  if (!isNaN(parseInt(skip))) {
+    options.skip = parseInt(skip);
   }
 
   return options;
-};
-
-const filterResult = (result: any[], filters: Record<any, any>): any[] => {
-  const optionKeys = ['limit', 'skip', 'sortBy'];
-  const keys = Object.keys(filters).filter((key) => !optionKeys.includes(key));
-
-  const filtered = result.filter((item) => {
-    let isValid = true;
-
-    for (const key in keys) {
-      isValid = isValid && item[key] == filters[key];
-    }
-    return isValid;
-  });
-
-  return filtered;
 };
 
 const getFilters = (req: Request) => {
@@ -62,6 +40,14 @@ const getFilters = (req: Request) => {
   return filtered;
 };
 
+const getArrayParameters = (id: string) => {
+  const idArray = isArray(id)
+    ? JSON.parse(id).map(Number)
+    : id.split(',').map(Number);
+
+  return { id: { $in: idArray } };
+};
+
 const isArray = (id: string) => {
   return /\[.+\]$/.test(id);
 };
@@ -70,4 +56,10 @@ const isCommaSeparated = (id: string) => {
   return id.includes(',') && !isArray(id) && id.length > 1;
 };
 
-export { getOptions, filterResult, getFilters, isArray, isCommaSeparated };
+export {
+  getOptions,
+  getFilters,
+  getArrayParameters,
+  isArray,
+  isCommaSeparated,
+};

@@ -6,6 +6,7 @@ import Episodes from '../models/episodeModel';
 import PestControlTrucks from '../models/pestControlTruckModel';
 import StoreNextDoor from '../models/storeModel';
 import {
+  getArrayParameters,
   getFilters,
   getOptions,
   isArray,
@@ -44,17 +45,24 @@ const getRootData = async (req: Request, res: Response) => {
 const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
   const route = req.params.route;
 
-  if (ROUTES.includes(route)) {
-    const filters = getFilters(req);
-    const result = await getData(route, filters, getOptions(req));
-
-    return res.json(result);
-  } else {
+  if (!ROUTES.includes(route)) {
     return sendErrorMessage(
       `Error while getting data for route: ${route}. Available options are: characters, episodes, pestControlTrucks, endCreditsSequence or storeNextDoor.`,
       res
     );
   }
+
+  const filters = getFilters(req);
+  getData(route, filters, getOptions(req))
+    .then((result) => {
+      return res.json(result);
+    })
+    .catch((error) => {
+      return sendErrorMessage(
+        `Error while getting data for route: ${route}. ${error.message}`,
+        res
+      );
+    });
 };
 
 const getResourceById = async (req: Request, res: Response) => {
@@ -63,35 +71,33 @@ const getResourceById = async (req: Request, res: Response) => {
   let includeMultipleResults = false;
   let filter = {};
 
-  if (ROUTES.includes(route) && req.params.id !== undefined) {
-    if (isArray(id)) {
-      const idArray = JSON.parse(id).map(Number);
-      filter = { id: { $in: idArray } };
-      includeMultipleResults = true;
-    } else if (isCommaSeparated(id)) {
-      const idArray = id.split(',').map(Number);
-      filter = { id: { $in: idArray } };
-      includeMultipleResults = true;
-    } else if (!Array.isArray(id) && !isNaN(parseInt(id))) {
-      filter = { id: parseInt(id) };
-    }
+  const errorMessage = `Error while retreiving data with id ${id} in route ${route}.`;
 
-    const result = await getData(route, filter, {});
-
-    if (result.length === 0) {
-      return sendErrorMessage(
-        `Error while retreiving data with id ${req.params.id}.`,
-        res
-      );
-    }
-
-    return includeMultipleResults ? res.json(result) : res.json(result[0]);
+  if (!ROUTES.includes(route) || id === undefined) {
+    return sendErrorMessage(errorMessage, res);
   }
 
-  return sendErrorMessage(
-    `Error while retreiving data with id ${req.params.id} in route ${route}.`,
-    res
-  );
+  if (isArray(id) || isCommaSeparated(id)) {
+    filter = getArrayParameters(id);
+    includeMultipleResults = true;
+  } else if (!isArray(id) && !isNaN(parseInt(id))) {
+    filter = { id: parseInt(id) };
+  }
+
+  getData(route, filter, {})
+    .then((result) => {
+      if (result.length === 0) {
+        return sendErrorMessage(errorMessage, res);
+      }
+
+      return includeMultipleResults ? res.json(result) : res.json(result[0]);
+    })
+    .catch((error) => {
+      return sendErrorMessage(
+        `Error while getting data for route: ${route}. ${error.message}`,
+        res
+      );
+    });
 };
 
 const getData = async (
