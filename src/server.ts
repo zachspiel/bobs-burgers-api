@@ -5,7 +5,7 @@ import helmet from 'helmet';
 import cors from 'cors';
 import * as dotenv from 'dotenv';
 import path from 'path';
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 dotenv.config();
 
@@ -37,6 +37,8 @@ app.use((req, res) => {
 
 const httpServer = http.createServer(app);
 const PORT: any = process.env.PORT ?? 5000;
-httpServer.listen(PORT, () => console.log(`The server is running on port ${PORT}`));
+httpServer.listen(PORT, () =>
+  console.log(`The server is running on port ${PORT}`)
+);
 
 export default app;

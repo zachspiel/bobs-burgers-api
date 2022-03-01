@@ -31,13 +31,13 @@ const getFilters = (req: Request) => {
     (key) => !optionKeys.includes(key)
   );
 
-  const filtered: Record<any, any> = {};
+  const filters: Record<string, any> = {};
 
   keys.forEach((key) => {
-    filtered[key] = req.query[key];
+    filters[key] = req.query[key];
   });
 
-  return filtered;
+  return filters;
 };
 
 const getArrayParameters = (id: string) => {
