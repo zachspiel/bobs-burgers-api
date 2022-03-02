@@ -6,17 +6,23 @@ import cors from 'cors';
 import * as dotenv from 'dotenv';
 import path from 'path';
 import mongoose from 'mongoose';
+var moesif = require('moesif-nodejs');
 
 dotenv.config();
 
 mongoose.connect(process.env.DATABASE_URL ?? '');
+
+const moesifMiddleware = moesif({
+  applicationId:
+    'eyJhcHAiOiIxMDkxOjQwIiwidmVyIjoiMi4wIiwib3JnIjoiMjYyOjYwNSIsImlhdCI6MTY0NjA5MjgwMH0.4bWnDVC4bCzPbcR-sB5C2CTVwGUPDs29d9GyCfThXrc',
+});
 
 const app: Express = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(helmet());
 app.use(cors());
-
+app.use(moesifMiddleware);
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   res.header(
