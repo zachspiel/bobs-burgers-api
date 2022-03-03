@@ -19,6 +19,9 @@ const EndCreditsSequenceSchema = new mongoose.Schema({
     type: Number,
   },
   episode: {
+    type: Number,
+  },
+  episodeUrl: {
     type: String,
   },
   url: {
