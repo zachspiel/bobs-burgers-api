@@ -1,24 +1,27 @@
-import { Request, response, Response } from 'express';
-import { QueryOptions } from 'mongoose';
-import Characters from '../models/characterModel';
-import EndCredits from '../models/endCreditModel';
-import Episodes from '../models/episodeModel';
-import PestControlTrucks from '../models/pestControlTruckModel';
-import StoreNextDoor from '../models/storeModel';
+import { Request, response, Response } from "express";
+import { QueryOptions } from "mongoose";
+import Characters from "../models/characterModel";
+import EndCredits from "../models/endCreditModel";
+import Episodes from "../models/episodeModel";
+import PestControlTrucks from "../models/pestControlTruckModel";
+import StoreNextDoor from "../models/storeModel";
+import BurgerOfTheDay from "../models/burgerOfTheDayModel";
+
 import {
   getArrayParameters,
   getFilters,
   getOptions,
   isArray,
   isCommaSeparated,
-} from '../util/util';
+} from "../util/util";
 
 const ROUTES = [
-  'characters',
-  'episodes',
-  'pestControlTruck',
-  'endCreditsSequence',
-  'storeNextDoor',
+  "characters",
+  "episodes",
+  "pestControlTruck",
+  "endCreditsSequence",
+  "storeNextDoor",
+  "burgerOfTheDay",
 ];
 
 const models = {
@@ -27,16 +30,17 @@ const models = {
   pestControlTruck: PestControlTrucks,
   storeNextDoor: StoreNextDoor,
   endCreditsSequence: EndCredits,
+  burgerOfTheDay: BurgerOfTheDay,
 };
 
 const getRootData = async (req: Request, res: Response) => {
   const data = {
-    characters: 'https://bobsburgers-api.herokuapp.com/characters/',
-    episodes: 'https://bobsburgers-api.herokuapp.com/episodes/',
-    storeNextDoor: 'https://bobsburgers-api.herokuapp.com/storeNextDoor/',
-    pestControlTruck: 'https://bobsburgers-api.herokuapp.com/pestControlTruck/',
-    endCreditsSequence:
-      'https://bobsburgers-api.herokuapp.com/endCreditsSequence/',
+    characters: "https://bobsburgers-api.herokuapp.com/characters/",
+    episodes: "https://bobsburgers-api.herokuapp.com/episodes/",
+    storeNextDoor: "https://bobsburgers-api.herokuapp.com/storeNextDoor/",
+    pestControlTruck: "https://bobsburgers-api.herokuapp.com/pestControlTruck/",
+    endCreditsSequence: "https://bobsburgers-api.herokuapp.com/endCreditsSequence/",
+    burgerOfTheDay: "https://bobsburgers-api.herokuapp.com/burgerOfTheDay/",
   };
 
   return res.status(200).json(data);
@@ -108,7 +112,7 @@ const getData = async (
   for (const [key, model] of Object.entries(models)) {
     if (key === route) {
       return await model
-        .find(data, '-_id')
+        .find(data, "-_id")
         .sort(options.sort ?? { id: 1 })
         .limit(options.limit ?? 502)
         .skip(options.skip ?? 0);
