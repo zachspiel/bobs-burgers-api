@@ -11,13 +11,16 @@ const BurgerOfTheDaySchema = new mongoose.Schema({
   burgers: {
     type: [String],
   },
+  price: {
+    type: String,
+  },
   season: {
     type: Number,
   },
   episode: {
-    type: String,
+    type: Number,
   },
-  episodeName: {
+  episodeUrl: {
     type: String,
   },
   url: {
