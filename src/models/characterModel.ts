@@ -1,4 +1,20 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
+
+const RelativeSchema = new mongoose.Schema({
+  _id: {
+    select: false,
+  },
+  name: {
+    type: String,
+    required: true,
+  },
+  url: {
+    type: String,
+  },
+  wikiUrl: {
+    type: String,
+  },
+});
 
 const CharacterSchema = new mongoose.Schema({
   _id: {
@@ -28,7 +44,7 @@ const CharacterSchema = new mongoose.Schema({
     type: String,
   },
   relatives: {
-    type: [String],
+    type: [RelativeSchema],
     default: undefined,
   },
   firstEpisode: {
@@ -42,4 +58,4 @@ const CharacterSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model('Character', CharacterSchema);
+export default mongoose.model("Character", CharacterSchema);
