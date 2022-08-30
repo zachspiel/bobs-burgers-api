@@ -1,17 +1,14 @@
 process.env.NODE_ENV = "test";
 import chai from "chai";
 import chaiHttp from "chai-http";
-import server from "../server";
 import { expect } from "chai";
+import { testEndpoint } from "./root";
 
 chai.use(chaiHttp);
 
 const TOTAL_CHARACTERS = 506;
-const testEndpoint = async (pathname: string) => {
-  return chai.request(server).get(pathname);
-};
 
-describe("Characters", () => {
+describe("Characters", async () => {
   describe("/GET characters", () => {
     it("it should GET all the characters", async () => {
       return testEndpoint("/characters").then((result) => {

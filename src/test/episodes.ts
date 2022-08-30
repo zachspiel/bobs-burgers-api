@@ -8,8 +8,8 @@ chai.use(chaiHttp);
 
 const TOTAL_EPISODES = 228;
 
-describe("Episodes", () => {
-  describe("/GET episodes", () => {
+describe("Episodes", async () => {
+  describe("/GET episodes", async () => {
     it("it should GET all the episodes", async () => {
       return testEndpoint("/episodes").then((result) => {
         const { body } = result;
@@ -18,7 +18,7 @@ describe("Episodes", () => {
     });
   });
 
-  describe("/GET episodes/1", () => {
+  describe("/GET episodes/1", async () => {
     it("it should GET the first episode with an id of 1", async () => {
       return testEndpoint("/episodes/1").then((result) => {
         const { body } = result;
@@ -28,7 +28,7 @@ describe("Episodes", () => {
     });
   });
 
-  describe("/GET episodes?limit=2", () => {
+  describe("/GET episodes?limit=2", async () => {
     it("it should GET the first two episodes", async () => {
       return testEndpoint("/episodes?limit=2").then((result) => {
         const { body } = result;
@@ -37,7 +37,7 @@ describe("Episodes", () => {
     });
   });
 
-  describe("/GET episodes/[1,2,3]", () => {
+  describe("/GET episodes/[1,2,3]", async () => {
     it("it should GET the first three episodes", async () => {
       return testEndpoint("/episodes/[1,2,3]").then((result) => {
         const { body } = result;
@@ -46,7 +46,7 @@ describe("Episodes", () => {
     });
   });
 
-  describe("/GET episodes/1,2,3", () => {
+  describe("/GET episodes/1,2,3", async () => {
     it("it should GET the first three episodes", async () => {
       return testEndpoint("/episodes/1,2,3").then((result) => {
         const { body } = result;
@@ -55,7 +55,7 @@ describe("Episodes", () => {
     });
   });
 
-  describe("/GET episodes?skip=3", () => {
+  describe("/GET episodes?skip=3", async () => {
     it("it should GET the fourth episode", async () => {
       return testEndpoint("/episodes?skip=3").then((result) => {
         const { body } = result;

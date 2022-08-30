@@ -8,8 +8,8 @@ chai.use(chaiHttp);
 
 const TOTAL_PEST_CONTROL_TRUCKS = 225;
 
-describe("Pest Control Trucks", () => {
-  describe("/GET pestControlTruck", () => {
+describe("Pest Control Trucks", async () => {
+  describe("/GET pestControlTruck", async () => {
     it("it should GET all the pest control trucks", async () => {
       return testEndpoint("/pestControlTruck").then((result) => {
         const { body } = result;
@@ -18,7 +18,7 @@ describe("Pest Control Trucks", () => {
     });
   });
 
-  describe("/GET pestControlTruck/1", () => {
+  describe("/GET pestControlTruck/1", async () => {
     it("it should GET the first pest control truck with an id of 1", async () => {
       return testEndpoint("/pestControlTruck/1").then((result) => {
         const { body } = result;
@@ -28,7 +28,7 @@ describe("Pest Control Trucks", () => {
     });
   });
 
-  describe("/GET pestControlTruck?limit=2", () => {
+  describe("/GET pestControlTruck?limit=2", async () => {
     it("it should GET the first two pest control trucks", async () => {
       return testEndpoint("/pestControlTruck?limit=2").then((result) => {
         const { body } = result;
@@ -37,7 +37,7 @@ describe("Pest Control Trucks", () => {
     });
   });
 
-  describe("/GET pestControlTruck/[1,2,3]", () => {
+  describe("/GET pestControlTruck/[1,2,3]", async () => {
     it("it should GET the first three pest control trucks", async () => {
       return testEndpoint("/pestControlTruck/[1,2,3]").then((result) => {
         const { body } = result;
@@ -46,7 +46,7 @@ describe("Pest Control Trucks", () => {
     });
   });
 
-  describe("/GET pestControlTruck/1,2,3", () => {
+  describe("/GET pestControlTruck/1,2,3", async () => {
     it("it should GET the first three pest control truck", async () => {
       return testEndpoint("/pestControlTruck/1,2,3").then((result) => {
         const { body } = result;
@@ -55,7 +55,7 @@ describe("Pest Control Trucks", () => {
     });
   });
 
-  describe("/GET pestControlTruck?skip=3", () => {
+  describe("/GET pestControlTruck?skip=3", async () => {
     it("it should GET the fourth pest control truck", async () => {
       return testEndpoint("/pestControlTruck?skip=3").then((result) => {
         const { body } = result;

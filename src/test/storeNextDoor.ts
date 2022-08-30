@@ -8,8 +8,8 @@ chai.use(chaiHttp);
 
 const TOTAL_STORES_NEXT_DOOR = 227;
 
-describe("Stores Next Door", () => {
-  describe("/GET storeNextDoor", () => {
+describe("Stores Next Door", async () => {
+  describe("/GET storeNextDoor", async () => {
     it("it should GET all the stores next door", async () => {
       return testEndpoint("/storeNextDoor").then((result) => {
         const { body } = result;
@@ -18,7 +18,7 @@ describe("Stores Next Door", () => {
     });
   });
 
-  describe("/GET storeNextDoor/1", () => {
+  describe("/GET storeNextDoor/1", async () => {
     it("it should GET the first store next door with an id of 1", async () => {
       return testEndpoint("/storeNextDoor/1").then((result) => {
         const { body } = result;
@@ -28,7 +28,7 @@ describe("Stores Next Door", () => {
     });
   });
 
-  describe("/GET storeNextDoor?limit=2", () => {
+  describe("/GET storeNextDoor?limit=2", async () => {
     it("it should GET the first two stores next door", async () => {
       return testEndpoint("/storeNextDoor?limit=2").then((result) => {
         const { body } = result;
@@ -37,7 +37,7 @@ describe("Stores Next Door", () => {
     });
   });
 
-  describe("/GET storeNextDoor/[1,2,3]", () => {
+  describe("/GET storeNextDoor/[1,2,3]", async () => {
     it("it should GET the first three stores next door", async () => {
       return testEndpoint("/storeNextDoor/[1,2,3]").then((result) => {
         const { body } = result;
@@ -46,7 +46,7 @@ describe("Stores Next Door", () => {
     });
   });
 
-  describe("/GET storeNextDoor/1,2,3", () => {
+  describe("/GET storeNextDoor/1,2,3", async () => {
     it("it should GET the first three stores next door", async () => {
       return testEndpoint("/storeNextDoor/1,2,3").then((result) => {
         const { body } = result;
@@ -55,7 +55,7 @@ describe("Stores Next Door", () => {
     });
   });
 
-  describe("/GET storeNextDoor?skip=3", () => {
+  describe("/GET storeNextDoor?skip=3", async () => {
     it("it should GET the fourth store next door", async () => {
       return testEndpoint("/storeNextDoor?skip=3").then((result) => {
         const { body } = result;

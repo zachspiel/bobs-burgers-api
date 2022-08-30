@@ -1,4 +1,4 @@
-import mongoose, { Schema } from 'mongoose';
+import mongoose, { Schema } from "mongoose";
 
 const EpisodeSchema = new mongoose.Schema({
   _id: {
@@ -32,4 +32,4 @@ const EpisodeSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model('Episode', EpisodeSchema);
+export default mongoose.model("EpisodeModel", EpisodeSchema, "episodes");

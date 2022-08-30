@@ -8,8 +8,8 @@ const BurgerOfTheDaySchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
-  burgers: {
-    type: [String],
+  name: {
+    type: String,
   },
   price: {
     type: String,
@@ -28,4 +28,8 @@ const BurgerOfTheDaySchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model("BurgerOfTheDay", BurgerOfTheDaySchema, "burgerOfTheDay");
+export default mongoose.model(
+  "BurgerOfTheDayModel",
+  BurgerOfTheDaySchema,
+  "burgerOfTheDay"
+);

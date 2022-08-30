@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"],
+    "experimentalDecorators": true,
+    "lib": ["ESNext", "es2018", "esnext.asynciterable"],
     "forceConsistentCasingInFileNames": true,
     "module": "CommonJS",
     "moduleResolution": "Node",
@@ -8,7 +9,8 @@
     "outDir": "lib",
     "rootDir": "src",
     "skipLibCheck": true,
-    "strict": true
+    "emitDecoratorMetadata": true,
+    "target": "es2018"
   },
   "exclude": ["node_modules/*"]
 }

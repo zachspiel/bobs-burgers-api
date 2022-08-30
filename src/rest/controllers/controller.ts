@@ -1,11 +1,11 @@
 import { Request, response, Response } from "express";
 import { QueryOptions } from "mongoose";
-import Characters from "../models/characterModel";
-import EndCredits from "../models/endCreditModel";
-import Episodes from "../models/episodeModel";
-import PestControlTrucks from "../models/pestControlTruckModel";
-import StoreNextDoor from "../models/storeModel";
-import BurgerOfTheDay from "../models/burgerOfTheDayModel";
+import Characters from "../models/CharacterModel";
+import EndCredits from "../models/EndCreditsSequenceModel";
+import Episodes from "../models/EpisodeModel";
+import PestControlTrucks from "../models/PestControlTruckModel";
+import StoreNextDoor from "../models/StoreNextDoorModel";
+import BurgerOfTheDay from "../models/BurgerOfTheDayModel";
 
 import {
   getArrayParameters,
@@ -14,19 +14,19 @@ import {
   isArray,
   isCommaSeparated,
 } from "../util/util";
-
-const ROUTES = [
-  "characters",
-  "episodes",
-  "pestControlTruck",
-  "endCreditsSequence",
-  "storeNextDoor",
-  "burgerOfTheDay",
-];
+import mongoose from "mongoose";
 
 const MAX_DOCUMENTS = 600;
 
-const models = {
+export type Model =
+  | "characters"
+  | "episodes"
+  | "pestControlTruck"
+  | "storeNextDoor"
+  | "endCreditsSequence"
+  | "burgerOfTheDay";
+
+const models: Record<Model, mongoose.Model<any>> = {
   characters: Characters,
   episodes: Episodes,
   pestControlTruck: PestControlTrucks,
@@ -35,8 +35,11 @@ const models = {
   burgerOfTheDay: BurgerOfTheDay,
 };
 
+const ROUTES = Object.keys(models);
+
 const getRootData = async (req: Request, res: Response) => {
   const data = {
+    graphQL: "https://bobsburgers-api.herokuapp.com/graphql/",
     characters: "https://bobsburgers-api.herokuapp.com/characters/",
     episodes: "https://bobsburgers-api.herokuapp.com/episodes/",
     storeNextDoor: "https://bobsburgers-api.herokuapp.com/storeNextDoor/",
@@ -49,7 +52,7 @@ const getRootData = async (req: Request, res: Response) => {
 };
 
 const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
-  const route = req.params.route;
+  const route = req.params.route as Model;
 
   if (!ROUTES.includes(route)) {
     return sendErrorMessage(
@@ -72,7 +75,7 @@ const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
 };
 
 const getResourceById = async (req: Request, res: Response) => {
-  const route = req.params.route;
+  const route = req.params.route as Model;
   const id = req.params.id;
   let includeMultipleResults = false;
   let filter = {};
@@ -107,25 +110,21 @@ const getResourceById = async (req: Request, res: Response) => {
 };
 
 const getData = async (
-  route: String,
+  route: Model,
   data: Record<string, unknown>,
   options: QueryOptions
-) => {
-  for (const [key, model] of Object.entries(models)) {
-    if (key === route) {
-      return await model
-        .find(data, "-_id")
-        .sort(options.sort ?? { id: 1 })
-        .limit(options.limit ?? MAX_DOCUMENTS)
-        .skip(options.skip ?? 0);
-    }
-  }
+): Promise<unknown[]> => {
+  const model = models[route];
 
-  return [];
+  return await model
+    .find(data, "-_id")
+    .sort(options.sort ?? { id: 1 })
+    .limit(options.limit ?? MAX_DOCUMENTS)
+    .skip(options.skip ?? 0);
 };
 
 const sendErrorMessage = (message: string, response: Response) => {
   return response.status(500).json({ error: message });
 };
 
-export default { getRootData, getAllResourcesInEndpoint, getResourceById };
+export { getRootData, getAllResourcesInEndpoint, getResourceById, getData };
