@@ -1,6 +1,6 @@
-import mongoose from 'mongoose';
+import mongoose, { Schema } from "mongoose";
 
-const StoreSchema = new mongoose.Schema({
+const BurgerOfTheDaySchema = new mongoose.Schema({
   _id: {
     select: false,
   },
@@ -10,9 +10,8 @@ const StoreSchema = new mongoose.Schema({
   },
   name: {
     type: String,
-    required: true,
   },
-  image: {
+  price: {
     type: String,
   },
   season: {
@@ -29,4 +28,8 @@ const StoreSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model('StoreNextDoor', StoreSchema, 'storeNextDoor');
+export default mongoose.model(
+  "BurgerOfTheDayModel",
+  BurgerOfTheDaySchema,
+  "burgerOfTheDay"
+);

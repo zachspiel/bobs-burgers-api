@@ -1,6 +1,6 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
-const EndCreditsSequenceSchema = new mongoose.Schema({
+const StoreSchema = new mongoose.Schema({
   _id: {
     select: false,
   },
@@ -29,8 +29,4 @@ const EndCreditsSequenceSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model(
-  'EndCredit',
-  EndCreditsSequenceSchema,
-  'endCreditsSequence'
-);
+export default mongoose.model("StoreNextDoorModel", StoreSchema, "storeNextDoor");

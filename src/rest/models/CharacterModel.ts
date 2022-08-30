@@ -1,21 +1,5 @@
 import mongoose from "mongoose";
 
-const RelativeSchema = new mongoose.Schema({
-  _id: {
-    select: false,
-  },
-  name: {
-    type: String,
-    required: true,
-  },
-  url: {
-    type: String,
-  },
-  wikiUrl: {
-    type: String,
-  },
-});
-
 const CharacterSchema = new mongoose.Schema({
   _id: {
     select: false,
@@ -43,10 +27,21 @@ const CharacterSchema = new mongoose.Schema({
   occupation: {
     type: String,
   },
-  relatives: {
-    type: [RelativeSchema],
-    default: undefined,
-  },
+  relatives: [
+    {
+      name: {
+        type: String,
+        required: true,
+      },
+      wikiUrl: {
+        type: String,
+        required: true,
+      },
+      url: {
+        type: String,
+      },
+    },
+  ],
   firstEpisode: {
     type: String,
   },
@@ -58,4 +53,4 @@ const CharacterSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model("Character", CharacterSchema);
+export default mongoose.model("CharacterModel", CharacterSchema, "characters");
