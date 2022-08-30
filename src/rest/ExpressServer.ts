@@ -22,7 +22,10 @@ export const buildExpressServer = (expressServer: Express): Express => {
   expressServer.use(cors());
   expressServer.use(morgan("combined"));
 
-  expressServer.use("/images", express.static(path.join(__dirname, "../public/images")));
+  expressServer.use(
+    "/images",
+    express.static(path.join(__dirname, "../../public/images"))
+  );
   expressServer.use("/", routes);
   expressServer.use((req, res) => {
     const error = new Error("not found");
