@@ -20,6 +20,7 @@
     "@types/cors": "^2.8.12",
     "@types/dotenv": "^8.2.0",
     "@types/jest": "^27.4.0",
+    "apollo-server-core": "^3.10.2",
     "apollo-server-express": "^3.10.1",
     "apollo-server-integration-testing": "^3.0.0",
     "axios": "^0.24.0",

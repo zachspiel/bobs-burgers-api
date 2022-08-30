@@ -5,6 +5,10 @@ import mongoose from "mongoose";
 import { ApolloServer, ExpressContext } from "apollo-server-express";
 import { buildGraphQLSchema } from "./graphql/RootSchema";
 import { buildExpressServer } from "./rest/ExpressServer";
+const {
+  ApolloServerPluginLandingPageProductionDefault,
+  ApolloServerPluginLandingPageLocalDefault,
+} = require("apollo-server-core");
 
 dotenv.config();
 export const createServer = async (
@@ -12,7 +16,20 @@ export const createServer = async (
 ): Promise<ApolloServer<ExpressContext>> => {
   const schema = await buildGraphQLSchema();
 
-  const server = new ApolloServer({ schema });
+  let plugins = [];
+  if (process.env.NODE_ENV === "production") {
+    plugins = [
+      ApolloServerPluginLandingPageProductionDefault({
+        embed: true,
+        graphRef: "myGraph@Bobs-Burgers-API/current",
+      }),
+    ];
+  } else {
+    plugins = [ApolloServerPluginLandingPageLocalDefault({ embed: true })];
+  }
+
+  const server = new ApolloServer({ schema, plugins });
+
   await server.start();
   server.applyMiddleware({ app });
   buildExpressServer(app);
