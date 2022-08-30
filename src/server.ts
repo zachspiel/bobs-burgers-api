@@ -21,7 +21,7 @@ export const createServer = async (
     plugins = [
       ApolloServerPluginLandingPageProductionDefault({
         embed: true,
-        graphRef: "myGraph@Bobs-Burgers-API/current",
+        graphRef: "Bobs-Burgers-API@current",
       }),
     ];
   } else {
