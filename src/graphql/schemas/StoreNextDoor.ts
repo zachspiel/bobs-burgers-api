@@ -1,4 +1,3 @@
-import { prop } from "@typegoose/typegoose";
 import { ObjectType, Field, Int } from "type-graphql";
 
 @ObjectType()

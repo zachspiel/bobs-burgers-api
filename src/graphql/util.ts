@@ -6,10 +6,6 @@ export const createFilterById = (id: number): FilterQuery<any> => {
   return { id: id };
 };
 
-export const createFilterByIds = (ids: number[]): FilterQuery<any> => {
-  return { id: { $in: ids } };
-};
-
 const getOptionsFromArgs = <T extends DefaultArgs>(filter: T): QueryOptions<unknown> => {
   const { sortBy, limit, skip, orderBy, ...data } = filter;
 

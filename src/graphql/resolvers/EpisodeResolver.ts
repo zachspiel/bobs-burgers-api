@@ -11,6 +11,7 @@ export class EpisodeResolver {
     return (await EpisodeModel.find({ id: episodeId })) as Episode[];
   }
 
+  @Query((returns) => [Episode])
   async episodeByIds(
     @Arg("episodeIds", (type) => [Int]) episodeIds: [Number]
   ): Promise<Episode[]> {

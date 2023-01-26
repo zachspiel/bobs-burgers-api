@@ -1,5 +1,5 @@
 import { prop } from "@typegoose/typegoose";
-import { ObjectType, Field, Int } from "type-graphql";
+import { ObjectType, Field } from "type-graphql";
 
 @ObjectType()
 export class Relative {

@@ -1,5 +1,4 @@
 import { Arg, Args, Int, Query, Resolver } from "type-graphql";
-import { FilterQuery } from "mongoose";
 import PestControlTruckModel from "../../rest/models/PestControlTruckModel";
 import { PestControlTruckArgs } from "../arguments/PestControlTruckArgs";
 import { PestControlTruck } from "../schemas/PestControlTruck";
@@ -14,6 +13,7 @@ export class PestControlTruckResolver {
     return PestControlTruckModel.find({ id: pestControlTruckId });
   }
 
+  @Query((returns) => [PestControlTruck])
   async pestControlTruckByIds(
     @Arg("pestControlTruckIds", (type) => [Int]) pestControlTruckIds: number[]
   ): Promise<PestControlTruck[]> {

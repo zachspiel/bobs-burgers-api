@@ -1,8 +1,6 @@
 import { buildSchema } from "type-graphql";
 import path from "path";
 import "reflect-metadata";
-import { ObjectId } from "mongodb";
-import { ObjectIdScalar } from "./ObjectIdScalar";
 import { BurgerOfTheDayResolver } from "./resolvers/BurgerOfTheDayResolver";
 import { CharacterResolver } from "./resolvers/CharacterResolver";
 import { EpisodeResolver } from "./resolvers/EpisodeResolver";
@@ -19,7 +17,6 @@ export const buildGraphQLSchema = async (): Promise<GraphQLSchema> => {
       PestControlTruckResolver,
       StoreNextDoorResolver,
     ],
-    scalarsMap: [{ type: ObjectId, scalar: ObjectIdScalar }],
     emitSchemaFile: path.resolve(__dirname, "schema.gql"),
     globalMiddlewares: [],
     validate: false,

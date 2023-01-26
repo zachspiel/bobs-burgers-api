@@ -1,4 +1,3 @@
-import { type } from "os";
 import { ObjectType, Field, Int } from "type-graphql";
 import { Relative } from "./Relative";
 

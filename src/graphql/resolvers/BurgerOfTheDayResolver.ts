@@ -13,6 +13,7 @@ export class BurgerOfTheDayResolver {
     return await BurgerOfTheDayModel.find({ id: burgerId });
   }
 
+  @Query((returns) => [BurgerOfTheDay])
   async burgerOfTheDayByIds(
     @Arg("burgerIds", (type) => [Int]) burgerIds: [number]
   ): Promise<BurgerOfTheDay[]> {

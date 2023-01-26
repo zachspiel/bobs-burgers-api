@@ -1,4 +1,4 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose from "mongoose";
 
 const BurgerOfTheDaySchema = new mongoose.Schema({
   _id: {

@@ -13,6 +13,7 @@ export class CharacterResolver {
     return await CharacterModel.find({ id: characterId });
   }
 
+  @Query((returns) => [Character])
   async characterByIds(
     @Arg("characterIds", (type) => [Int]) characterIds: number[]
   ): Promise<Character[]> {

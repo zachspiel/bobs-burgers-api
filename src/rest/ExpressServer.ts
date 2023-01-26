@@ -4,12 +4,8 @@ import helmet from "helmet";
 import path from "path";
 import routes from "./routes/router";
 
+const IMAGES_DIRECTORY = path.join(__dirname, "../../public/images");
 var morgan = require("morgan");
-
-export const createExpressServer = (): Express => {
-  const expressServer: Express = express();
-  return expressServer;
-};
 
 export const buildExpressServer = (expressServer: Express): Express => {
   expressServer.use(express.urlencoded({ extended: false }));
@@ -22,10 +18,7 @@ export const buildExpressServer = (expressServer: Express): Express => {
   expressServer.use(cors());
   expressServer.use(morgan("combined"));
 
-  expressServer.use(
-    "/images",
-    express.static(path.join(__dirname, "../../public/images"))
-  );
+  expressServer.use("/images", express.static(IMAGES_DIRECTORY));
   expressServer.use("/", routes);
   expressServer.use((req, res) => {
     const error = new Error("not found");

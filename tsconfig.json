@@ -7,10 +7,13 @@
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "outDir": "lib",
-    "rootDir": "src",
+    "sourceRoot": "src",
+    "sourceMap": true,
     "skipLibCheck": true,
     "emitDecoratorMetadata": true,
-    "target": "es2018"
+    "target": "es2018",
+    "types": ["node", "mocha"]
   },
-  "exclude": ["node_modules/*"]
+  "exclude": ["node_modules/*"],
+  "include": ["src"]
 }
