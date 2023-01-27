@@ -20,10 +20,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: create env file
-      run: |
-        touch .env
-        echo DATABASE_URL=${{ secrets.DATABASE_URL }} >> .env
+      - name: Create env file
+        run: |
+          touch .env
+          echo DATABASE_URL=${{ secrets.DATABASE_URL }} >> .env
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
