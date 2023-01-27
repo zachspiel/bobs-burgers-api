@@ -24,7 +24,7 @@ jobs:
       - name: Create env file
         run: |
           touch .env
-          echo DATABASE_URL=${{ secrets.DATABASE_URL }} >> .env
+          echo 'DATABASE_URL=${{ secrets.DATABASE_URL }}' >> .env
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
@@ -39,4 +39,6 @@ jobs:
         run: yarn build
 
       - name: Test
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: yarn test
