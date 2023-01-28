@@ -10,6 +10,7 @@
   "main": "src/server.ts",
   "scripts": {
     "build": "tsc",
+    "postinstall": "tsc",
     "start": "nodemon src/start.ts",
     "test": "nyc --reporter=lcov --reporter=text-summary mocha -r ts-node/register 'src/test/*.ts' --exit",
     "coverage:badge": "coverage-badge-creator"
