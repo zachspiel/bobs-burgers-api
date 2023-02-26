@@ -1,6 +1,5 @@
 import cors from "cors";
 import express, { Express } from "express";
-import helmet from "helmet";
 import path from "path";
 import routes from "./routes/router";
 
@@ -10,11 +9,6 @@ var morgan = require("morgan");
 export const buildExpressServer = (expressServer: Express): Express => {
   expressServer.use(express.urlencoded({ extended: false }));
   expressServer.use(express.json());
-  expressServer.use(
-    helmet({
-      contentSecurityPolicy: process.env.NODE_ENV === "production" ? undefined : false,
-    })
-  );
   expressServer.use(cors());
   expressServer.use(morgan("combined"));
 
