@@ -22,12 +22,15 @@ const EpisodeSchema = new mongoose.Schema({
     type: Number,
   },
   episode: {
-    type: Schema.Types.Mixed,
+    type: Number,
   },
   totalViewers: {
     type: String,
   },
   url: {
+    type: String,
+  },
+  wikiUrl: {
     type: String,
   },
 });
