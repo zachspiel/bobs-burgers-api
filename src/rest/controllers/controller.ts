@@ -1,4 +1,4 @@
-import { Request, response, Response } from "express";
+import { Request, Response } from "express";
 import { QueryOptions } from "mongoose";
 import Characters from "../models/CharacterModel";
 import EndCredits from "../models/EndCreditsSequenceModel";
@@ -56,7 +56,7 @@ const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
 
   if (!ROUTES.includes(route)) {
     return sendErrorMessage(
-      `Error while getting data for route: ${route}. Available options are: characters, episodes, pestControlTrucks, endCreditsSequence or storeNextDoor.`,
+      `Error while getting data for route: ${route}. Available options are: characters, episodes, pestControlTruck, endCreditsSequence or storeNextDoor.`,
       res
     );
   }
