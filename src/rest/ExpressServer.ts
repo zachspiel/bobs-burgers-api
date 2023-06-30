@@ -13,6 +13,7 @@ export const buildExpressServer = (expressServer: Express): Express => {
   expressServer.use(morgan("combined"));
 
   expressServer.use("/images", express.static(IMAGES_DIRECTORY));
+  expressServer.use("/v2", routes);
   expressServer.use("/", routes);
   expressServer.use((req, res) => {
     const error = new Error("not found");

@@ -24,6 +24,7 @@ const CharacterSchema = new mongoose.Schema({
   age: {
     type: String,
   },
+  allOccupations: [String],
   occupation: {
     type: String,
   },
@@ -32,6 +33,10 @@ const CharacterSchema = new mongoose.Schema({
       name: {
         type: String,
         required: true,
+      },
+      relationship: {
+        type: String,
+        required: false,
       },
       wikiUrl: {
         type: String,
