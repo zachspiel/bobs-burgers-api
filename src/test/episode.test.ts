@@ -4,7 +4,7 @@ import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
 
-const TOTAL_EPISODES = 238;
+const TOTAL_EPISODES = 260;
 
 let app: Express;
 

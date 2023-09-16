@@ -4,7 +4,7 @@ import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
 
-const TOTAL_TRUCKS = 227;
+const TOTAL_TRUCKS = 256;
 
 let app: Express;
 
@@ -62,7 +62,9 @@ describe("StoreNextDoor", () => {
   it("Should GET first three stores next door from graphql", async () => {
     const result = await request(app)
       .post("/graphql/storeNextDoor")
-      .send({ query: "{ storeNextDoorByIds(storeNextDoorIds: [1,2,3]) { id } }" });
+      .send({
+        query: "{ storeNextDoorByIds(storeNextDoorIds: [1,2,3]) { id } }",
+      });
     expect(result.body.data.storeNextDoorByIds).to.have.lengthOf(3);
   });
 

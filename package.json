@@ -8,6 +8,7 @@
   },
   "author": "Zachary Spielberger",
   "main": "src/server.ts",
+  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "postinstall": "tsc",

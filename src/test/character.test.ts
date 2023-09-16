@@ -4,7 +4,7 @@ import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
 
-const TOTAL_CHARACTERS = 506;
+const TOTAL_CHARACTERS = 496;
 
 let app: Express;
 

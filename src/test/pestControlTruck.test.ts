@@ -4,7 +4,7 @@ import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
 
-const TOTAL_TRUCKS = 225;
+const TOTAL_TRUCKS = 258;
 
 let app: Express;
 
@@ -62,7 +62,9 @@ describe("Pest Control Truck", () => {
   it("Should GET first three pest control trucks from graphql", async () => {
     const result = await request(app)
       .post("/graphql/pestControlTruck")
-      .send({ query: "{ pestControlTruckByIds(pestControlTruckIds: [1,2,3]) { id } }" });
+      .send({
+        query: "{ pestControlTruckByIds(pestControlTruckIds: [1,2,3]) { id } }",
+      });
     expect(result.body.data.pestControlTruckByIds).to.have.lengthOf(3);
   });
 
