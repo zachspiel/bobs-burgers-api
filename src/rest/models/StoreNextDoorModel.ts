@@ -1,9 +1,6 @@
 import mongoose from "mongoose";
 
 const StoreSchema = new mongoose.Schema({
-  _id: {
-    select: false,
-  },
   id: {
     type: Number,
     required: true,
@@ -29,4 +26,8 @@ const StoreSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model("StoreNextDoorModel", StoreSchema, "storeNextDoor");
+export default mongoose.model(
+  "StoreNextDoorModel",
+  StoreSchema,
+  "storeNextDoor"
+);

@@ -1,9 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 
 const EpisodeSchema = new mongoose.Schema({
-  _id: {
-    select: false,
-  },
   id: {
     type: Number,
     required: true,

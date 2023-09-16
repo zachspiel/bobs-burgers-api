@@ -16,8 +16,6 @@ import {
 } from "../util/util";
 import mongoose from "mongoose";
 
-const MAX_DOCUMENTS = 600;
-
 export type Model =
   | "characters"
   | "episodes"
@@ -119,9 +117,10 @@ const getData = async (
 
   return await model
     .find(data, "-_id")
-    .sort(options.sort ?? { id: 1 })
-    .limit(options.limit ?? MAX_DOCUMENTS)
-    .skip(options.skip ?? 0);
+    .sort(options.sort)
+    .limit(options.limit)
+    .skip(options.skip)
+    .exec();
 };
 
 const sendErrorMessage = (message: string, response: Response) => {
