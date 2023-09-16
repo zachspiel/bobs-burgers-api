@@ -4,7 +4,7 @@ import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
 
-const TOTAL_EPISODES = 238;
+const TOTAL_EPISODES = 260;
 
 let app: Express;
 
@@ -70,5 +70,13 @@ describe("Episodes", () => {
     const result = await request(app).get("/episodes?skip=5").send();
     expect(result.body).to.have.lengthOf(TOTAL_EPISODES - 5);
     expect(result.body[0].id).to.equal(6);
+  });
+
+  it("Should get an episode that aired on January 16, 2011", async () => {
+    const result = await request(app)
+      .get("/episodes?airDate=January 16, 2011")
+      .send();
+
+    expect(result.body).to.have.lengthOf(1);
   });
 });

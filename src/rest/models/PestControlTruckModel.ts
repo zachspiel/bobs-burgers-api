@@ -16,9 +16,9 @@ const PestControlTruckSchema = new mongoose.Schema({
     type: Number,
   },
   episode: {
-    type: String,
+    type: Number,
   },
-  url: {
+  episodeUrl: {
     type: String,
   },
 });

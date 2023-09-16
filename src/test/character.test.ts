@@ -4,7 +4,7 @@ import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
 
-const TOTAL_CHARACTERS = 506;
+const TOTAL_CHARACTERS = 496;
 
 let app: Express;
 
@@ -73,11 +73,16 @@ describe("Characters", () => {
     expect(result.body[0].id).to.equal(6);
   });
 
-  it("Should GET the last character Zeke", async () => {
+  it("Should GET the last character", async () => {
     const result = await request(app)
       .get("/characters?sortBy=name&OrderBy=desc&limit=1")
       .send();
     expect(result.body).to.have.lengthOf(1);
     expect(result.body[0].id).to.equal(TOTAL_CHARACTERS);
+  });
+
+  it("Should GET a character with Red hair", async () => {
+    const result = await request(app).get("/characters?hair=Red").send();
+    expect(result.body).to.have.lengthOf(19);
   });
 });

@@ -1,9 +1,6 @@
 import mongoose from "mongoose";
 
 const EndCreditsSequenceSchema = new mongoose.Schema({
-  _id: {
-    select: false,
-  },
   id: {
     type: Number,
     required: true,

@@ -1,32 +1,41 @@
-import { Request } from 'express';
-import { QueryOptions } from 'mongoose';
+import { Request } from "express";
+import { QueryOptions } from "mongoose";
+
+const MAX_DOCUMENTS = 600;
 
 const getOptions = (req: Request): QueryOptions => {
   const options: QueryOptions = {};
-  const sort: Record<string, number> = {};
-  const limit = req.query.limit?.toString() ?? '';
-  const skip = req.query.skip?.toString() ?? '';
+  const limit = req.query.limit?.toString() ?? "";
+  const skip = req.query.skip?.toString() ?? "";
 
   if (req.query.sortBy) {
-    const orderBy = req.query?.OrderBy ?? '';
-    sort[req.query?.sortBy.toString()] = orderBy === 'desc' ? -1 : 1;
+    const sortByKey = req.query?.sortBy.toString();
+    const orderBy = req.query?.OrderBy ?? "";
 
-    options.sort = { ...sort };
+    options.sort = {
+      [sortByKey]: orderBy === "desc" ? -1 : 1,
+    };
+  } else {
+    options.sort = { id: 1 };
   }
 
   if (!isNaN(parseInt(limit))) {
     options.limit = parseInt(limit);
+  } else {
+    options.limit = MAX_DOCUMENTS;
   }
 
   if (!isNaN(parseInt(skip))) {
     options.skip = parseInt(skip);
+  } else {
+    options.skip = 0;
   }
 
   return options;
 };
 
 const getFilters = (req: Request) => {
-  const optionKeys = ['limit', 'skip', 'sortBy'];
+  const optionKeys = ["limit", "skip", "sortBy", "OrderBy"];
   const keys = Object.keys(req.query).filter(
     (key) => !optionKeys.includes(key)
   );
@@ -43,7 +52,7 @@ const getFilters = (req: Request) => {
 const getArrayParameters = (id: string) => {
   const idArray = isArray(id)
     ? JSON.parse(id).map(Number)
-    : id.split(',').map(Number);
+    : id.split(",").map(Number);
 
   return { id: { $in: idArray } };
 };
@@ -53,7 +62,7 @@ const isArray = (id: string) => {
 };
 
 const isCommaSeparated = (id: string) => {
-  return id.includes(',') && !isArray(id) && id.length > 1;
+  return id.includes(",") && !isArray(id) && id.length > 1;
 };
 
 export {
