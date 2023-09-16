@@ -4,7 +4,6 @@ import Characters from "../models/CharacterModel";
 import EndCredits from "../models/EndCreditsSequenceModel";
 import Episodes from "../models/EpisodeModel";
 import PestControlTrucks from "../models/PestControlTruckModel";
-import PestControlTrucksV2 from "../models/PestControlTruckModelV2";
 import StoreNextDoor from "../models/StoreNextDoorModel";
 import BurgerOfTheDay from "../models/BurgerOfTheDayModel";
 
@@ -27,25 +26,17 @@ export type Model =
   | "endCreditsSequence"
   | "burgerOfTheDay";
 
-const ROUTES = [
-  "characters",
-  "episodes",
-  "pestControlTruck",
-  "storeNextDoor",
-  "endCreditsSequence",
-  "burgerOfTheDay",
-];
-
-const createModels = (useV2Schema?: boolean): Record<Model, mongoose.Model<any>> => {
-  return {
-    characters: Characters,
-    episodes: Episodes,
-    pestControlTruck: useV2Schema ? PestControlTrucksV2 : PestControlTrucks,
-    storeNextDoor: StoreNextDoor,
-    endCreditsSequence: EndCredits,
-    burgerOfTheDay: BurgerOfTheDay,
-  };
+const models: Record<Model, mongoose.Model<any>> = {
+  characters: Characters,
+  episodes: Episodes,
+  pestControlTruck: PestControlTrucks,
+  storeNextDoor: StoreNextDoor,
+  endCreditsSequence: EndCredits,
+  burgerOfTheDay: BurgerOfTheDay,
 };
+
+const ROUTES = Object.keys(models);
+
 const getRootData = async (req: Request, res: Response) => {
   const data = {
     graphQL: "https://bobsburgers-api.herokuapp.com/graphql/",
@@ -53,7 +44,8 @@ const getRootData = async (req: Request, res: Response) => {
     episodes: "https://bobsburgers-api.herokuapp.com/episodes/",
     storeNextDoor: "https://bobsburgers-api.herokuapp.com/storeNextDoor/",
     pestControlTruck: "https://bobsburgers-api.herokuapp.com/pestControlTruck/",
-    endCreditsSequence: "https://bobsburgers-api.herokuapp.com/endCreditsSequence/",
+    endCreditsSequence:
+      "https://bobsburgers-api.herokuapp.com/endCreditsSequence/",
     burgerOfTheDay: "https://bobsburgers-api.herokuapp.com/burgerOfTheDay/",
   };
 
@@ -62,7 +54,6 @@ const getRootData = async (req: Request, res: Response) => {
 
 const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
   const route = req.params.route as Model;
-  const useV2Schema = req.originalUrl.includes("v2");
 
   if (!ROUTES.includes(route)) {
     return sendErrorMessage(
@@ -72,8 +63,7 @@ const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
   }
 
   const filters = getFilters(req);
-
-  getData(route, filters, getOptions(req), useV2Schema)
+  getData(route, filters, getOptions(req))
     .then((result) => {
       return res.json(result);
     })
@@ -88,7 +78,6 @@ const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
 const getResourceById = async (req: Request, res: Response) => {
   const route = req.params.route as Model;
   const id = req.params.id;
-  const useV2Schema = req.originalUrl.includes("v2");
   let includeMultipleResults = false;
   let filter = {};
 
@@ -105,7 +94,7 @@ const getResourceById = async (req: Request, res: Response) => {
     filter = { id: parseInt(id) };
   }
 
-  getData(route, filter, {}, useV2Schema)
+  getData(route, filter, {})
     .then((result) => {
       if (result.length === 0) {
         return sendErrorMessage(errorMessage, res);
@@ -124,10 +113,8 @@ const getResourceById = async (req: Request, res: Response) => {
 const getData = async (
   route: Model,
   data: Record<string, unknown>,
-  options: QueryOptions,
-  useV2Schema?: boolean
+  options: QueryOptions
 ): Promise<unknown[]> => {
-  const models = createModels(useV2Schema);
   const model = models[route];
 
   return await model
