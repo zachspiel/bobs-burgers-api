@@ -14,12 +14,6 @@ export const buildExpressServer = (expressServer: Express): Express => {
 
   expressServer.use("/images", express.static(IMAGES_DIRECTORY));
   expressServer.use("/", routes);
-  expressServer.use((req, res) => {
-    const error = new Error("not found");
-    return res.status(404).json({
-      message: error.message,
-    });
-  });
 
   return expressServer;
 };

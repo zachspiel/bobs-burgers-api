@@ -4,7 +4,7 @@ import CharacterModel from "../../rest/models/CharacterModel";
 import { CharacterArgs } from "../arguments/CharacterArgs";
 import { getDataFromCollection } from "../util";
 
-@Resolver((of) => Character)
+@Resolver()
 export class CharacterResolver {
   @Query((returns) => [Character])
   async character(

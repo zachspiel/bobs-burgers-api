@@ -1,12 +1,10 @@
-import { FilterQuery, QueryOptions } from "mongoose";
+import { QueryOptions } from "mongoose";
 import { DefaultArgs } from "./arguments/DefaultArgs";
 import { getData, Model } from "../rest/controllers/controller";
 
-export const createFilterById = (id: number): FilterQuery<any> => {
-  return { id: id };
-};
-
-const getOptionsFromArgs = <T extends DefaultArgs>(filter: T): QueryOptions<unknown> => {
+const getOptionsFromArgs = <T extends DefaultArgs>(
+  filter: T
+): QueryOptions<unknown> => {
   const { sortBy, limit, skip, orderBy, ...data } = filter;
 
   return {
