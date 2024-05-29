@@ -29,4 +29,8 @@ export class Episode {
   @Field()
   @prop({ required: true })
   url: string;
+
+  @Field()
+  @prop({ required: true })
+  wikiUrl: string;
 }

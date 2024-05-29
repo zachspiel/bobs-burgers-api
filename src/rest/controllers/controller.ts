@@ -56,7 +56,8 @@ const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
   if (!ROUTES.includes(route)) {
     return sendErrorMessage(
       `Error while getting data for route: ${route}. Available options are: characters, episodes, pestControlTruck, endCreditsSequence or storeNextDoor.`,
-      res
+      res,
+      404
     );
   }
 
@@ -123,8 +124,12 @@ const getData = async (
     .exec();
 };
 
-const sendErrorMessage = (message: string, response: Response) => {
-  return response.status(500).json({ error: message });
+const sendErrorMessage = (
+  message: string,
+  response: Response,
+  status = 500
+) => {
+  return response.status(status).json({ error: message });
 };
 
 export { getRootData, getAllResourcesInEndpoint, getResourceById, getData };

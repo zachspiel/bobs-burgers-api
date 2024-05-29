@@ -4,7 +4,7 @@ import BurgerOfTheDayModel from "../../rest/models/BurgerOfTheDayModel";
 import { BurgerOfTheDayArgs } from "../arguments/BurgerOfTheDayArgs";
 import { BurgerOfTheDay } from "../schemas/BurgerOfTheDay";
 
-@Resolver((of) => BurgerOfTheDay)
+@Resolver()
 export class BurgerOfTheDayResolver {
   @Query((returns) => [BurgerOfTheDay])
   async burgerOfTheDay(
@@ -21,7 +21,12 @@ export class BurgerOfTheDayResolver {
   }
 
   @Query((returns) => [BurgerOfTheDay])
-  async burgersOfTheDay(@Args() filter: BurgerOfTheDayArgs): Promise<BurgerOfTheDay[]> {
-    return (await getDataFromCollection("burgerOfTheDay", filter)) as BurgerOfTheDay[];
+  async burgersOfTheDay(
+    @Args() filter: BurgerOfTheDayArgs
+  ): Promise<BurgerOfTheDay[]> {
+    return (await getDataFromCollection(
+      "burgerOfTheDay",
+      filter
+    )) as BurgerOfTheDay[];
   }
 }
