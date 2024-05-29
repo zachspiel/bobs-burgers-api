@@ -4,10 +4,12 @@ import { EpisodeArgs } from "../arguments/EpisodeArgs";
 import { Episode } from "../schemas/Episode";
 import { getDataFromCollection } from "../util";
 
-@Resolver((of) => Episode)
+@Resolver()
 export class EpisodeResolver {
   @Query((returns) => [Episode])
-  async episode(@Arg("episodeId", (type) => Int) episodeId: Number): Promise<Episode[]> {
+  async episode(
+    @Arg("episodeId", (type) => Int) episodeId: Number
+  ): Promise<Episode[]> {
     return (await EpisodeModel.find({ id: episodeId })) as Episode[];
   }
 

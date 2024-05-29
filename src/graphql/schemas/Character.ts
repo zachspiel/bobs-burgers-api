@@ -24,6 +24,9 @@ export class Character {
   @Field({ nullable: true })
   occupation?: string;
 
+  @Field((type) => [String], { nullable: true })
+  allOccupations?: string[];
+
   @Field((type) => [Relative], { nullable: true })
   relatives?: { name: string; url?: string; wikiUrl?: string }[];
 

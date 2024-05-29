@@ -4,7 +4,7 @@ import { PestControlTruckArgs } from "../arguments/PestControlTruckArgs";
 import { PestControlTruck } from "../schemas/PestControlTruck";
 import { getDataFromCollection } from "../util";
 
-@Resolver((of) => PestControlTruck)
+@Resolver()
 export class PestControlTruckResolver {
   @Query((returns) => [PestControlTruck])
   async pestControlTruck(

@@ -15,6 +15,7 @@ type BurgerOfTheDay {
 
 type Character {
   age: String
+  allOccupations: [String!]
   firstEpisode: String
   gender: String
   hairColor: String
@@ -36,10 +37,12 @@ type Episode {
   season: Float!
   totalViewers: String!
   url: String!
+  wikiUrl: String!
 }
 
 type PestControlTruck {
-  episode: String!
+  episode: Float!
+  episodeUrl: String!
   id: Int!
   image: String!
   name: String
@@ -59,7 +62,7 @@ type Query {
   episodes(airDate: String, episode: Float, id: Float, limit: Float = 600, name: String, orderBy: String = "asc", productionCode: String, season: Float, skip: Float = 0, sortBy: String = "id", totalViewers: String): [Episode!]!
   pestControlTruck(pestControlTruckId: Int!): [PestControlTruck!]!
   pestControlTruckByIds(pestControlTruckIds: [Int!]!): [PestControlTruck!]!
-  pestControlTrucks(episode: String, id: Float, limit: Float = 600, name: String, orderBy: String = "asc", season: Float, skip: Float = 0, sortBy: String = "id"): [PestControlTruck!]!
+  pestControlTrucks(episode: Float, id: Float, limit: Float = 600, name: String, orderBy: String = "asc", season: Float, skip: Float = 0, sortBy: String = "id"): [PestControlTruck!]!
   storeNextDoor(storeNextDoorId: Int!): [StoreNextDoor!]!
   storeNextDoorByIds(storeNextDoorIds: [Int!]!): [StoreNextDoor!]!
   storesNextDoor(episode: Float, id: Float, limit: Float = 600, name: String, orderBy: String = "asc", season: Float, skip: Float = 0, sortBy: String = "id"): [StoreNextDoor!]!

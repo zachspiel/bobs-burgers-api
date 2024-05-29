@@ -13,5 +13,5 @@ export class PestControlTruckArgs extends DefaultArgs {
   season?: number;
 
   @Field({ nullable: true })
-  episode?: string;
+  episode?: number;
 }

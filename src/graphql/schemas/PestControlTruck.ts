@@ -20,7 +20,11 @@ export class PestControlTruck {
 
   @Field()
   @prop({ required: true })
-  episode: string;
+  episode: number;
+
+  @Field()
+  @prop({ required: true })
+  episodeUrl: string;
 
   @Field()
   @prop({ required: true })

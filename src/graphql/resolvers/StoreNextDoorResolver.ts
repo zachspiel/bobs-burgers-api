@@ -2,15 +2,14 @@ import { Arg, Args, Int, Query, Resolver } from "type-graphql";
 import StoreNextDoorModel from "../../rest/models/StoreNextDoorModel";
 import { StoreNextDoorArgs } from "../arguments/StoreNextDoorArgs";
 import { StoreNextDoor } from "../schemas/StoreNextDoor";
-import { createFilterById, getDataFromCollection } from "../util";
+import { getDataFromCollection } from "../util";
 
-@Resolver((of) => StoreNextDoor)
+@Resolver()
 export class StoreNextDoorResolver {
   @Query((returns) => [StoreNextDoor])
   async storeNextDoor(
     @Arg("storeNextDoorId", (type) => Int) storeId: number
   ): Promise<StoreNextDoor[]> {
-    const filter = createFilterById(storeId);
     return StoreNextDoorModel.find({ id: storeId });
   }
 
@@ -22,7 +21,12 @@ export class StoreNextDoorResolver {
   }
 
   @Query((returns) => [StoreNextDoor])
-  async storesNextDoor(@Args() filter: StoreNextDoorArgs): Promise<StoreNextDoor[]> {
-    return (await getDataFromCollection("storeNextDoor", filter)) as StoreNextDoor[];
+  async storesNextDoor(
+    @Args() filter: StoreNextDoorArgs
+  ): Promise<StoreNextDoor[]> {
+    return (await getDataFromCollection(
+      "storeNextDoor",
+      filter
+    )) as StoreNextDoor[];
   }
 }
