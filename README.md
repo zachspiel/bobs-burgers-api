@@ -30,6 +30,10 @@ yarn install
 yarn start
 ```
 
+## Rate Limiting
+
+> ❗ **IMPORTANT:** There is a rate limit set to 200 requests every five minutes. If this value is too low for your use case, please feel free to raise an issue in this repo.
+
 ## API Documentation
 
 Checkout out the [Bob's Burgers API Website](http://bobs-burgers-api-ui.herokuapp.com/) to learn more about the API.
