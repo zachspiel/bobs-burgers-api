@@ -1,5 +1,5 @@
 import { Arg, Args, Int, Query, Resolver } from "type-graphql";
-import StoreNextDoorModel from "../../rest/models/StoreNextDoorModel";
+import { StoreNextDoorModel } from "../../rest/models";
 import { StoreNextDoorArgs } from "../arguments/StoreNextDoorArgs";
 import { StoreNextDoor } from "../schemas/StoreNextDoor";
 import { getDataFromCollection } from "../util";

@@ -10,7 +10,9 @@ export const startServer = async (): Promise<void> => {
   const httpServer = http.createServer(app);
   const PORT: any = process.env.PORT ?? 5000;
   httpServer.listen(PORT, () =>
-    console.log(`The server is running on port ${PORT} with graphQl path: /graphql`)
+    console.log(
+      `The server is running on port ${PORT} with GraphQl path: /graphql`
+    )
   );
 };
 

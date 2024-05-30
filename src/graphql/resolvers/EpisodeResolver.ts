@@ -1,5 +1,5 @@
 import { Arg, Args, Int, Query, Resolver } from "type-graphql";
-import EpisodeModel from "../../rest/models/CharacterModel";
+import { EpisodeModel } from "../../rest/models";
 import { EpisodeArgs } from "../arguments/EpisodeArgs";
 import { Episode } from "../schemas/Episode";
 import { getDataFromCollection } from "../util";

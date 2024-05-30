@@ -1,5 +1,5 @@
 import { Arg, Args, Int, Query, Resolver } from "type-graphql";
-import PestControlTruckModel from "../../rest/models/PestControlTruckModel";
+import { PestControlTruckModel } from "../../rest/models";
 import { PestControlTruckArgs } from "../arguments/PestControlTruckArgs";
 import { PestControlTruck } from "../schemas/PestControlTruck";
 import { getDataFromCollection } from "../util";

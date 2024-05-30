@@ -14,11 +14,15 @@ import { buildExpressServer } from "./rest/ExpressServer";
 import * as dotenv from "dotenv";
 import mongoose from "mongoose";
 import { rateLimit } from "express-rate-limit";
+import { VisitorModel } from "./rest/models/";
 
 dotenv.config();
 
 export const createServer = async (app: Express): Promise<Express> => {
-  await mongoose.connect(process.env.DATABASE_URL ?? "");
+  await mongoose.connect(process.env.DATABASE_URL ?? "").catch((error) => {
+    console.error(error);
+  });
+
   const schema = await buildGraphQLSchema();
 
   setupRateLimiter(app);
@@ -64,9 +68,6 @@ const setupRateLimiter = (app: Express) => {
 };
 
 const setupVisitorCounter = (app: Express) => {
-  const visitors = mongoose.connection.db.collection("visitors");
-
-  app.enable("trust proxy");
   app.use(
     createSession({
       secret: process.env.SECRET ?? "",
@@ -74,5 +75,6 @@ const setupVisitorCounter = (app: Express) => {
       saveUninitialized: true,
     })
   );
-  app.use(expressVisitorCounter({ collection: visitors }));
+
+  app.use(expressVisitorCounter({ collection: VisitorModel.collection }));
 };
