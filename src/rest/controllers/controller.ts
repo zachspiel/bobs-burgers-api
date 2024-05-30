@@ -1,11 +1,13 @@
 import { Request, Response } from "express";
 import { QueryOptions } from "mongoose";
-import Characters from "../models/CharacterModel";
-import EndCredits from "../models/EndCreditsSequenceModel";
-import Episodes from "../models/EpisodeModel";
-import PestControlTrucks from "../models/PestControlTruckModel";
-import StoreNextDoor from "../models/StoreNextDoorModel";
-import BurgerOfTheDay from "../models/BurgerOfTheDayModel";
+import {
+  CharacterModel,
+  EndCreditsSequenceModel,
+  EpisodeModel,
+  PestControlTruckModel,
+  StoreNextDoorModel,
+  BurgerOfTheDayModel,
+} from "../models";
 
 import {
   getArrayParameters,
@@ -25,12 +27,12 @@ export type Model =
   | "burgerOfTheDay";
 
 const models: Record<Model, mongoose.Model<any>> = {
-  characters: Characters,
-  episodes: Episodes,
-  pestControlTruck: PestControlTrucks,
-  storeNextDoor: StoreNextDoor,
-  endCreditsSequence: EndCredits,
-  burgerOfTheDay: BurgerOfTheDay,
+  characters: CharacterModel,
+  episodes: EpisodeModel,
+  pestControlTruck: PestControlTruckModel,
+  storeNextDoor: StoreNextDoorModel,
+  endCreditsSequence: EndCreditsSequenceModel,
+  burgerOfTheDay: BurgerOfTheDayModel,
 };
 
 const ROUTES = Object.keys(models);

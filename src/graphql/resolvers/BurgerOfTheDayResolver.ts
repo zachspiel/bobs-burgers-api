@@ -1,6 +1,6 @@
 import { Arg, Args, Int, Query, Resolver } from "type-graphql";
 import { getDataFromCollection } from "../util";
-import BurgerOfTheDayModel from "../../rest/models/BurgerOfTheDayModel";
+import { BurgerOfTheDayModel } from "../../rest/models";
 import { BurgerOfTheDayArgs } from "../arguments/BurgerOfTheDayArgs";
 import { BurgerOfTheDay } from "../schemas/BurgerOfTheDay";
 

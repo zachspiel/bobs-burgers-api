@@ -1,6 +1,6 @@
 import { Arg, Args, Int, Query, Resolver } from "type-graphql";
 import { Character } from "../schemas/Character";
-import CharacterModel from "../../rest/models/CharacterModel";
+import { CharacterModel } from "../../rest/models";
 import { CharacterArgs } from "../arguments/CharacterArgs";
 import { getDataFromCollection } from "../util";
 
