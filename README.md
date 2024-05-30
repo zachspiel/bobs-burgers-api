@@ -10,7 +10,9 @@ The [Bob's Burgers API](https://bobsburgers-api.herokuapp.com/) is a REST/GraphQ
 
 ### Configuration
 
-This project requires two environment variables to be added to a `.env` file, `DATABASE_URL` (required) and `PORT` (optional). If `PORT` is not defined, then port 5000 will be selected by default.
+This project requires the variable `DATABASE_URL` to be added to a `.env` file. The variable `PORT` can also be defined, the default is 5000.
+
+The production environment requires an additional variable `SECRET`, this is used by [Express Visitor Counter](https://github.com/Cooya/Express-Visitor-Counter/tree/master) for tracking unique visitors.
 
 > ❗ **IMPORTANT:** The database URL must match the format mongodb+srv://{username}:{password}@{cluster}/{database}
 
@@ -20,6 +22,12 @@ Install the required dependencies with Yarn.
 
 ```bash
 yarn install
+```
+
+### Start the Server
+
+```bash
+yarn start
 ```
 
 ## API Documentation

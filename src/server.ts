@@ -1,6 +1,8 @@
 import { ApolloServer } from "@apollo/server";
 import { Express } from "express";
 import { expressMiddleware } from "@apollo/server/express4";
+import createSession from "express-session";
+import expressVisitorCounter from "express-visitor-counter";
 import {
   ApolloServerPluginLandingPageProductionDefault,
   ApolloServerPluginLandingPageLocalDefault,
@@ -16,6 +18,7 @@ dotenv.config();
 
 export const createServer = async (app: Express): Promise<Express> => {
   await mongoose.connect(process.env.DATABASE_URL ?? "");
+  const visitors = mongoose.connection.db.collection("visitors");
 
   const schema = await buildGraphQLSchema();
   let plugins = [];
@@ -26,6 +29,16 @@ export const createServer = async (app: Express): Promise<Express> => {
         graphRef: "Bobs-Burgers-API@current",
       }),
     ];
+
+    app.enable("trust proxy");
+    app.use(
+      createSession({
+        secret: process.env.SECRET ?? "",
+        resave: false,
+        saveUninitialized: true,
+      })
+    );
+    app.use(expressVisitorCounter({ collection: visitors }));
   } else {
     plugins = [ApolloServerPluginLandingPageLocalDefault({ embed: true })];
   }
@@ -33,7 +46,12 @@ export const createServer = async (app: Express): Promise<Express> => {
   const server = new ApolloServer({ schema, plugins });
   await server.start();
 
-  app.use("/graphql", cors<cors.CorsRequest>(), json(), expressMiddleware(server));
+  app.use(
+    "/graphql",
+    cors<cors.CorsRequest>(),
+    json(),
+    expressMiddleware(server)
+  );
 
   buildExpressServer(app);
 
