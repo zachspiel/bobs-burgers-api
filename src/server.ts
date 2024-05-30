@@ -13,34 +13,28 @@ import { buildGraphQLSchema } from "./graphql/RootSchema";
 import { buildExpressServer } from "./rest/ExpressServer";
 import * as dotenv from "dotenv";
 import mongoose from "mongoose";
+import { rateLimit } from "express-rate-limit";
 
 dotenv.config();
 
 export const createServer = async (app: Express): Promise<Express> => {
   await mongoose.connect(process.env.DATABASE_URL ?? "");
-  const visitors = mongoose.connection.db.collection("visitors");
-
   const schema = await buildGraphQLSchema();
-  let plugins = [];
+
+  setupRateLimiter(app);
+
+  const plugins = [];
   if (process.env.NODE_ENV === "production") {
-    plugins = [
+    plugins.push(
       ApolloServerPluginLandingPageProductionDefault({
         embed: true,
         graphRef: "Bobs-Burgers-API@current",
-      }),
-    ];
-
-    app.enable("trust proxy");
-    app.use(
-      createSession({
-        secret: process.env.SECRET ?? "",
-        resave: false,
-        saveUninitialized: true,
       })
     );
-    app.use(expressVisitorCounter({ collection: visitors }));
+
+    setupVisitorCounter(app);
   } else {
-    plugins = [ApolloServerPluginLandingPageLocalDefault({ embed: true })];
+    plugins.push(ApolloServerPluginLandingPageLocalDefault({ embed: true }));
   }
 
   const server = new ApolloServer({ schema, plugins });
@@ -56,4 +50,29 @@ export const createServer = async (app: Express): Promise<Express> => {
   buildExpressServer(app);
 
   return app;
+};
+
+const setupRateLimiter = (app: Express) => {
+  const limiter = rateLimit({
+    windowMs: 5 * 60 * 1000,
+    limit: 200,
+    standardHeaders: "draft-7",
+    legacyHeaders: false,
+  });
+
+  app.use(limiter);
+};
+
+const setupVisitorCounter = (app: Express) => {
+  const visitors = mongoose.connection.db.collection("visitors");
+
+  app.enable("trust proxy");
+  app.use(
+    createSession({
+      secret: process.env.SECRET ?? "",
+      resave: false,
+      saveUninitialized: true,
+    })
+  );
+  app.use(expressVisitorCounter({ collection: visitors }));
 };
