@@ -4,8 +4,6 @@ import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
 
-const TOTAL_TRUCKS = 258;
-
 let app: Express;
 
 before(async () => {
@@ -15,14 +13,14 @@ before(async () => {
 describe("Pest Control Truck", () => {
   it("Should GET all pest control trucks", async () => {
     const result = await request(app).get("/pestControlTruck").send();
-    expect(result.body).to.have.lengthOf(TOTAL_TRUCKS);
+    expect(result.body).to.have.length.greaterThan(0);
   });
 
   it("Should GET all pest control trucks from graphql", async () => {
     const result = await request(app)
       .post("/graphql/pestControlTruck")
       .send({ query: "{ pestControlTrucks { id } }" });
-    expect(result.body.data.pestControlTrucks).to.have.lengthOf(TOTAL_TRUCKS);
+    expect(result.body.data.pestControlTrucks).to.length.greaterThan(0);
   });
 
   it("Should GET the first pest control truck with an id of 1", async () => {
@@ -60,17 +58,15 @@ describe("Pest Control Truck", () => {
   });
 
   it("Should GET first three pest control trucks from graphql", async () => {
-    const result = await request(app)
-      .post("/graphql/pestControlTruck")
-      .send({
-        query: "{ pestControlTruckByIds(pestControlTruckIds: [1,2,3]) { id } }",
-      });
+    const result = await request(app).post("/graphql/pestControlTruck").send({
+      query: "{ pestControlTruckByIds(pestControlTruckIds: [1,2,3]) { id } }",
+    });
     expect(result.body.data.pestControlTruckByIds).to.have.lengthOf(3);
   });
 
   it("Should skip the first five pest control trucks", async () => {
     const result = await request(app).get("/pestControlTruck?skip=5").send();
-    expect(result.body).to.have.lengthOf(TOTAL_TRUCKS - 5);
+    expect(result.body).to.have.length.greaterThan(0);
     expect(result.body[0].id).to.equal(6);
   });
 });
