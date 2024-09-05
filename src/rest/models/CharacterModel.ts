@@ -33,11 +33,9 @@ const CharacterSchema = new mongoose.Schema({
       },
       relationship: {
         type: String,
-        required: false,
       },
       wikiUrl: {
         type: String,
-        required: true,
       },
       url: {
         type: String,
@@ -52,6 +50,7 @@ const CharacterSchema = new mongoose.Schema({
   },
   url: {
     type: String,
+    required: true,
   },
 });
 

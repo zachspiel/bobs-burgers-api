@@ -30,6 +30,7 @@ type Character {
 
 type Episode {
   airDate: String!
+  description: String!
   episode: Float!
   id: Int!
   name: String!
