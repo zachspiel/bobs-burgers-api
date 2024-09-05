@@ -14,15 +14,19 @@ const StoreSchema = new mongoose.Schema({
   },
   season: {
     type: Number,
+    required: true,
   },
   episode: {
     type: Number,
+    required: true,
   },
   episodeUrl: {
     type: String,
+    required: true,
   },
   url: {
     type: String,
+    required: true,
   },
 });
 

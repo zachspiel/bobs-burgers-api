@@ -7,6 +7,7 @@ import {
   PestControlTruckModel,
   StoreNextDoorModel,
   BurgerOfTheDayModel,
+  VisitorModel,
 } from "../models";
 
 import {
@@ -50,6 +51,25 @@ const getRootData = async (req: Request, res: Response) => {
   };
 
   return res.status(200).json(data);
+};
+
+const getVisitors = async (req: Request, res: Response) => {
+  const date = new Date().toISOString().split("T")[0];
+  const [year, month, day] = date.split("-");
+
+  VisitorModel.findOne({
+    id: `bobsburgers-api.herokuapp.com-visitors-${day}-${month}-${year}`,
+  })
+    .exec()
+    .then((result) => {
+      return res.json(result);
+    })
+    .catch((error) => {
+      sendErrorMessage(
+        `Error while getting visitor data. ${error.message}`,
+        res
+      );
+    });
 };
 
 const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
@@ -134,4 +154,10 @@ const sendErrorMessage = (
   return response.status(status).json({ error: message });
 };
 
-export { getRootData, getAllResourcesInEndpoint, getResourceById, getData };
+export {
+  getRootData,
+  getVisitors,
+  getAllResourcesInEndpoint,
+  getResourceById,
+  getData,
+};

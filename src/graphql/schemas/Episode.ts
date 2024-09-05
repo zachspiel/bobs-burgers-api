@@ -12,19 +12,28 @@ export class Episode {
   name: string;
 
   @Field()
-  productionCode?: string;
+  @prop({ required: true })
+  description: string;
 
   @Field()
-  airDate?: string;
+  @prop({ required: true })
+  productionCode: string;
 
   @Field()
-  season?: number;
+  @prop({ required: true })
+  airDate: string;
 
   @Field()
-  episode?: number;
+  @prop({ required: true })
+  season: number;
 
   @Field()
-  totalViewers?: string;
+  @prop({ required: true })
+  episode: number;
+
+  @Field()
+  @prop({ required: true })
+  totalViewers: string;
 
   @Field()
   @prop({ required: true })

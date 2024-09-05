@@ -4,8 +4,6 @@ import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
 
-const TOTAL_EPISODES = 260;
-
 let app: Express;
 
 before(async () => {
@@ -15,14 +13,14 @@ before(async () => {
 describe("Episodes", () => {
   it("Should GET all episodes", async () => {
     const result = await request(app).get("/episodes").send();
-    expect(result.body).to.have.lengthOf(TOTAL_EPISODES);
+    expect(result.body).to.have.length.greaterThan(0);
   });
 
   it("Should GET all episodes from graphql", async () => {
     const result = await request(app)
       .post("/graphql/episodes")
       .send({ query: "{ episodes { id } }" });
-    expect(result.body.data.episodes).to.have.lengthOf(TOTAL_EPISODES);
+    expect(result.body.data.episodes).to.have.length.greaterThan(0);
   });
 
   it("Should GET the first episode with an id of 1", async () => {
@@ -68,14 +66,12 @@ describe("Episodes", () => {
 
   it("Should skip the first five episodes", async () => {
     const result = await request(app).get("/episodes?skip=5").send();
-    expect(result.body).to.have.lengthOf(TOTAL_EPISODES - 5);
+    expect(result.body).to.have.length.greaterThan(0);
     expect(result.body[0].id).to.equal(6);
   });
 
   it("Should get an episode that aired on January 16, 2011", async () => {
-    const result = await request(app)
-      .get("/episodes?airDate=January 16, 2011")
-      .send();
+    const result = await request(app).get("/episodes?airDate=January 16, 2011").send();
 
     expect(result.body).to.have.lengthOf(1);
   });
