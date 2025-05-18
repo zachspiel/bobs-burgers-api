@@ -1,8 +1,9 @@
 import { expect } from "chai";
 import request from "supertest";
-import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
+
+import { createServer } from "../server";
 
 let app: Express;
 
@@ -66,7 +67,7 @@ describe("Pest Control Truck", () => {
 
   it("Should skip the first five pest control trucks", async () => {
     const result = await request(app).get("/pestControlTruck?skip=5").send();
-    expect(result.body).to.have.length.greaterThan(0);
+    expect(result.body).to.have.length.greaterThan(1);
     expect(result.body[0].id).to.equal(6);
   });
 });

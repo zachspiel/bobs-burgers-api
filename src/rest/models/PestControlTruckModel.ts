@@ -1,6 +1,10 @@
 import mongoose from "mongoose";
 
 const PestControlTruckSchema = new mongoose.Schema({
+  _id: {
+    type: String,
+    select: false,
+  },
   id: {
     type: Number,
     required: true,

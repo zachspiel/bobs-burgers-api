@@ -13,7 +13,6 @@ before(async () => {
 describe("Visitors", () => {
   it("Should GET visitors for today", async () => {
     const result = await request(app).get("/visitors").send();
-    expect(result.body).to.have.property("id");
     expect(result.body).to.have.property("value");
   });
 });

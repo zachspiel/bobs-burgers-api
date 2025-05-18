@@ -1,4 +1,4 @@
-import express from "express";
+import { Router } from "express";
 import {
   getRootData,
   getAllResourcesInEndpoint,
@@ -6,7 +6,7 @@ import {
   getVisitors,
 } from "../controllers/controller";
 
-const router = express.Router();
+const router = Router();
 
 router.get("/", getRootData);
 router.get("/visitors", getVisitors);
