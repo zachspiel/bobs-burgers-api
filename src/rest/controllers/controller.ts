@@ -106,7 +106,9 @@ export const getResourceById = async (req: Request, res: Response) => {
     filter = { id: parseInt(id) };
   }
 
-  getData(route, filter, {})
+  const { sort } = getOptions(req);
+
+  getData(route, filter, { sort })
     .then((result) => {
       if (result.length === 0) {
         sendErrorMessage(errorMessage, res);
