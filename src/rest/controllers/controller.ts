@@ -58,7 +58,7 @@ export const getVisitors = async (req: Request, res: Response) => {
   })
     .exec()
     .then((result) => {
-      return res.json(result);
+      res.json(result);
     })
     .catch((error) => {
       sendErrorMessage(`Error while getting visitor data. ${error.message}`, res);
@@ -74,6 +74,8 @@ export const getAllResourcesInEndpoint = async (req: Request, res: Response) => 
       res,
       404
     );
+
+    return;
   }
 
   const filters = getFilters(req);
@@ -97,6 +99,7 @@ export const getResourceById = async (req: Request, res: Response) => {
 
   if (!ROUTES.includes(route) || id === undefined) {
     sendErrorMessage(errorMessage, res);
+    return;
   }
 
   if (isArray(id) || isCommaSeparated(id)) {
@@ -112,6 +115,7 @@ export const getResourceById = async (req: Request, res: Response) => {
     .then((result) => {
       if (result.length === 0) {
         sendErrorMessage(errorMessage, res);
+        return;
       }
 
       res.json(includeMultipleResults ? result : result[0]);
