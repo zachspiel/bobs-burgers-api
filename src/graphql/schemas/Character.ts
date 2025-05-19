@@ -9,8 +9,8 @@ export class Character {
   @Field()
   name: string;
 
-  @Field({ nullable: true })
-  image?: string;
+  @Field()
+  image: string;
 
   @Field({ nullable: true })
   hairColor?: string;

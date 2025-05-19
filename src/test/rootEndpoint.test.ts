@@ -4,8 +4,6 @@ import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
 
-const TOTAL_EPISODES = 260;
-
 let app: Express;
 
 before(async () => {
@@ -20,10 +18,8 @@ describe("Root endpoint", () => {
       characters: "https://bobsburgers-api.herokuapp.com/characters/",
       episodes: "https://bobsburgers-api.herokuapp.com/episodes/",
       storeNextDoor: "https://bobsburgers-api.herokuapp.com/storeNextDoor/",
-      pestControlTruck:
-        "https://bobsburgers-api.herokuapp.com/pestControlTruck/",
-      endCreditsSequence:
-        "https://bobsburgers-api.herokuapp.com/endCreditsSequence/",
+      pestControlTruck: "https://bobsburgers-api.herokuapp.com/pestControlTruck/",
+      endCreditsSequence: "https://bobsburgers-api.herokuapp.com/endCreditsSequence/",
       burgerOfTheDay: "https://bobsburgers-api.herokuapp.com/burgerOfTheDay/",
     });
   });

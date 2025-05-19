@@ -20,7 +20,7 @@ type Character {
   gender: String
   hairColor: String
   id: Int!
-  image: String
+  image: String!
   name: String!
   occupation: String
   relatives: [Relative!]
@@ -71,6 +71,7 @@ type Query {
 
 type Relative {
   name: String!
+  relationship: String
   url: String
   wikiUrl: String
 }

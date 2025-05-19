@@ -8,6 +8,9 @@ export class Relative {
   name: string;
 
   @Field({ nullable: true })
+  relationship: string;
+
+  @Field({ nullable: true })
   wikiUrl: string;
 
   @Field({ nullable: true })

@@ -1,8 +1,9 @@
 import { expect } from "chai";
 import request from "supertest";
-import { createServer } from "../server";
 import express, { Express } from "express";
 import "mocha";
+
+import { createServer } from "../server";
 
 let app: Express;
 
