@@ -30,6 +30,7 @@ const CharacterSchema = new mongoose.Schema({
   occupation: {
     type: String,
   },
+  nicknames: [String],
   relatives: [
     {
       _id: {
@@ -56,6 +57,10 @@ const CharacterSchema = new mongoose.Schema({
   },
   voicedBy: {
     type: String,
+  },
+  wikiUrl: {
+    type: String,
+    required: true,
   },
   url: {
     type: String,
