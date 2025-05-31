@@ -16,21 +16,33 @@ const CharacterSchema = new mongoose.Schema({
   },
   image: {
     type: String,
+    required: false,
   },
   gender: {
     type: String,
+    required: false,
   },
   hairColor: {
     type: String,
+    required: false,
   },
   age: {
     type: String,
+    required: false,
   },
-  allOccupations: [String],
+  allOccupations: {
+    type: [String],
+    required: true,
+  },
   occupation: {
     type: String,
+
+    required: false,
   },
-  nicknames: [String],
+  nicknames: {
+    type: [String],
+    required: true,
+  },
   relatives: [
     {
       _id: {
@@ -43,20 +55,25 @@ const CharacterSchema = new mongoose.Schema({
       },
       relationship: {
         type: String,
+        required: false,
       },
       wikiUrl: {
         type: String,
+        required: false,
       },
       url: {
         type: String,
+        required: false,
       },
     },
   ],
   firstEpisode: {
     type: String,
+    required: false,
   },
   voicedBy: {
     type: String,
+    required: false,
   },
   wikiUrl: {
     type: String,
@@ -65,6 +82,10 @@ const CharacterSchema = new mongoose.Schema({
   url: {
     type: String,
     required: true,
+  },
+  __v: {
+    type: String,
+    select: false,
   },
 });
 

@@ -32,6 +32,14 @@ const StoreSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  __v: {
+    type: String,
+    select: false,
+  },
 });
 
-export default mongoose.model("StoreNextDoorModel", StoreSchema, "storeNextDoor");
+export default mongoose.model(
+  "StoreNextDoorModel",
+  StoreSchema,
+  "storeNextDoor"
+);

@@ -45,6 +45,10 @@ const EpisodeSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  __v: {
+    type: String,
+    select: false,
+  },
 });
 
 export default mongoose.model("EpisodeModel", EpisodeSchema, "episodes");

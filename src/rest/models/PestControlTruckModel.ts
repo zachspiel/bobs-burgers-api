@@ -28,6 +28,10 @@ const PestControlTruckSchema = new mongoose.Schema({
   url: {
     type: String,
   },
+  __v: {
+    type: String,
+    select: false,
+  },
 });
 
 export default mongoose.model(

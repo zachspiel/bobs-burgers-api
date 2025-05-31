@@ -9,10 +9,6 @@ const EndCreditsSequenceSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
-  name: {
-    type: String,
-    required: true,
-  },
   image: {
     type: String,
   },
@@ -27,6 +23,10 @@ const EndCreditsSequenceSchema = new mongoose.Schema({
   },
   url: {
     type: String,
+  },
+  __v: {
+    type: String,
+    select: false,
   },
 });
 
