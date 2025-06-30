@@ -22,7 +22,7 @@ const CharacterSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
-  hairColor: {
+  hair: {
     type: String,
     required: false,
   },

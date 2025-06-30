@@ -42,7 +42,8 @@ export const getRootData = async (req: Request, res: Response) => {
     episodes: "https://bobsburgers-api.herokuapp.com/episodes/",
     storeNextDoor: "https://bobsburgers-api.herokuapp.com/storeNextDoor/",
     pestControlTruck: "https://bobsburgers-api.herokuapp.com/pestControlTruck/",
-    endCreditsSequence: "https://bobsburgers-api.herokuapp.com/endCreditsSequence/",
+    endCreditsSequence:
+      "https://bobsburgers-api.herokuapp.com/endCreditsSequence/",
     burgerOfTheDay: "https://bobsburgers-api.herokuapp.com/burgerOfTheDay/",
   };
 
@@ -61,11 +62,17 @@ export const getVisitors = async (req: Request, res: Response) => {
       res.json(result);
     })
     .catch((error) => {
-      sendErrorMessage(`Error while getting visitor data. ${error.message}`, res);
+      sendErrorMessage(
+        `Error while getting visitor data. ${error.message}`,
+        res
+      );
     });
 };
 
-export const getAllResourcesInEndpoint = async (req: Request, res: Response) => {
+export const getAllResourcesInEndpoint = async (
+  req: Request,
+  res: Response
+) => {
   const route = req.params.route as Model;
 
   if (!ROUTES.includes(route)) {
@@ -143,6 +150,10 @@ export const getData = async (
     .exec();
 };
 
-const sendErrorMessage = (message: string, response: Response, status = 500) => {
+const sendErrorMessage = (
+  message: string,
+  response: Response,
+  status = 500
+) => {
   response.status(status).json({ error: message });
 };
